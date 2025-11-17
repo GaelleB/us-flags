@@ -1,10 +1,10 @@
 export type CityFlag = {
-  stateCode: string;    // pour l'instant: code FIPS, ex "17" (Illinois)
-  citySlug: string;     // pour l'URL, ex: "chicago"
-  cityName: string;     // affichage, ex: "Chicago"
-  flagImage: string;    // on mettra de vraies images plus tard
-  shortSummary: string; // teaser
-  story: string;        // texte complet (pour plus tard)
+    stateCode: string;    // pour l'instant: code FIPS, ex "17" (Illinois)
+    citySlug: string;     // pour l'URL, ex: "chicago"
+    cityName: string;     // affichage, ex: "Chicago"
+    flagImage: string;    // on mettra de vraies images plus tard
+    shortSummary: string; // teaser
+    story: string;        // texte complet (pour plus tard)
 };
 
 export const cityFlags: CityFlag[] = [
@@ -32,6 +32,18 @@ export const cityFlags: CityFlag[] = [
         Le drapeau de New York garde les couleurs des Pays-Bas, mémoire d'un passé
         où la ville s'appelait encore New Amsterdam. Aujourd'hui, c'est le théâtre
         d'un million d'histoires par jour.
+        `.trim(),
+    },
+    {
+        stateCode: '06', // California (FIPS 06)
+        citySlug: 'los-angeles',
+        cityName: 'Los Angeles',
+        flagImage: '/flags/los-angeles.png',
+        shortSummary: 'Un drapeau qui ressemble à un coucher de soleil déchiré.',
+        story: `
+        Los Angeles agite un drapeau en dents de scie – vert, jaune, rouge – comme la
+        pellicule d’un film qu’on aurait remonté à la main. Une ville qui vit entre
+        l’ombre des studios et la lumière du désert.
         `.trim(),
     },
 ];
