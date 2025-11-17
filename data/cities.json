@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": { "name": "New York City" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.0060, 40.7128]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Chicago" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.6298, 41.8781]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Los Angeles" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-118.2437, 34.0522]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "San Francisco" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.4194, 37.7749]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Miami" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.1918, 25.7617]
+            }
+        }
+    ]
+}
