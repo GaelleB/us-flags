@@ -1,53 +1,63 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { cityFlags } from '../../../../data/flags';
+import { cityFlags } from '@/data/flags';
 
 type PageProps = {
-    params: {
-        stateCode: string;
-        citySlug: string;
-    };
+  params: Promise<{
+    stateCode: string;
+    citySlug: string;
+  }>;
 };
 
-export default function CityFlagPage({ params }: PageProps) {
-    const { stateCode, citySlug } = params;
+export default async function CityFlagPage({ params }: PageProps) {
+  const { stateCode, citySlug } = await params;
 
-    // On cherche dans les datas la ville correspondante
-    const flag = cityFlags.find(
-        (f) =>
-        f.stateCode === stateCode &&
-        f.citySlug === citySlug
-    );
+  const cityFlag = cityFlags.find(
+    (city) => city.stateCode === stateCode && city.citySlug === citySlug
+  );
 
-    if (!flag) {
-        return notFound();
-    }
+  if (!cityFlag) {
+    notFound();
+  }
 
-    return (
-        <main>
-        <Link href="/" className="text-blue-600 text-sm hover:underline">
-            ← Retour à la carte
+  return (
+    <main className="min-h-screen bg-gray-50 py-12 px-4">
+      <div className="max-w-4xl mx-auto">
+        <Link
+          href="/"
+          className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6"
+        >
+          ← Retour à la carte
         </Link>
 
-        <header className="mt-6 mb-8">
-            <h1 className="text-3xl font-semibold">{flag.cityName}</h1>
-            <p className="text-gray-500 text-sm">
-            {flag.stateCode} — Histoire du drapeau
-            </p>
-        </header>
+        <article className="bg-white rounded-lg shadow-lg p-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+            {cityFlag.cityName}
+          </h1>
 
-        <section className="mb-8">
-            {/* mettre une vraie <Image> */}
-            <div className="w-48 h-32 bg-gray-100 rounded flex items-center justify-center mb-4">
-            <span className="text-xs text-gray-500">
-                {flag.cityName} — drapeau
-            </span>
+          <div className="mb-8">
+            <div className="w-full max-w-2xl mx-auto bg-gray-200 rounded-lg overflow-hidden aspect-[3/2] flex items-center justify-center">
+              {/* Placeholder for flag image - will be replaced with actual images later */}
+              <span className="text-gray-500 text-sm">
+                {cityFlag.cityName} Flag
+              </span>
             </div>
-
-            <p className="leading-relaxed whitespace-pre-line text-gray-700">
-            {flag.story}
+            <p className="text-xs text-gray-500 text-center mt-2">
+              Image: {cityFlag.flagImage}
             </p>
-        </section>
-        </main>
-    );
+          </div>
+
+          <div className="prose prose-lg max-w-none">
+            <p className="text-xl text-gray-700 font-medium mb-6">
+              {cityFlag.shortSummary}
+            </p>
+
+            <div className="text-gray-600 leading-relaxed whitespace-pre-line">
+              {cityFlag.story}
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  );
 }
