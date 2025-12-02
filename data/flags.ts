@@ -39,7 +39,7 @@ export const cityFlags: CityFlag[] = [
         citySlug: 'los-angeles',
         cityName: 'Los Angeles',
         flagImage: '/flags/los-angeles.png',
-        shortSummary: 'Un drapeau qui ressemble à un coucher de soleil déchiré.',
+        shortSummary: `Un drapeau qui ressemble à un coucher de soleil déchiré.`,
         story: `
         Los Angeles agite un drapeau en dents de scie – vert, jaune, rouge – comme la
         pellicule d’un film qu’on aurait remonté à la main. Une ville qui vit entre

@@ -3,7 +3,7 @@
     "features": [
         {
             "type": "Feature",
-            "properties": { "name": "New York City" },
+            "properties": { "name": "New York City", "stateCode": "36" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-74.0060, 40.7128]
@@ -11,7 +11,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Chicago" },
+            "properties": { "name": "Chicago", "stateCode": "17" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-87.6298, 41.8781]
@@ -19,7 +19,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Los Angeles" },
+            "properties": { "name": "Los Angeles", "stateCode": "06" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-118.2437, 34.0522]
@@ -27,7 +27,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "San Francisco" },
+            "properties": { "name": "San Francisco", "stateCode": "06" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.4194, 37.7749]
@@ -35,10 +35,234 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Miami" },
+            "properties": { "name": "Miami", "stateCode": "12" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-80.1918, 25.7617]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Washington, D.C.", "stateCode": "11" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.0369, 38.9072]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Philadelphia", "stateCode": "42" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.1652, 39.9526]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Boston", "stateCode": "25" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.0589, 42.3601]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Denver", "stateCode": "08" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.9903, 39.7392]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Phoenix", "stateCode": "04" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-112.0740, 33.4484]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Seattle", "stateCode": "53" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.3321, 47.6062]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Portland", "stateCode": "41" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.6765, 45.5152]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "St. Louis", "stateCode": "29" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.1994, 38.6270]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "New Orleans", "stateCode": "22" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.0715, 29.9511]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Baltimore", "stateCode": "24" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.6122, 39.2904]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Detroit", "stateCode": "26" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-83.0458, 42.3314]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Pittsburgh", "stateCode": "42" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-79.9959, 40.4406]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Cleveland", "stateCode": "39" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.6944, 41.4993]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Columbus", "stateCode": "39" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-82.9988, 39.9612]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Indianapolis", "stateCode": "18" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.1581, 39.7684]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Milwaukee", "stateCode": "55" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.9065, 43.0389]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "San Diego", "stateCode": "06" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-117.1611, 32.7157]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "San Antonio", "stateCode": "48" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-98.4936, 29.4241]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Austin", "stateCode": "48" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-97.7431, 30.2672]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Houston", "stateCode": "48" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-95.3698, 29.7604]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Dallas", "stateCode": "48" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-96.7970, 32.7767]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Memphis", "stateCode": "47" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.0490, 35.1495]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Nashville", "stateCode": "47" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.7816, 36.1627]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Atlanta", "stateCode": "13" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-84.3880, 33.7490]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Minneapolis", "stateCode": "27" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-93.2650, 44.9778]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Kansas City", "stateCode": "29" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-94.5786, 39.0997]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Albuquerque", "stateCode": "35" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-106.6504, 35.0844]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Las Vegas", "stateCode": "32" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-115.1398, 36.1699]
             }
         }
     ]
