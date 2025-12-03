@@ -34,7 +34,8 @@ export default function MapFilters({ onFilterChange }: MapFiltersProps) {
  className={`px-4 py-2 rounded-full font-sans text-sm font-medium transition-all ${
  active === filter.value
  ? 'bg-blue-600 text-white shadow-md'
- : 'bg-white text-slate-700 hover:bg-stone-100 border border-stone-200 }`}
+ : 'bg-white text-slate-700 hover:bg-stone-100 border border-stone-200'
+ }`}
  >
  <span className="mr-2">{filter.icon}</span>
  {filter.label}
