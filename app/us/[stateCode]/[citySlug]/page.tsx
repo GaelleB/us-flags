@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { cityFlags } from '@/data/flags';
+import CulturalReferences from '@/app/components/CulturalReferences';
 
 type PageProps = {
   params: Promise<{
@@ -136,6 +137,14 @@ export default async function CityFlagPage({ params }: PageProps) {
             <div className="flex-1 h-px bg-stone-300"></div>
           </div>
         </div>
+
+        {/* Cultural References */}
+        <CulturalReferences
+          music={cityFlag.music}
+          books={cityFlag.books}
+          films={cityFlag.films}
+          series={cityFlag.series}
+        />
 
         {/* More Stories */}
         <section className="max-w-5xl mx-auto px-6 py-12">
