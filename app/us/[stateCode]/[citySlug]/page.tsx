@@ -20,44 +20,170 @@ export default async function CityFlagPage({ params }: PageProps) {
     notFound();
   }
 
+  // Split story into paragraphs for better formatting
+  const paragraphs = cityFlag.story.split('\n\n').filter(p => p.trim());
+
   return (
-    <main className="min-h-screen bg-gray-50 py-12 px-4">
-      <div className="max-w-4xl mx-auto">
-        <Link
-          href="/"
-          className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6"
-        >
-          ← Retour à la carte
-        </Link>
+    <>
+      {/* Navigation sticky */}
+      <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-stone-200">
+        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+          <Link
+            href="/"
+            className="inline-flex items-center text-sm font-sans font-medium text-slate-600 hover:text-slate-900 transition"
+          >
+            <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Retour
+          </Link>
 
-        <article className="bg-white rounded-lg shadow-lg p-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            {cityFlag.cityName}
-          </h1>
+          <Link
+            href="/explore"
+            className="text-sm font-sans font-medium text-blue-600 hover:text-blue-800 transition"
+          >
+            Explorer la carte →
+          </Link>
+        </div>
+      </nav>
 
-          <div className="mb-8">
-            <div className="w-full max-w-2xl mx-auto bg-gray-200 rounded-lg overflow-hidden aspect-[3/2] flex items-center justify-center">
-              {/* Placeholder for flag image - will be replaced with actual images later */}
-              <span className="text-gray-500 text-sm">
-                {cityFlag.cityName} Flag
-              </span>
-            </div>
-            <p className="text-xs text-gray-500 text-center mt-2">
-              Image: {cityFlag.flagImage}
-            </p>
-          </div>
+      <main className="min-h-screen bg-stone-50">
+        {/* Hero Section */}
+        <section className="bg-white border-b border-stone-200">
+          <div className="max-w-4xl mx-auto px-6 pt-16 pb-12">
+            {/* City Name - Display Font */}
+            <h1 className="font-display text-5xl md:text-7xl font-bold text-slate-900 mb-6 leading-tight">
+              {cityFlag.cityName}
+            </h1>
 
-          <div className="prose prose-lg max-w-none">
-            <p className="text-xl text-gray-700 font-medium mb-6">
+            {/* Chapô - Summary in large text */}
+            <p className="font-serif text-2xl md:text-3xl text-slate-700 leading-relaxed mb-8 font-light">
               {cityFlag.shortSummary}
             </p>
 
-            <div className="text-gray-600 leading-relaxed whitespace-pre-line">
-              {cityFlag.story}
+            {/* Metadata */}
+            <div className="flex items-center gap-4 text-sm text-slate-500 font-sans">
+              <span>Lecture : 4 min</span>
+              <span>·</span>
+              <span>Histoire américaine</span>
             </div>
           </div>
+        </section>
+
+        {/* Flag Image Section */}
+        <section className="bg-gradient-to-b from-stone-100 to-white py-12">
+          <div className="max-w-3xl mx-auto px-6">
+            <figure>
+              <div className="w-full bg-gradient-to-br from-slate-200 to-slate-300 rounded-lg overflow-hidden aspect-[3/2] flex items-center justify-center shadow-xl">
+                <span className="text-slate-600 text-sm font-mono">
+                  {cityFlag.cityName} Flag
+                </span>
+              </div>
+              <figcaption className="text-xs text-slate-500 text-center mt-3 font-sans">
+                Le drapeau de {cityFlag.cityName}
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        {/* Story Content */}
+        <article className="max-w-3xl mx-auto px-6 py-12">
+          <div className="prose prose-lg md:prose-xl prose-stone max-w-none">
+            {paragraphs.map((paragraph, index) => {
+              // First paragraph gets drop cap
+              if (index === 0) {
+                return (
+                  <p key={index} className="font-serif text-lg leading-relaxed text-slate-800 first-letter:text-7xl first-letter:font-display first-letter:font-bold first-letter:text-slate-900 first-letter:mr-3 first-letter:float-left first-letter:leading-[0.9]">
+                    {paragraph}
+                  </p>
+                );
+              }
+
+              // Extract a pull quote from middle paragraphs (if contains specific patterns)
+              if (index === Math.floor(paragraphs.length / 2) && paragraph.length > 100) {
+                const sentences = paragraph.split('. ');
+                const pullQuote = sentences[0] + '.';
+                const restOfParagraph = sentences.slice(1).join('. ');
+
+                return (
+                  <div key={index}>
+                    <aside className="my-8 py-6 px-8 border-l-4 border-slate-900 bg-stone-50">
+                      <p className="font-display text-2xl text-slate-900 leading-tight italic">
+                        {pullQuote}
+                      </p>
+                    </aside>
+                    <p className="font-serif text-lg leading-relaxed text-slate-800">
+                      {restOfParagraph}
+                    </p>
+                  </div>
+                );
+              }
+
+              return (
+                <p key={index} className="font-serif text-lg leading-relaxed text-slate-800 mb-6">
+                  {paragraph}
+                </p>
+              );
+            })}
+          </div>
         </article>
-      </div>
-    </main>
+
+        {/* Divider */}
+        <div className="max-w-3xl mx-auto px-6 py-8">
+          <div className="flex items-center gap-4">
+            <div className="flex-1 h-px bg-stone-300"></div>
+            <span className="text-2xl">⭐</span>
+            <div className="flex-1 h-px bg-stone-300"></div>
+          </div>
+        </div>
+
+        {/* More Stories */}
+        <section className="max-w-5xl mx-auto px-6 py-12">
+          <h2 className="font-display text-3xl font-bold text-slate-900 mb-8">
+            Continuer la lecture
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {cityFlags
+              .filter(c => c.citySlug !== citySlug)
+              .slice(0, 3)
+              .map((city) => (
+                <Link
+                  key={city.citySlug}
+                  href={`/us/${city.stateCode}/${city.citySlug}`}
+                  className="group"
+                >
+                  <article className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition">
+                      {city.cityName}
+                    </h3>
+                    <p className="font-serif text-sm text-slate-600 line-clamp-2">
+                      {city.shortSummary}
+                    </p>
+                  </article>
+                </Link>
+              ))}
+          </div>
+        </section>
+
+        {/* Footer CTA */}
+        <section className="bg-slate-900 text-white py-16">
+          <div className="max-w-3xl mx-auto px-6 text-center">
+            <h2 className="font-display text-3xl font-bold mb-4">
+              Explorez toutes les histoires
+            </h2>
+            <p className="font-serif text-lg text-stone-300 mb-8">
+              33 villes américaines, 33 drapeaux, 33 récits
+            </p>
+            <Link
+              href="/explore"
+              className="inline-block bg-white text-slate-900 px-8 py-3 rounded font-sans font-semibold hover:bg-stone-100 transition"
+            >
+              Voir la carte interactive
+            </Link>
+          </div>
+        </section>
+      </main>
+    </>
   );
 }
