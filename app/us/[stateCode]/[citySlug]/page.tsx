@@ -49,6 +49,18 @@ export default async function CityFlagPage({ params }: PageProps) {
       </nav>
 
       <main className="min-h-screen bg-stone-50">
+        {/* Hero Image */}
+        {cityFlag.heroImage && (
+          <div className="w-full h-[50vh] md:h-[60vh] relative overflow-hidden">
+            <img
+              src={cityFlag.heroImage}
+              alt={`${cityFlag.cityName} skyline`}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60"></div>
+          </div>
+        )}
+
         {/* Hero Section */}
         <section className="bg-white border-b border-stone-200">
           <div className="max-w-4xl mx-auto px-6 pt-16 pb-12">
