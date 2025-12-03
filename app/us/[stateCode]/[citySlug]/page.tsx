@@ -4,6 +4,7 @@ import { cityFlags } from '@/data/flags';
 import CulturalReferences from '@/app/components/CulturalReferences';
 import FadeIn from '@/app/components/FadeIn';
 import ParallaxImage from '@/app/components/ParallaxImage';
+import ThemeToggle from '@/app/components/ThemeToggle';
 
 type PageProps = {
   params: Promise<{
