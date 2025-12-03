@@ -11,6 +11,7 @@ export type CityFlag = {
     citySlug: string;
     cityName: string;
     flagImage: string;
+    heroImage?: string;
     shortSummary: string;
     story: string;
     // Références culturelles
@@ -27,7 +28,8 @@ const baseCityFlags: Omit<CityFlag, 'music' | 'books' | 'films' | 'series'>[] = 
         stateCode: '17',
         citySlug: 'chicago',
         cityName: 'Chicago',
-        flagImage: '/flags/chicago.png',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Chicago%2C_Illinois.svg',
+        heroImage: 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=1600&q=80',
         shortSummary: `Quatre étoiles rouges, deux bandes bleues, une ville qui brûle et se relève.`,
         story: `Chicago porte ses cicatrices sur son drapeau : Fort Dearborn, l'incendie de 1871, les expositions universelles… Quatre étoiles rouges pour quatre actes d'un même récit : tomber, se reconstruire, s'exposer, inventer.
 
@@ -41,7 +43,8 @@ Ce drapeau, adopté en 1917, est devenu l'un des plus reconnaissables d'Amériqu
         stateCode: '36',
         citySlug: 'new-york-city',
         cityName: 'New York City',
-        flagImage: '/flags/nyc.png',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_New_York_City.svg',
+        heroImage: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1600&q=80',
         shortSummary: `Orange, blanc, bleu – héritage de New Amsterdam et théâtre d'un million d'histoires par jour.`,
         story: `Le drapeau de New York garde les couleurs des Pays-Bas, mémoire d'un passé où la ville s'appelait encore New Amsterdam. Orange, blanc et bleu disposés en trois bandes verticales, avec le sceau de la ville au centre : un moulin à vent, deux castors, des tonneaux de farine.
 
@@ -55,7 +58,8 @@ New York n'a pas besoin d'un drapeau flamboyant. Son skyline, ses rues, ses habi
         stateCode: '06',
         citySlug: 'los-angeles',
         cityName: 'Los Angeles',
-        flagImage: '/flags/los-angeles.png',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Los_Angeles%2C_California.svg',
+        heroImage: 'https://images.unsplash.com/photo-1534190239940-9ba8944ea261?w=1600&q=80',
         shortSummary: `Un drapeau qui ressemble à un coucher de soleil déchiré.`,
         story: `Los Angeles agite un drapeau en dents de scie – vert, jaune, rouge – comme la pellicule d'un film qu'on aurait remonté à la main. Une ville qui vit entre l'ombre des studios et la lumière du désert.
 
