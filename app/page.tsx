@@ -10,15 +10,6 @@ export default function HomePage() {
     cityFlags.find(c => c.citySlug === 'detroit'),
   ].filter(Boolean);
 
-  // Villes par thème
-  const phoenixCities = cityFlags.filter(c =>
-    ['chicago', 'san-francisco', 'detroit', 'atlanta'].includes(c.citySlug)
-  );
-
-  const musicalCities = cityFlags.filter(c =>
-    ['new-orleans', 'memphis', 'nashville', 'kansas-city'].includes(c.citySlug)
-  );
-
   return (
     <main className="min-h-screen bg-stone-50">
       {/* Hero Section */}
@@ -107,109 +98,65 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Thematic Sections */}
+      {/* Stats Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="mb-12">
-            <h2 className="font-display text-4xl font-bold text-slate-900 mb-4">
-              Villes Phénix
-            </h2>
-            <p className="font-serif text-lg text-slate-600 max-w-2xl">
-              Ces villes ont brûlé, tremblé, décliné... et sont ressurgies de leurs cendres
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {phoenixCities.map((city) => (
-              <Link
-                key={city.citySlug}
-                href={`/us/${city.stateCode}/${city.citySlug}`}
-                className="group"
-              >
-                <article className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all">
-                  <div className="aspect-square bg-gradient-to-br from-orange-100 to-red-100 flex items-center justify-center relative overflow-hidden">
-                    <Image
-                      src={city.flagImage}
-                      alt={`Drapeau de ${city.cityName}`}
-                      width={300}
-                      height={300}
-                      className="w-full h-full object-contain p-6 group-hover:scale-110 transition-transform"
-                    />
-                    <div className="absolute top-3 right-3 text-2xl">🔥</div>
-                  </div>
-                  <div className="p-4">
-                    <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition">
-                      {city.cityName}
-                    </h3>
-                    <p className="font-serif text-sm text-slate-600 line-clamp-2">
-                      {city.shortSummary}
-                    </p>
-                  </div>
-                </article>
-              </Link>
-            ))}
+          <div className="grid md:grid-cols-3 gap-12 text-center">
+            <div>
+              <div className="text-6xl font-display font-bold text-slate-900 mb-3">
+                {cityFlags.length}
+              </div>
+              <p className="font-serif text-lg text-slate-600">
+                Villes américaines
+              </p>
+            </div>
+            <div>
+              <div className="text-6xl font-display font-bold text-slate-900 mb-3">
+                {new Set(cityFlags.map(c => c.stateCode)).size}
+              </div>
+              <p className="font-serif text-lg text-slate-600">
+                États explorés
+              </p>
+            </div>
+            <div>
+              <div className="text-6xl font-display font-bold text-slate-900 mb-3">
+                ∞
+              </div>
+              <p className="font-serif text-lg text-slate-600">
+                Histoires à raconter
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="bg-slate-900 text-white py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="mb-12">
-            <h2 className="font-display text-4xl font-bold mb-4">
-              Capitales de la Musique
-            </h2>
-            <p className="font-serif text-lg text-stone-300 max-w-2xl">
-              Du jazz au blues, du country au rock, ces villes ont créé la bande-son de l'Amérique
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {musicalCities.map((city) => (
-              <Link
-                key={city.citySlug}
-                href={`/us/${city.stateCode}/${city.citySlug}`}
-                className="group"
-              >
-                <article className="bg-slate-800 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all">
-                  <div className="aspect-square bg-gradient-to-br from-purple-900 to-blue-900 flex items-center justify-center relative overflow-hidden">
-                    <Image
-                      src={city.flagImage}
-                      alt={`Drapeau de ${city.cityName}`}
-                      width={300}
-                      height={300}
-                      className="w-full h-full object-contain p-6 group-hover:scale-110 transition-transform"
-                    />
-                    <div className="absolute top-3 right-3 text-2xl">🎵</div>
-                  </div>
-                  <div className="p-4">
-                    <h3 className="font-display text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition">
-                      {city.cityName}
-                    </h3>
-                    <p className="font-serif text-sm text-stone-300 line-clamp-2">
-                      {city.shortSummary}
-                    </p>
-                  </div>
-                </article>
-              </Link>
-            ))}
-          </div>
+      {/* CTA Final - Large and impactful */}
+      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 py-32 overflow-hidden">
+        {/* Background pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+            backgroundSize: '40px 40px'
+          }}></div>
         </div>
-      </section>
 
-      {/* CTA Final */}
-      <section className="max-w-4xl mx-auto px-6 py-20 text-center">
-        <h2 className="font-display text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-          33 villes, 33 histoires
-        </h2>
-        <p className="font-serif text-xl text-slate-600 mb-8">
-          Explorez la carte interactive et découvrez comment chaque drapeau raconte l'identité unique d'une ville
-        </p>
-        <Link
-          href="/explore"
-          className="inline-block bg-slate-900 text-white px-10 py-4 rounded font-sans font-semibold hover:bg-slate-800 transition text-lg"
-        >
-          Explorer toutes les villes →
-        </Link>
+        <div className="relative max-w-5xl mx-auto px-6 text-center">
+          <h2 className="font-display text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
+            Explorez la carte<br/>interactive
+          </h2>
+          <p className="font-serif text-xl md:text-2xl text-stone-200 mb-12 max-w-3xl mx-auto leading-relaxed">
+            Découvrez comment chaque drapeau raconte l'identité unique d'une ville américaine
+          </p>
+          <Link
+            href="/explore"
+            className="inline-flex items-center gap-3 bg-white text-slate-900 px-12 py-5 rounded-lg font-sans font-bold hover:bg-stone-100 transition text-lg shadow-2xl"
+          >
+            <span>Voir la carte</span>
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </Link>
+        </div>
       </section>
 
       {/* Footer */}
