@@ -2,6 +2,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { cityFlags } from '@/data/flags';
 import CulturalReferences from '@/app/components/CulturalReferences';
+import FadeIn from '@/app/components/FadeIn';
+import ParallaxImage from '@/app/components/ParallaxImage';
 
 type PageProps = {
   params: Promise<{
