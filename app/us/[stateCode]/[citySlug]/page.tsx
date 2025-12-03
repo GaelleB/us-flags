@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { cityFlags } from '@/data/flags';
 import CulturalReferences from '@/app/components/CulturalReferences';
 import FadeIn from '@/app/components/FadeIn';
@@ -54,10 +55,12 @@ export default async function CityFlagPage({ params }: PageProps) {
         {/* Hero Image */}
         {cityFlag.heroImage && (
           <div className="w-full h-[50vh] md:h-[60vh] relative overflow-hidden">
-            <img
+            <Image
               src={cityFlag.heroImage}
               alt={`${cityFlag.cityName} skyline`}
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
+              priority
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60"></div>
           </div>
@@ -89,11 +92,13 @@ export default async function CityFlagPage({ params }: PageProps) {
         <section className="bg-gradient-to-b from-stone-100 to-white py-12">
           <div className="max-w-3xl mx-auto px-6">
             <figure>
-              <div className="w-full rounded-lg overflow-hidden shadow-xl">
-                <img
+              <div className="w-full rounded-lg overflow-hidden shadow-xl bg-white">
+                <Image
                   src={cityFlag.flagImage}
                   alt={`Drapeau de ${cityFlag.cityName}`}
-                  className="w-full h-auto object-contain bg-white"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-contain"
                 />
               </div>
               <figcaption className="text-xs text-slate-500 text-center mt-3 font-sans">
