@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { cityFlags } from '../data/flags';
 
 export default function HomePage() {
@@ -73,11 +74,15 @@ export default function HomePage() {
               className="group"
             >
               <article className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300">
-                {/* Placeholder image */}
-                <div className="h-64 bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center">
-                  <span className="text-slate-600 text-sm font-mono">
-                    {city!.cityName} Flag
-                  </span>
+                {/* Flag image */}
+                <div className="h-64 bg-white flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={city!.flagImage}
+                    alt={`Drapeau de ${city!.cityName}`}
+                    width={400}
+                    height={256}
+                    className="w-full h-full object-contain p-4"
+                  />
                 </div>
 
                 <div className="p-6">
@@ -114,19 +119,33 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {phoenixCities.map((city) => (
               <Link
                 key={city.citySlug}
                 href={`/us/${city.stateCode}/${city.citySlug}`}
                 className="group"
               >
-                <div className="aspect-square bg-gradient-to-br from-orange-100 to-red-100 rounded-lg flex items-center justify-center mb-3 group-hover:scale-105 transition-transform">
-                  <span className="text-4xl">🔥</span>
-                </div>
-                <h3 className="font-display text-xl font-bold text-slate-900 group-hover:text-blue-600 transition">
-                  {city.cityName}
-                </h3>
+                <article className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all">
+                  <div className="aspect-square bg-gradient-to-br from-orange-100 to-red-100 flex items-center justify-center relative overflow-hidden">
+                    <Image
+                      src={city.flagImage}
+                      alt={`Drapeau de ${city.cityName}`}
+                      width={300}
+                      height={300}
+                      className="w-full h-full object-contain p-6 group-hover:scale-110 transition-transform"
+                    />
+                    <div className="absolute top-3 right-3 text-2xl">🔥</div>
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition">
+                      {city.cityName}
+                    </h3>
+                    <p className="font-serif text-sm text-slate-600 line-clamp-2">
+                      {city.shortSummary}
+                    </p>
+                  </div>
+                </article>
               </Link>
             ))}
           </div>
@@ -144,19 +163,33 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {musicalCities.map((city) => (
               <Link
                 key={city.citySlug}
                 href={`/us/${city.stateCode}/${city.citySlug}`}
                 className="group"
               >
-                <div className="aspect-square bg-gradient-to-br from-purple-900 to-blue-900 rounded-lg flex items-center justify-center mb-3 group-hover:scale-105 transition-transform">
-                  <span className="text-4xl">🎵</span>
-                </div>
-                <h3 className="font-display text-xl font-bold group-hover:text-blue-400 transition">
-                  {city.cityName}
-                </h3>
+                <article className="bg-slate-800 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all">
+                  <div className="aspect-square bg-gradient-to-br from-purple-900 to-blue-900 flex items-center justify-center relative overflow-hidden">
+                    <Image
+                      src={city.flagImage}
+                      alt={`Drapeau de ${city.cityName}`}
+                      width={300}
+                      height={300}
+                      className="w-full h-full object-contain p-6 group-hover:scale-110 transition-transform"
+                    />
+                    <div className="absolute top-3 right-3 text-2xl">🎵</div>
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-display text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition">
+                      {city.cityName}
+                    </h3>
+                    <p className="font-serif text-sm text-stone-300 line-clamp-2">
+                      {city.shortSummary}
+                    </p>
+                  </div>
+                </article>
               </Link>
             ))}
           </div>
