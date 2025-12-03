@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playfair_Display, Lora } from "next/font/google";
 import "./globals.css";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { ThemeProvider } from "./context/ThemeContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,9 +40,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${lora.variable} antialiased`}
       >
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
+        {children}
       </body>
     </html>
   );
