@@ -264,6 +264,102 @@
                 "type": "Point",
                 "coordinates": [-115.1398, 36.1699]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Tucson", "stateCode": "04" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-110.9747, 32.2226]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Colorado Springs", "stateCode": "08" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.8214, 38.8339]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Boise", "stateCode": "16" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-116.2023, 43.6150]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Pocatello", "stateCode": "16" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-112.4450, 42.8713]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Helena", "stateCode": "30" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-112.0391, 46.5891]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Great Falls", "stateCode": "30" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-111.3008, 47.5053]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Reno", "stateCode": "32" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-119.8138, 39.5296]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Las Cruces", "stateCode": "35" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-106.7636, 32.3199]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Salt Lake City", "stateCode": "49" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-111.8910, 40.7608]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Provo", "stateCode": "49" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-111.6585, 40.2338]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Cheyenne", "stateCode": "56" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.8202, 41.1400]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Laramie", "stateCode": "56" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-105.5911, 41.3114]
+            }
         }
     ]
 }
