@@ -416,6 +416,102 @@
                 "type": "Point",
                 "coordinates": [-117.4260, 47.6588]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Madison", "stateCode": "55" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.4012, 43.0731]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Saint Paul", "stateCode": "27" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-93.0900, 44.9537]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Duluth", "stateCode": "27" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-92.1005, 46.7867]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Grand Rapids", "stateCode": "26" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-85.6681, 42.9634]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Flint", "stateCode": "26" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-83.6875, 43.0125]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Cincinnati", "stateCode": "39" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-84.5120, 39.1031]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Toledo", "stateCode": "39" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-83.5379, 41.6528]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Dayton", "stateCode": "39" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-84.1916, 39.7589]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Fort Wayne", "stateCode": "18" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-85.1394, 41.0793]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "South Bend", "stateCode": "18" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.2520, 41.6764]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Rockford", "stateCode": "17" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.0940, 42.2711]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Peoria", "stateCode": "17" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.5889, 40.6936]
+            }
         }
     ]
 }
