@@ -89,10 +89,12 @@ export default async function CityFlagPage({ params }: PageProps) {
         <section className="bg-gradient-to-b from-stone-100 to-white py-12">
           <div className="max-w-3xl mx-auto px-6">
             <figure>
-              <div className="w-full bg-gradient-to-br from-slate-200 to-slate-300 rounded-lg overflow-hidden aspect-[3/2] flex items-center justify-center shadow-xl">
-                <span className="text-slate-600 text-sm font-mono">
-                  {cityFlag.cityName} Flag
-                </span>
+              <div className="w-full rounded-lg overflow-hidden shadow-xl">
+                <img
+                  src={cityFlag.flagImage}
+                  alt={`Drapeau de ${cityFlag.cityName}`}
+                  className="w-full h-auto object-contain bg-white"
+                />
               </div>
               <figcaption className="text-xs text-slate-500 text-center mt-3 font-sans">
                 Le drapeau de {cityFlag.cityName}
