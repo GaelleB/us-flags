@@ -59,7 +59,7 @@ New York n'a pas besoin d'un drapeau flamboyant. Son skyline, ses rues, ses habi
         citySlug: 'los-angeles',
         cityName: 'Los Angeles',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Los_Angeles%2C_California.svg',
-        heroImage: 'https://images.unsplash.com/photo-1534190239940-9ba8944ea261?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1600&q=80',
         shortSummary: `Un drapeau qui ressemble à un coucher de soleil déchiré.`,
         story: `Los Angeles agite un drapeau en dents de scie – vert, jaune, rouge – comme la pellicule d'un film qu'on aurait remonté à la main. Une ville qui vit entre l'ombre des studios et la lumière du désert.
 
