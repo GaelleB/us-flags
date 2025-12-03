@@ -360,6 +360,62 @@
                 "type": "Point",
                 "coordinates": [-105.5911, 41.3114]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Anchorage", "stateCode": "02" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-149.9003, 61.2181]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Juneau", "stateCode": "02" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-134.4197, 58.3019]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Sacramento", "stateCode": "06" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-121.4944, 38.5816]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Oakland", "stateCode": "06" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.2711, 37.8044]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Honolulu", "stateCode": "15" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-157.8583, 21.3099]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Salem", "stateCode": "41" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-123.0351, 44.9429]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Spokane", "stateCode": "53" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-117.4260, 47.6588]
+            }
         }
     ]
 }
