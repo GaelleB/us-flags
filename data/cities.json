@@ -848,6 +848,62 @@
                 "type": "Point",
                 "coordinates": [-88.0399, 30.6954]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Virginia Beach", "stateCode": "51" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.9779, 36.8529]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Norfolk", "stateCode": "51" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.2859, 36.8508]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Richmond", "stateCode": "51" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.4360, 37.5407]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Charleston", "stateCode": "54" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.6326, 38.3498]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Wilmington", "stateCode": "10" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.5398, 39.7392]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Jackson", "stateCode": "28" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.1848, 32.2988]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Omaha", "stateCode": "31" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-95.9345, 41.2565]
+            }
         }
     ]
 }
