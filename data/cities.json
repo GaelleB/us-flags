@@ -632,6 +632,126 @@
                 "type": "Point",
                 "coordinates": [-74.0776, 40.7178]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "San Antonio", "stateCode": "48" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-98.4936, 29.4241]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Austin", "stateCode": "48" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-97.7431, 30.2672]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "El Paso", "stateCode": "48" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-106.4850, 31.7619]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Jacksonville", "stateCode": "12" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.6557, 30.3322]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Tampa", "stateCode": "12" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-82.4572, 27.9506]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Orlando", "stateCode": "12" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.3792, 28.5383]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Columbus", "stateCode": "13" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-84.9877, 32.4609]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Augusta", "stateCode": "13" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.9748, 33.4735]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Savannah", "stateCode": "13" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.0998, 32.0809]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Charlotte", "stateCode": "37" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.8431, 35.2271]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Raleigh", "stateCode": "37" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-78.6382, 35.7796]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Greensboro", "stateCode": "37" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-79.7920, 36.0726]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Memphis", "stateCode": "47" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.0490, 35.1495]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Nashville", "stateCode": "47" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.7816, 36.1627]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "New Orleans", "stateCode": "22" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.0715, 29.9511]
+            }
         }
     ]
 }
