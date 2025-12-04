@@ -512,6 +512,126 @@
                 "type": "Point",
                 "coordinates": [-89.5889, 40.6936]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Buffalo", "stateCode": "36" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-78.8784, 42.8864]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Rochester", "stateCode": "36" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.6088, 43.1566]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Syracuse", "stateCode": "36" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.1474, 43.0481]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Albany", "stateCode": "36" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-73.7562, 42.6526]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Yonkers", "stateCode": "36" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-73.8987, 40.9312]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Hartford", "stateCode": "09" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-72.6851, 41.7658]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Stamford", "stateCode": "09" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-73.5387, 41.0534]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Providence", "stateCode": "44" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.4128, 41.8240]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Worcester", "stateCode": "25" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.8023, 42.2626]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Springfield", "stateCode": "25" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-72.5395, 42.1015]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Burlington", "stateCode": "50" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-73.2121, 44.4759]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Manchester", "stateCode": "33" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.5376, 42.9956]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Harrisburg", "stateCode": "42" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.8867, 40.2732]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Trenton", "stateCode": "34" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.7429, 40.2171]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Jersey City", "stateCode": "34" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.0776, 40.7178]
+            }
         }
     ]
 }
