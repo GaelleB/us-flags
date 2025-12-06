@@ -316,7 +316,7 @@ La barre ondulée bleue évoque l'océan Pacifique et le Inside Passage – le r
         citySlug: 'sacramento',
         cityName: 'Sacramento',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Flag_of_Sacramento%2C_California.svg/1200px-Flag_of_Sacramento%2C_California.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1651681043716-2c48f40d3dd7?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Deux rivières bleues ondulent entre vert agricole et or minier – capitale cachée.`,
         story: `Le drapeau de Sacramento, adopté le 15 août 1989, présente deux nuances de bleu séparées par une ligne ondulée, avec deux demi-ovales – un vert en haut à droite, un jaune en bas à gauche. En bas, le texte "CITY OF SACRAMENTO" en police Century Gothic.
 
@@ -333,7 +333,7 @@ Sacramento est la capitale de la Californie depuis 1854, mais elle reste dans l'
         citySlug: 'honolulu',
         cityName: 'Honolulu',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Honolulu%2C_Hawaii.svg/1200px-Flag_of_Honolulu%2C_Hawaii.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1542259009477-d625272157b7?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1693111176254-7c0d84b945f7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Le sceau municipal sur champ jaune – capitale du dernier État, ancien royaume indépendant.`,
         story: `Le drapeau d'Honolulu, adopté en 1960, présente le sceau municipal sur un champ jaune. Simple, presque bureaucratique, il reflète le statut paradoxal d'Honolulu : capitale de l'État le plus récent (Hawaii a rejoint l'Union en 1959), ancienne capitale d'un royaume indépendant.
 
@@ -350,7 +350,7 @@ Le drapeau jaune simple cache une histoire complexe : annexation impériale, per
         citySlug: 'portland',
         cityName: 'Portland',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Portland%2C_Oregon.svg/1200px-Flag_of_Portland%2C_Oregon.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1454166155302-ef4863c27e70?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1541457523724-95f54f7740cc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une étoile à quatre pointes rayonne en bleu et jaune sur fond vert – "Ville des roses".`,
         story: `Le drapeau de Portland, Oregon, conçu en 1969 par R. Douglas Lynch et adopté sous sa forme révisée en 2002, présente un champ vert avec une étoile blanche à quatre pointes au centre, d'où rayonnent des bandes bleues bordées d'éléments jaunes en forme de L.
 
@@ -365,7 +365,7 @@ Le drapeau, classé 6e meilleur drapeau municipal américain dans l'enquête NAV
         citySlug: 'salem',
         cityName: 'Salem',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Salem%2C_Oregon_2022.svg/1200px-Flag_of_Salem%2C_Oregon_2022.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1563251478-37462b112536?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une fleur de cerisier rose avec une étoile blanche – nouveau drapeau, nouvelle identité.`,
         story: `En 2022, Salem a adopté un nouveau drapeau qui rompt radicalement avec son ancien design bureaucratique. Sur un champ blanc avec une bande bleue verticale à gauche, une fleur de cerisier rose stylisée occupe le centre droit, avec une étoile blanche à cinq branches au cœur de ses pétales.
 
@@ -382,16 +382,22 @@ Le nouveau drapeau, adopté le 11 juillet 2022, reflète une tentative de modern
         citySlug: 'olympia',
         cityName: 'Olympia',
         flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Olympia.`,
+        heroImage: 'https://images.unsplash.com/photo-1720986315586-20959403c719?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Capitale discrète du Washington, Olympia mêle forêts humides, baie grise et bâtiments d’État dans un drapeau qui évoque autant la nature que la politique.`,
+        story: `Olympia n’a rien d’une ville tapageuse : ici, pas de gratte-ciel, pas de centres technologiques à perte de vue comme à Seattle. La capitale du Washington vit au rythme de la pluie, des marées, des pins droits comme des piquets et des bâtiments d’État posés face à la baie.
+
+Son drapeau rappelle cette double identité : institutionnelle d’un côté, profondément naturelle de l’autre. On y devine les influences du Pacifique Nord-Ouest — les silhouettes de montagnes, la couleur des forêts humides, les teintes douces qui évoquent plus la brume que les néons.
+
+Olympia est une capitale à taille humaine : cafés tranquilles, rues silencieuses, marché local, étudiants, employés du gouvernement qui traversent les jardins du Capitole sous un ciel laiteux. Le drapeau flotte au-dessus d’une ville qui ne cherche pas à impressionner, mais à représenter un État immense où la nature dicte souvent le rythme.
+
+C’est un drapeau qui parle doucement, mais qui dit juste : “Ici, la politique avance au milieu des arbres, de la pluie et du vent du Pacifique.”`,
     },
     {
         stateCode: '53',
         citySlug: 'seattle',
         cityName: 'Seattle',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_Seattle.svg/1200px-Flag_of_Seattle.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Flag_of_Seattle.svg/1280px-Flag_of_Seattle.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1502175353174-a7a70e73b362?q=80&w=1726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Turquoise et blanc, le portrait du Chef Seattle – "City of Goodwill".`,
         story: `Le drapeau de Seattle, adopté le 16 juillet 1990 pour les Goodwill Games, présente un champ turquoise et blanc avec le logo municipal : un portrait du Chef Seattle entouré de deux lignes, avec les mots "City of Goodwill" au-dessus et "Seattle" en dessous.
 
@@ -410,7 +416,7 @@ Le nouveau drapeau, adopté le 11 juillet 2022, reflète une tentative de modern
         citySlug: 'milwaukee',
         cityName: 'Milwaukee',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Milwaukee%2C_Wisconsin.svg/1200px-Flag_of_Milwaukee%2C_Wisconsin.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1729879590699-e16b0732d591?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un engrenage bleu, le sceau municipal – "La ville qui a rendu la bière célèbre".`,
         story: `Le drapeau de Milwaukee, adopté en 1954, présente un champ bleu moyen avec un grand engrenage doré au centre. À l'intérieur de cet engrenage se trouve le sceau de la ville, montrant des symboles industriels, agricoles et commerciaux qui définissent l'identité de Milwaukee.
 
@@ -425,7 +431,7 @@ Milwaukee est une ville de contradictions : fortement ségrégée mais politique
         citySlug: 'madison',
         cityName: 'Madison',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_Madison%2C_Wisconsin_%282018%E2%80%93present%29.svg/1200px-Flag_of_Madison%2C_Wisconsin_%282018%E2%80%93present%29.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1661224094420-2d84936d498e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une bande blanche diagonale, un disque doré – capitale entre deux lacs.`,
         story: `Le drapeau de Madison, adopté dans sa forme actuelle en 2018, présente un champ bleu ciel avec une bande blanche diagonale représentant l'isthme entre le lac Mendota et le lac Monona. Une croix noire au centre symbolise les quatre lacs qui entourent la ville et la forme en croix du Capitole de l'État du Wisconsin. Un disque doré représente le dôme doré emblématique du Capitole.
 
@@ -442,7 +448,7 @@ Le drapeau de 2018 a remplacé un design précédent qui utilisait le symbole so
         citySlug: 'minneapolis',
         cityName: 'Minneapolis',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Minneapolis.svg/1200px-Flag_of_Minneapolis.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1535082049017-5a7b43f3bcef?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un pennant bleu sur champ blanc avec cercle – éducation, travail, lacs, progrès.`,
         story: `Le drapeau de Minneapolis, conçu par Louise Sundin et adopté le 27 mai 1955, présente un champ blanc avec un pennant bleu royal contenant un cercle blanc divisé en quatre sections. Chaque section montre un symbole : un bâtiment (éducation et arts), une roue dentée et une équerre (travail et industrie), un gouvernail de navire (lacs et rivières), un microscope (recherche et progrès).
 
@@ -457,7 +463,7 @@ Le meurtre de George Floyd par la police de Minneapolis en mai 2020 a déclench�
         citySlug: 'saint-paul',
         cityName: 'Saint Paul',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Saint_Paul%2C_Minnesota.svg/1200px-Flag_of_Saint_Paul%2C_Minnesota.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1566404791232-af9fe0ae8f8b?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1574807628013-1b7d14113d8a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Triband jaune-bleu-jaune avec bouclier rouge – capitale du Minnesota.`,
         story: `Le drapeau de Saint Paul, conçu par l'étudiante en art Gladys Mittle et adopté le 22 novembre 1932, présente un triband horizontal jaune-bleu-jaune. La bande bleue centrale représente le fleuve Mississippi qui traverse la ville. Les bandes jaunes symbolisent un avenir brillant. Un bouclier rouge au premier plan montre divers aspects de l'industrie et de l'histoire de Saint Paul.
 
@@ -474,7 +480,7 @@ La ville a été nommée d'après une chapelle catholique dédiée à Saint Paul
         citySlug: 'des-moines',
         cityName: 'Des Moines',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Des_Moines%2C_Iowa.svg/1200px-Flag_of_Des_Moines%2C_Iowa.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1599278581378-356c5b120953?q=80&w=930&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Trois ponts blancs sur bleu avec bande rouge – capitale de l'Iowa.`,
         story: `Le drapeau de Des Moines, conçu par Walter T. Proctor et adopté le 15 avril 1974, présente un champ bleu avec une bande verticale rouge le long du guindant qui s'incline vers l'intérieur. Trois "ponts" blancs horizontaux traversent le drapeau, représentant les ponts Walnut, Locust Street et Grand Avenue qui enjambent la rivière Des Moines.
 
@@ -493,7 +499,7 @@ Politiquement, Des Moines est célèbre pour les caucus de l'Iowa – le premier
         citySlug: 'albany',
         cityName: 'Albany',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_Albany%2C_New_York.svg/1200px-Flag_of_Albany%2C_New_York.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1603244813579-a2a238d0797b?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Tricolor orange-blanc-bleu néerlandais avec armoiries de 1789 – capitale de l'État de New York.`,
         story: `Le drapeau d'Albany, conçu en 1909 pour le tricentenaire de la découverte du fleuve Hudson par Henry Hudson, mais adopté officiellement seulement en 1912, présente un tricolore orange-blanc-bleu avec les armoiries d'Albany (dessinées en 1789) sur la bande orange.
 
@@ -509,8 +515,8 @@ Dans l'enquête NAVA de 2004, le drapeau d'Albany a reçu une note de 5,2/10, se
         stateCode: '09',
         citySlug: 'hartford',
         cityName: 'Hartford',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Hartford%2C_Connecticut.svg/1200px-Flag_of_Hartford%2C_Connecticut.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Hartford%2C_Connecticut.svg/2560px-Flag_of_Hartford%2C_Connecticut.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1611008715987-60499f61074c?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Disque blanc avec sceau sur bleu – "Insurance Capital of the World".`,
         story: `Le drapeau de Hartford, adopté le 12 septembre 1983, présente un champ bleu avec un disque blanc (version modifiée du sceau municipal) au centre, entouré d'un large anneau bleu portant les mots "CITY OF HARTFORD" en haut et "CONNECTICUT" en bas, séparés par deux étoiles à cinq branches, le tout en blanc.
 
@@ -525,10 +531,16 @@ Dans l'enquête NAVA de 2004, le drapeau d'Albany a reçu une note de 5,2/10, se
         stateCode: '09',
         citySlug: 'bridgeport',
         cityName: 'Bridgeport',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Bridgeport.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Bridgeport_flag.png',
+        heroImage: 'https://images.unsplash.com/photo-1727149907510-f137008bddee?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Bridgeport, ancienne capitale industrielle du Connecticut, porte un drapeau qui raconte son passé ouvrier, ses ports, ses machines et son énergie urbaine au bord de la côte.`,
+        story: `Bridgeport est une ville qui a beaucoup vécu. Ancien centre industriel du Connecticut, elle s’est construite autour des usines, du port, du ferroviaire et de la vie ouvrière. Pendant des décennies, c’était une ville de machines, d’ateliers métallurgiques, de bateaux qui entraient et sortaient du port, de sirènes d’usine qui rythmaient les journées.
+
+Le drapeau de Bridgeport reflète cette histoire : un blason chargé, des symboles de commerce maritime, des références à l’industrie qui a longtemps porté la ville. C’est un drapeau qui parle d’un passé robuste, d’un territoire façonné par le travail et les échanges.
+
+Aujourd’hui, Bridgeport essaie de se réinventer. Les friches industrielles laissent place à des espaces culturels, les quais se transforment, et la ville s’appuie sur sa situation en bord d’océan pour attirer de nouveaux habitants. Le drapeau, lui, reste le témoin d’une époque où la ville bourdonnait d’usines et de navires — une mémoire textile qui flotte encore au-dessus des rues et des bâtiments.
+
+C’est un drapeau qui ne ment pas : il raconte une ville qui a traversé un âge industriel entier et qui, comme beaucoup de villes de la côte Est, avance maintenant entre héritage et renouveau.`,
     },
 
     // RHODE ISLAND
@@ -537,7 +549,7 @@ Dans l'enquête NAVA de 2004, le drapeau d'Albany a reçu une note de 5,2/10, se
         citySlug: 'providence',
         cityName: 'Providence',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Providence%2C_Rhode_Island.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1670530898662-92dde9e3f64b?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau montrant Roger Williams sur bleu foncé – fondée 1636, liberté religieuse.`,
         story: `Le drapeau de Providence, adopté en 1915, présente un champ bleu foncé avec le sceau municipal au centre. Le sceau montre l'arrivée de Roger Williams à Providence, sur un bouclier entouré d'un cercle de corde, avec "SEAL OF THE CITY OF PROVIDENCE" en haut et "FOUNDED 1636" au-dessus de "INCORPORATED 1832" en bas.
 
@@ -553,17 +565,23 @@ Aujourd'hui, Providence est la capitale du Rhode Island et un hub d'éducation (
         stateCode: '50',
         citySlug: 'montpelier',
         cityName: 'Montpelier',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Montpelier.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Montpelier%2C_Vermont.svg/langfr-2560px-Flag_of_Montpelier%2C_Vermont.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1603559934483-aeb4d9fa45a3?q=80&w=1152&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Plus petite capitale des États-Unis, Montpelier mêle collines, bâtiments en briques et atmosphère artisanale dans un drapeau à l’image d’un Vermont paisible et enraciné.`,
+        story: `Montpelier est une capitale à échelle humaine, presque improbable. C’est la plus petite des États-Unis, nichée entre des collines verdoyantes, avec des rues calmes, des cafés locaux, et un Capitole doré qui domine la ville comme un phare posé au milieu des arbres.
+
+Son drapeau reflète cette douceur : un graphisme traditionnel, des couleurs sobres, une symbolique qui mélange l’histoire du Vermont, l’artisanat et la nature environnante. Pas de grand geste, pas de modernisme outrancier — Montpelier préfère la simplicité et la continuité.
+
+La vie y est lente, presque européenne : marchés fermiers, boutiques indépendantes, bâtiments publics où tout le monde finit par connaître tout le monde. Loin du chaos des grandes métropoles, Montpelier semble avancer dans une bulle de calme, au rythme des saisons du Nord-Est.
+
+Le drapeau flotte comme une carte postale tranquille : il rappelle que le pouvoir politique peut aussi habiter une ville petite, chaleureuse, où les collines et les forêts comptent autant que les lois.`,
     },
     {
         stateCode: '50',
         citySlug: 'burlington',
         cityName: 'Burlington',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Burlington%2C_Vermont.svg/1200px-Flag_of_Burlington%2C_Vermont.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1737038934032-027964b14a0d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Cinq bandes en zigzag bleu-blanc-vert - nouveau drapeau 2017, conçu par des jumeaux de 7e année.`,
         story: `Le drapeau de Burlington, adopté par le conseil municipal le 27 novembre 2017, présente cinq bandes horizontales en zigzag : bleu, blanc, vert, blanc, bleu. Ce design simple mais mémorable a été créé par des jumeaux de septième année, Owen et Lucas Marchessault, et levé pour la première fois lors des célébrations du Nouvel An 2017.
 
@@ -579,17 +597,23 @@ Aujourd'hui, Providence est la capitale du Rhode Island et un hub d'éducation (
         stateCode: '33',
         citySlug: 'concord',
         cityName: 'Concord',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Concord.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Emblem_of_Concord%2C_New_Hampshire.png',
+        heroImage: 'https://images.unsplash.com/photo-1705963949594-8f7d1aa4a789?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Capitale calme du New Hampshire, Concord porte un drapeau qui reflète l’équilibre entre institutions, forêts du Nord-Est et héritage colonial.` ,
+        story: `Concord est une capitale qui ne fait pas de bruit. Pas de skyline, pas de grandes avenues, juste une petite ville soignée, entourée de forêts, de maisons en bois et de routes qui serpentent vers les montagnes du New Hampshire. Ici, la politique se mêle à la vie locale sans s’imposer.
+
+Le drapeau de Concord suit cette logique : un sceau classique, des symboles historiques, une palette simple qui rappelle les origines coloniales de la région et la relation forte avec la nature. Il n’essaie pas de séduire, il affirme une continuité — celle d’un Nord-Est attaché à ses traditions.
+
+Depuis les marches du Capitole avec sa coupole dorée, on voit les collines, les arbres, la lumière froide de l’hiver qui s’installe tôt. Le drapeau flotte là, discret mais stable, rappelant que même une petite ville peut porter la responsabilité d’un État entier.
+
+Concord n’est pas une capitale de spectacle : c’est une capitale d’équilibre, de calme, de constance. Et son drapeau raconte exactement cela.`,
     },
     {
         stateCode: '33',
         citySlug: 'manchester',
         cityName: 'Manchester',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Manchester%2C_New_Hampshire_flag.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Manch-DownTown.jpg/960px-Manch-DownTown.jpg',
         shortSummary: `Sceau avec chute d'eau et usines sur blanc – "Labor Vincit" (Le travail conquiert).`,
         story: `Le drapeau de Manchester présente un champ blanc avec le sceau municipal en couleur au centre. Le sceau a un anneau noir bordé d'or. Dans l'anneau, "CITY OF MANCHESTER" s'incurve en haut, et "INCORPORATED JUNE 1846" s'incurve en bas, le tout en or.
 
