@@ -42,7 +42,7 @@ export default function CulturalReferences({ music, books, films, series }: Prop
           Univers culturel
         </h2>
         <p className="font-serif text-lg text-slate-600">
-          Musique, livres, films et séries qui capturent l'âme de cette ville
+          Musique, livres, films et séries qui capturent l&rsquo;âme de cette ville
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function CulturalReferences({ music, books, films, series }: Prop
                     className="bg-stone-50 rounded-lg p-4 hover:bg-stone-100 transition-colors"
                   >
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-1 h-full bg-blue-600 rounded"></div>
+                      <div className="shrink-0 w-1 h-full bg-blue-600 rounded"></div>
                       <div className="flex-1">
                         <div className="font-sans font-semibold text-slate-900 mb-1">
                           {item.title}
@@ -95,7 +95,7 @@ export default function CulturalReferences({ music, books, films, series }: Prop
       {/* Style NYT : citation culturelle */}
       <div className="mt-12 py-8 px-6 bg-slate-900 text-white rounded-lg">
         <p className="font-serif text-lg italic text-center">
-          "Une ville se raconte autant par ses drapeaux que par ses chansons, ses romans et ses écrans."
+          &ldquo;Une ville se raconte autant par ses drapeaux que par ses chansons, ses romans et ses écrans.&rdquo;
         </p>
       </div>
     </section>
