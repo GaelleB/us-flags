@@ -156,8 +156,8 @@ En 2025, Boise a fait un geste politique audacieux : le conseil municipal a vot�
         stateCode: '30',
         citySlug: 'helena',
         cityName: 'Helena',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Helena%2C_Montana.svg/1200px-Flag_of_Helena%2C_Montana.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?w=1600&q=80',
+        flagImage: 'TODO-flag',
+        heroImage: 'https://images.unsplash.com/photo-1588218422242-91b555d0a0ae?q=80&w=1166&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Capitale d'État née de la ruée vers l'or, entre les montagnes et la Continental Divide.`,
         story: `Helena est une capitale d'État qui a débuté comme camp minier. En 1864, un groupe de prospecteurs surnommés les "Four Georgians" a découvert de l'or dans un ravin qu'ils ont appelé Last Chance Gulch (le ravin de la dernière chance). En deux décennies, ce camp de tentes est devenu l'une des villes les plus riches par habitant d'Amérique.
 
@@ -171,10 +171,15 @@ En 2025, Boise a fait un geste politique audacieux : le conseil municipal a vot�
         stateCode: '30',
         citySlug: 'billings',
         cityName: 'Billings',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Billings.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Billings%2C_Montana.png/640px-Flag_of_Billings%2C_Montana.png',
+        heroImage: 'https://images.unsplash.com/photo-1672941375895-7d6c67f87091?q=80&w=2155&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Billings, plus grande ville du Montana, porte un drapeau qui évoque les plateaux arides, les falaises jaunes et la vie urbaine posée au milieu d’un décor sauvage.`,
+        story: `Billings n’est pas la capitale du Montana — c’est Helena — mais c’est bel et bien la ville la plus grande et la plus active de l’État. Coincée entre les falaises abruptes des “Rims” et les longues étendues de prairie, Billings vit à la croisée du commerce, de la route et du paysage.
+
+Son drapeau, comme beaucoup de drapeaux de villes de l’Ouest, parle plus du territoire que des bâtiments : silhouettes de montagnes, lignes d’horizon, références à la nature qui entoure tout. On y retrouve souvent ces couleurs franches qui rappellent la roche jaune, le ciel immense et l’air sec.
+
+Billings s’est construite comme un point d’ancrage au milieu d’un État immense. On y croise des entrepôts, des trains, des brasseries, des quartiers tranquilles et des routes qui filent vers les parcs nationaux. Le drapeau, lui, capture cette idée simple : une ville vivante posée dans un décor qui dépasse largement ses frontières.`
+,
     },
 
     // NEVADA
@@ -182,10 +187,14 @@ En 2025, Boise a fait un geste politique audacieux : le conseil municipal a vot�
         stateCode: '32',
         citySlug: 'carson-city',
         cityName: 'Carson City',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Carson City.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Carson_City%2C_Nevada.gif/640px-Flag_of_Carson_City%2C_Nevada.gif',
+        heroImage: 'https://images.unsplash.com/photo-1605063137821-5614a3c6191e?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Capitale tranquille du Nevada, Carson City porte un drapeau qui mêle symboles de montagne, héritage minier et lumière du désert.` ,
+        story: `Carson City n’a pas le bruit, les casinos ni les néons de Las Vegas. Ici, la capitale du Nevada vit au pied des montagnes de la Sierra Nevada, dans une lumière sèche et claire, avec des rues calmes, des bâtiments d’État et une histoire façonnée par les chercheurs d’or et d’argent.
+
+Le drapeau de Carson City reflète ce décor : silhouettes de pics, couleurs franches, références à l’industrie minière et à la géographie qui entoure la ville. On y retrouve l’ambiance des hauts plateaux, du vent froid en hiver et de la chaleur écrasante en été.
+
+Carson City est une capitale discrète : administrative, modeste, presque domestique. Mais son drapeau rappelle constamment d’où elle vient : un territoire minéral, ouvert, où l’on a longtemps cherché la fortune sous la roche. Une ville qui n’a pas besoin d’être immense pour porter le poids politique d’un État entier.`,
     },
     {
         stateCode: '32',
@@ -208,17 +217,21 @@ En 2025, Boise a fait un geste politique audacieux : le conseil municipal a vot�
         stateCode: '35',
         citySlug: 'santa-fe',
         cityName: 'Santa Fe',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Santa Fe.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Santa_Fe_flag.jpg/640px-Santa_Fe_flag.jpg',
+        heroImage: 'https://images.unsplash.com/photo-1731699579486-98fc30cbfb6a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Santa Fe, capitale la plus haute des États-Unis, mêle adobe, culture pueblo, art, soleil et spiritualité dans un drapeau chargé d’histoire et de symboles du Sud-Ouest.`,
+        story: `Santa Fe ne ressemble à aucune autre capitale américaine : ici, pas de gratte-ciel ni de centres administratifs glacés. La ville respire l’adobe, la terre rouge, les influences pueblo, espagnoles et mexicaines. On la traverse comme un musée vivant, entre galeries, patios, églises anciennes et montagnes qui bleuissent à l’horizon.
+
+Le drapeau de Santa Fe est à son image : un soleil zia, symbole emblématique du Nouveau-Mexique, posé sur des couleurs qui évoquent le désert, la spiritualité et les paysages sacrés du Sud-Ouest. Chaque ligne renvoie à un cycle, chaque rayon à une relation entre l’humain, la terre et le temps.
+
+Santa Fe est la plus haute capitale du pays, perchée dans une lumière sèche et dorée. Son drapeau capture cette atmosphère : une ville où l’histoire n’est pas derrière soi mais autour, dans les murs d’adobe, dans les cérémonies, dans l’art. Une capitale qui semble avancer au rythme du soleil, plutôt qu’à celui des horloges.`,
     },
     {
         stateCode: '35',
         citySlug: 'albuquerque',
         cityName: 'Albuquerque',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Albuquerque%2C_New_Mexico.svg/1200px-Flag_of_Albuquerque%2C_New_Mexico.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1605751216159-fc4057eba116?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un champ rouge, un soleil Zia avec "1706", un thunderbird volant – le Nouveau-Mexique ancestral.`,
         story: `Le drapeau d'Albuquerque, adopté en 1968, présente un champ rouge vif avec trois éléments en jaune : le symbole solaire Zia au centre contenant le nombre "1706", le mot "Albuquerque" en italique juste en dessous, et un oiseau-tonnerre (thunderbird) stylisé dans le canton supérieur.
 
@@ -235,7 +248,7 @@ En 2025, Boise a fait un geste politique audacieux : le conseil municipal a vot�
         citySlug: 'salt-lake-city',
         cityName: 'Salt Lake City',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Salt_Lake_City_%282020%29.svg/1200px-Flag_of_Salt_Lake_City_%282020%29.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1708994916126-10277fa96889?q=80&w=1341&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Le Sego Flag – un lys blanc sur bleu et blanc, symbole de résilience et de renouveau.`,
         story: `En 2020, Salt Lake City a dévoilé un nouveau drapeau après un concours municipal qui a attiré des centaines de propositions. Le design gagnant, surnommé le "Sego Flag", présente deux bandes horizontales – bleue en haut, blanche en bas – avec un lys sego blanc dans le canton supérieur.
 
@@ -252,7 +265,7 @@ Salt Lake City, capitale de l'Utah et siège mondial de l'Église de Jésus-Chri
         citySlug: 'cheyenne',
         cityName: 'Cheyenne',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Cheyenne%2C_Wyoming.svg/1200px-Flag_of_Cheyenne%2C_Wyoming.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1569098644584-210bcd375b59?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1684788482273-0f50cff592af?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un champ blanc, une bordure brune, le sceau de la capitale de l'État le moins peuplé.`,
         story: `Le drapeau de Cheyenne présente un champ blanc encadré d'une bordure brune, avec le sceau municipal au centre : une skyline stylisée de la ville en bleu, un disque rouge représentant le soleil, et le slogan "Star of the Big Sky Country" (l'étoile du pays du grand ciel) en lettres rouges capitales.
 
@@ -271,7 +284,7 @@ Cheyenne est la capitale du Wyoming, l'État le moins peuplé des États-Unis (e
         citySlug: 'anchorage',
         cityName: 'Anchorage',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Anchorage%2C_Alaska.svg/1200px-Flag_of_Anchorage%2C_Alaska.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1470093851219-69951fcbb533?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1549517771-aa105e8da34f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une ancre bleue, un avion, un voilier – la porte d'entrée de l'Arctique.`,
         story: `Le drapeau d'Anchorage, adopté en 1973, présente un champ jaune avec le sceau municipal : une ancre bleue au premier plan, un avion bleu, un soleil jaune et un voilier jaune à l'arrière-plan, avec les mots "ANCHORAGE ALASKA" encerclant le tout.
 
@@ -286,7 +299,7 @@ Anchorage abrite 40% de la population totale de l'Alaska. C'est une métropole m
         citySlug: 'juneau',
         cityName: 'Juneau',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Juneau%2C_Alaska.svg/1200px-Flag_of_Juneau%2C_Alaska.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1725368924007-12e709cc048a?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une étoile dorée sur bleu clair – capitale inaccessible par la route.`,
         story: `Le drapeau de Juneau présente un champ bleu clair avec un carré arrondi contenant une barre ondulée bleue, une étoile jaune dorée avec contour bleu, et les mots "JUNEAU" et "ALASKA'S CAPITAL CITY" en lettres majuscules.
 
