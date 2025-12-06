@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
 type ParallaxImageProps = {
@@ -7,13 +8,15 @@ type ParallaxImageProps = {
   alt: string;
   speed?: number;
   className?: string;
+  priority?: boolean;
 };
 
 export default function ParallaxImage({
   src,
   alt,
   speed = 0.5,
-  className = ''
+  className = '',
+  priority = false
 }: ParallaxImageProps) {
   const [offset, setOffset] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
@@ -41,16 +44,23 @@ export default function ParallaxImage({
   }, [speed]);
 
   return (
-    <div ref={ref} className={`w-full h-full overflow-hidden ${className}`}>
-      <img
-        src={src}
-        alt={alt}
-        className="w-full h-full object-cover"
+    <div ref={ref} className={`relative w-full overflow-hidden ${className}`}>
+      <div
+        className="absolute inset-0 will-change-transform"
         style={{
           transform: `translateY(${offset}px)`,
           transition: 'transform 0.1s ease-out',
         }}
-      />
+      >
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          priority={priority}
+          sizes="100vw"
+          className="object-cover"
+        />
+      </div>
     </div>
   );
 }
