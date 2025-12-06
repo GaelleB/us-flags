@@ -156,7 +156,7 @@ En 2025, Boise a fait un geste politique audacieux : le conseil municipal a vot�
         stateCode: '30',
         citySlug: 'helena',
         cityName: 'Helena',
-        flagImage: 'TODO-flag',
+        flagImage: 'https://static.wikia.nocookie.net/flages/images/c/ca/Us-mthel.gif/revision/latest?cb=20130812231138',
         heroImage: 'https://images.unsplash.com/photo-1588218422242-91b555d0a0ae?q=80&w=1166&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Capitale d'État née de la ruée vers l'or, entre les montagnes et la Continental Divide.`,
         story: `Helena est une capitale d'État qui a débuté comme camp minier. En 1864, un groupe de prospecteurs surnommés les "Four Georgians" a découvert de l'or dans un ravin qu'ils ont appelé Last Chance Gulch (le ravin de la dernière chance). En deux décennies, ce camp de tentes est devenu l'une des villes les plus riches par habitant d'Amérique.
@@ -381,7 +381,7 @@ Le nouveau drapeau, adopté le 11 juillet 2022, reflète une tentative de modern
         stateCode: '53',
         citySlug: 'olympia',
         cityName: 'Olympia',
-        flagImage: 'TODO-flag',
+        flagImage: 'https://www.fotw.info/images/u/us-waoly-l.gif',
         heroImage: 'https://images.unsplash.com/photo-1720986315586-20959403c719?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Capitale discrète du Washington, Olympia mêle forêts humides, baie grise et bâtiments d’État dans un drapeau qui évoque autant la nature que la politique.`,
         story: `Olympia n’a rien d’une ville tapageuse : ici, pas de gratte-ciel, pas de centres technologiques à perte de vue comme à Seattle. La capitale du Washington vit au rythme de la pluie, des marées, des pins droits comme des piquets et des bâtiments d’État posés face à la baie.
@@ -746,10 +746,16 @@ Le drapeau flotte au-dessus d’une ville où se croisent ingénieurs, artistes,
         stateCode: '12',
         citySlug: 'tallahassee',
         cityName: 'Tallahassee',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Tallahassee.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Tallahassee%2C_Florida_%282020%E2%80%93present%29.svg/2560px-Flag_of_Tallahassee%2C_Florida_%282020%E2%80%93present%29.svg.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Downtown_Tallahassee_2023.png/2560px-Downtown_Tallahassee_2023.png',
+        shortSummary: `Entre collines de pins, chaleur moite et institutions étatiques, Tallahassee incarne une Floride plus profonde et plus discrète que son image de carte postale.`,
+        story: `Tallahassee n’a rien à voir avec l’idée que l’on se fait de la Floride. Ici, pas de plages infinies ni d’eau turquoise : la capitale de l’État s’étend sur des collines, au milieu des pins, des campus universitaires et des bâtiments gouvernementaux. C’est une Floride intérieure, plus lente, plus politique, moins touristique.
+
+Le drapeau de Tallahassee reflète cette identité institutionnelle : un graphisme sérieux, des couleurs classiques, un sceau qui met en avant le rôle administratif de la ville. Rien de clinquant, rien de tropical — juste l’essentiel de ce qu’elle représente pour l’État.
+
+Pourtant, Tallahassee a une âme universitaire et culturelle très vivante : stades remplis, cafés étudiants, quartiers anciens où les maisons en bois dorent sous la chaleur, soirées d’été qui semblent s’étirer à l’infini. On y sent une énergie différente, plus locale, plus authentique.
+
+Le drapeau flotte sur une ville qui n’a pas besoin de palmiers pour exister. Tallahassee gouverne la Floride depuis ses collines, avec un mélange surprenant de calme, de tradition et de ferveur étudiante. Une capitale qui ne ressemble à aucune autre dans le Sud-Est.`,
     },
 
     // CAROLINE DU NORD
@@ -984,7 +990,7 @@ Dans le vent du Midwest, le drapeau de Topeka n’apparaît pas dans les films n
         stateCode: '38',
         citySlug: 'fargo',
         cityName: 'Fargo',
-        flagImage: 'TODO-flag',
+        flagImage: 'https://static.wikia.nocookie.net/flags/images/7/7d/Fargo_%28proposed_flag%29.jpeg/revision/latest?cb=20230215042935',
         heroImage: 'https://images.unsplash.com/photo-1579126651289-6e9fd0a7bd18?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Fargo, grande ville du North Dakota, mêle plaines glacées, culture locale chaleureuse et modernité dans un drapeau qui évoque la résilience du Nord.` ,
         story: `Fargo, c’est une ville qui vit avec les saisons extrêmes. L’hiver peut être brutal, les vents coupants, la neige omniprésente — et pourtant, la ville garde une énergie étonnamment chaleureuse. On y trouve des cafés, des librairies, des salles de concert, des fresques colorées et une vie universitaire très active.
@@ -1114,8 +1120,8 @@ Population actuelle : 200 000 habitants. Montgomery est la capitale de l'Alabama
         stateCode: '51',
         citySlug: 'virginia-beach',
         cityName: 'Virginia Beach',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Flag_of_Virginia_Beach%2C_Virginia.svg/1200px-Flag_of_Virginia_Beach%2C_Virginia.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Flag_of_Virginia_Beach%2C_Virginia.png/1280px-Flag_of_Virginia_Beach%2C_Virginia.png',
+        heroImage: 'https://images.unsplash.com/photo-1573510460136-8a26ce45ed2c?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Trident de Neptune sur bleu et blanc – station balnéaire, base militaire massive.`,
         story: `Le drapeau de Virginia Beach, adopté le 20 juin 1966, présente un champ divisé horizontalement : bleu en haut, blanc en bas, avec un trident doré (symbole de Neptune, dieu de la mer) au centre.
 
@@ -1134,7 +1140,7 @@ Le drapeau bleu et blanc avec trident capture cette identité balnéaire – mai
         citySlug: 'richmond',
         cityName: 'Richmond',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Richmond%2C_Virginia.svg/1200px-Flag_of_Richmond%2C_Virginia.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1655484966364-bcda71eb896b?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec statue équestre sur blanc – capitale confédérée, Monument Avenue controversée.`,
         story: `Le drapeau de Richmond présente un champ blanc avec le sceau municipal au centre. Le design est sobre, presque anonyme – ce qui est ironique pour une ville dont l'histoire est si chargée.
 
@@ -1156,8 +1162,8 @@ Le drapeau blanc simple cache ces batailles – passées et présentes.`,
         stateCode: '54',
         citySlug: 'charleston-wv',
         cityName: 'Charleston',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Charleston%2C_West_Virginia.svg/1200px-Flag_of_Charleston%2C_West_Virginia.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Charleston%2C_West_Virginia.svg/2560px-Flag_of_Charleston%2C_West_Virginia.svg.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Charleston%2C_West_Virginia_%282023%29.jpg/2560px-Charleston%2C_West_Virginia_%282023%29.jpg',
         shortSummary: `Sceau sur blanc – capitale de Virginie-Occidentale, État né de la sécession.`,
         story: `Le drapeau de Charleston présente un champ blanc avec le sceau municipal au centre. Charleston est la capitale et la plus grande ville de Virginie-Occidentale – l'État qui a fait sécession de la sécession.
 
@@ -1179,17 +1185,23 @@ Le drapeau blanc simple ne montre rien de ces luttes – juste un sceau officiel
         stateCode: '24',
         citySlug: 'annapolis',
         cityName: 'Annapolis',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Annapolis.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Annapolis%2C_Maryland.svg/2560px-Flag_of_Annapolis%2C_Maryland.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1701457854736-c7da5afac62b?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Annapolis, ville portuaire et capitale du Maryland, mêle voiliers, histoire coloniale et élégance maritime dans un drapeau qui reflète son identité unique.`,
+        story: `Annapolis est l’une des plus jolies capitales des États-Unis : une ville portuaire où les voiliers balancent doucement, où les rues en briques convergent vers un Capitole circulaire unique au pays, et où l’histoire coloniale se mélange à la vie maritime.
+
+Le drapeau d’Annapolis reprend cette identité : un motif inspiré des armoiries de la famille Calvert, fondateurs du Maryland, avec ces couleurs fortes — jaune et noir — devenues emblématiques de l’État. C’est un drapeau chargé d’héritage, presque royal dans son symbolisme, et profondément ancré dans la tradition locale.
+
+Annapolis est aussi la maison de la Naval Academy, ce qui ajoute une présence visible d’uniformes, de cérémonies, de rigueur maritime. Sur les quais, on entend les cordages des bateaux, le bruit de l’eau, le passage des étudiants, des touristes, des habitants qui vivent entre mer et histoire.
+
+Le drapeau flotte dans une ville lumineuse, élégante, presque européenne dans ses proportions. Il raconte un Maryland qui regarde autant vers la baie que vers l’histoire, un territoire qui a gardé ses couleurs fortes et son caractère maritime intact.`,
     },
     {
         stateCode: '24',
         citySlug: 'baltimore',
         cityName: 'Baltimore',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Baltimore%2C_Maryland.svg/1200px-Flag_of_Baltimore%2C_Maryland.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Baltimore%2C_Maryland.svg/1280px-Flag_of_Baltimore%2C_Maryland.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1712244743231-980c9edd0c75?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Calvert et Crossland – boulets de canon britanniques, "The Wire", renaissance du port.`,
         story: `Le drapeau de Baltimore, adopté le 20 septembre 1915, présente la bannière héraldique de George Calvert, 1er Baron Baltimore : quartiers or et noir (armoiries Calvert) alternant avec quartiers rouge et blanc (armoiries Crossland de sa mère). C'est le même design que le drapeau du Maryland – rare pour une ville.
 
@@ -1209,8 +1221,8 @@ Le drapeau blanc simple ne montre rien de ces luttes – juste un sceau officiel
         stateCode: '10',
         citySlug: 'wilmington',
         cityName: 'Wilmington',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Wilmington%2C_Delaware.svg/1200px-Flag_of_Wilmington%2C_Delaware.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Flag_of_the_City_of_Wilmington.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wilmington_Delaware_skyline.jpg/2560px-Wilmington_Delaware_skyline.jpg',
         shortSummary: `Sceau avec navire sur bleu – "Corporate Capital", DuPont, capitale des cartes de crédit.`,
         story: `Le drapeau de Wilmington présente un champ bleu avec le sceau municipal en or au centre. Le sceau montre un navire – symbole de l'histoire portuaire de Wilmington sur la rivière Delaware.
 
@@ -1230,8 +1242,8 @@ Le drapeau blanc simple ne montre rien de ces luttes – juste un sceau officiel
         stateCode: '10',
         citySlug: 'dover',
         cityName: 'Dover',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
+        flagImage: 'https://www.crwflags.com/fotw/images/u/us-de-dv-l.gif',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Dover_Delaware.jpg/2560px-Dover_Delaware.jpg',
         shortSummary: `Capitale discrète du Delaware, Dover cache derrière son drapeau officiel une histoire faite de plaines, de débats politiques et de routes qui filent vers la côte.`,
         story: `Au premier regard, le drapeau de Dover a l’air très institutionnel : un blason, des inscriptions, un bleu sérieux qui évoque davantage les salles de réunion que les couchers de soleil. C’est logique : Dover est la capitale politique du Delaware, une ville où l’on vote les lois d’un des plus petits États du pays.
 
@@ -1245,8 +1257,8 @@ Accroché devant les écoles, les tribunaux ou les bureaux d’État, il ne fait
         stateCode: '11',
         citySlug: 'washington-dc',
         cityName: 'Washington',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/1200px-Flag_of_Washington%2C_D.C.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1569982175971-d92b01cf8694?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/langfr-2560px-Flag_of_Washington%2C_D.C.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1581097543550-b3cbe2e6ea6e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Trois étoiles rouges, deux barres rouges – armoiries de George Washington, capitale fédérale sans État.`,
         story: `Le drapeau de Washington D.C., adopté en 1938, présente deux barres rouges horizontales avec trois étoiles rouges à cinq branches au-dessus sur champ blanc. C'est basé sur les armoiries héraldiques de George Washington – simple, élégant, parfaitement reconnaissable.
 
@@ -1268,8 +1280,8 @@ Le drapeau avec étoiles de Washington capture l'héritage fondateur – mais ne
         stateCode: '28',
         citySlug: 'jackson',
         cityName: 'Jackson',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Jackson%2C_Mississippi.svg/1200px-Flag_of_Jackson%2C_Mississippi.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Jackson%2C_Mississippi.svg/langfr-1280px-Flag_of_Jackson%2C_Mississippi.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1571559933328-d9b516af5bed?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau sur blanc – "City with Soul", crise de l'eau, capitale du blues et des droits civiques.`,
         story: `Le drapeau de Jackson présente un champ blanc avec le sceau municipal en couleur au centre. Jackson est la capitale et la plus grande ville du Mississippi (150 000 habitants), avec un surnom optimiste : "City with Soul".
 
@@ -1292,7 +1304,7 @@ Le drapeau blanc simple avec sceau ne montre rien de ces luttes – juste une fa
         citySlug: 'albuquerque',
         cityName: 'Albuquerque',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Albuquerque%2C_New_Mexico.svg/1200px-Flag_of_Albuquerque%2C_New_Mexico.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?w=1600&q=80',
+        heroImage: 'https://plus.unsplash.com/premium_photo-1674160595179-9f427026f9de?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Zia sun symbol sur jaune – Breaking Bad, montgolfières, carrefour culturel triculturel.`,
         story: `Le drapeau d'Albuquerque présente un champ jaune avec le symbole Zia au centre – le même symbole sacré du peuple Zia Pueblo qui apparaît sur le drapeau du Nouveau-Mexique. C'est un soleil stylisé avec quatre rayons dans chaque direction cardinale.
 
@@ -1314,17 +1326,23 @@ Le drapeau jaune avec soleil Zia capture l'héritage autochtone – mais ne mont
         stateCode: '31',
         citySlug: 'lincoln',
         cityName: 'Lincoln',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Lincoln.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_Lincoln%2C_Nebraska_%282022%29.svg/langfr-2560px-Flag_of_Lincoln%2C_Nebraska_%282022%29.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1574189937485-b94ae177a5fb?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Lincoln, capitale du Nebraska, mêle plaines infinies, architecture monumentale et esprit universitaire dans un drapeau qui reflète la sobriété et l’histoire du Midwest.`,
+        story: `Lincoln est une capitale posée au cœur des grandes plaines, loin des côtes et des montagnes, entourée d’un horizon large qui semble ne jamais se fermer. C’est une ville administrative, universitaire et profondément ancrée dans l’histoire du Midwest. Rien n’y est clinquant : tout est mesuré, stable, construit pour durer.
+
+Le drapeau de Lincoln reflète cette identité : des couleurs simples, un design institutionnel, des références à la structure politique de l’État. Pas de symboles extravagants, mais une sobriété assumée, presque rassurante, à l’image de la ville.
+
+Le bâtiment le plus emblématique, le Nebraska State Capitol, domine Lincoln avec sa tour Art déco unique aux États-Unis. Au pied de cette architecture imposante, la ville vit au rythme des étudiants, des matchs de football universitaire et des rues qui respirent le calme d’une capitale à taille humaine.
+
+Le drapeau flotte au-dessus d’une ville qui incarne le Midwest dans ce qu’il a de plus authentique : une terre de travail, de stabilité, de communautés soudées. Lincoln n’a pas besoin de tapage pour exister — elle avance dans la continuité, avec la ligne droite des plaines comme horizon.`,
     },
     {
         stateCode: '31',
         citySlug: 'omaha',
         cityName: 'Omaha',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Omaha%2C_Nebraska.svg/1200px-Flag_of_Omaha%2C_Nebraska.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Omaha%2C_Nebraska.svg/langfr-2560px-Flag_of_Omaha%2C_Nebraska.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1740110710584-d093bb6cecc7?q=80&w=2091&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau sur blanc – "Gateway to the West", Warren Buffett, Boys Town, abattoirs.`,
         story: `Le drapeau d'Omaha présente un champ blanc avec le sceau municipal au centre. Omaha est la plus grande ville du Nebraska (486 000 habitants, 967 000 dans la zone métropolitaine) et se proclame "Gateway to the West" – porte vers l'Ouest.
 
@@ -1340,95 +1358,147 @@ Le drapeau jaune avec soleil Zia capture l'héritage autochtone – mais ne mont
 
         Le drapeau blanc avec sceau ne montre rien de cette diversité – juste bureaucratie municipale.`,
     },
+
+    // Georgie
     {
         stateCode: '13',
         citySlug: 'atlanta',
         cityName: 'Atlanta',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Atlanta.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Atlanta.svg/langfr-2560px-Flag_of_Atlanta.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1611106014123-092d7642f560?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Sur le drapeau d’Atlanta, le phénix renaît des flammes — symbole d’une ville détruite, reconstruite et propulsée au rang de métropole mondiale.`,
+        story: `Le symbole d’Atlanta est un phénix, et ce n’est pas un hasard. Pendant la guerre de Sécession, la ville a été incendiée presque entièrement. Le drapeau reprend cet oiseau mythique comme un rappel permanent : ici, on ne reste jamais au sol.
+
+Aujourd’hui, Atlanta est une métropole vibrante : capitale du Sud, carrefour d’affaires, haut lieu du hip-hop, cœur des droits civiques, studio géant où l’on tourne films et séries. Les autoroutes s’entremêlent, les gratte-ciel s’élèvent, les quartiers racontent chacun une histoire différente.
+
+Le drapeau flotte dans une ville qui se réinvente constamment. Un symbole simple, ancien, mais puissant : Atlanta sait brûler, mais surtout renaître — encore et encore.`
+,
     },
+
+    // Indiana
     {
         stateCode: '18',
         citySlug: 'indianapolis',
         cityName: 'Indianapolis',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Indianapolis.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Indianapolis.svg/langfr-2560px-Flag_of_Indianapolis.svg.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Indianapolis_-_2013-06-11.jpg/1280px-Indianapolis_-_2013-06-11.jpg',
+        shortSummary: `Une étoile blanche au centre d’un cercle rouge : le drapeau d’Indianapolis reflète une capitale carrefour du Midwest, structurée autour de son cœur urbain.`,
+        story: `Le drapeau d’Indianapolis est un plan de ville stylisé : une croix blanche qui rayonne, un cercle rouge central, une étoile qui marque le cœur. C’est l’esprit même d’Indy : un centre clair, des routes qui convergent, une ville carrefour.
+
+Capitale de l’Indiana, la ville est réputée pour ses sports — les fameux 500 miles — mais aussi pour sa scène culturelle, ses quartiers vivants et son mélange de modernité et de tradition du Midwest.
+
+Le drapeau flotte partout : stades, bâtiments publics, boutiques de design. Il est devenu un symbole identitaire puissant, une fierté locale. À Indianapolis, tout pointe vers le centre — et le drapeau le rappelle à chaque regard.`,
     },
+
+    // Maine
     {
         stateCode: '23',
         citySlug: 'augusta',
         cityName: 'Augusta',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Augusta.`,
+        flagImage: 'https://www.crwflags.com/fotw/images/u/us-me-au-l.gif',
+        heroImage: 'https://images.unsplash.com/photo-1655757600696-32d194cfc7e7?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Capitale discrète du Maine, Augusta vit entre forêts et rivière, avec un drapeau qui met l’État davantage en avant que la ville elle-même.`,
+        story: `Augusta est une capitale de poche : quelques rues, une rivière, des collines boisées. On est loin des grandes métropoles. Ici, la vie avance doucement, entourée de nature.
+
+Le drapeau reprend surtout les symboles de l’État du Maine : pins, pêcheurs, paysages maritimes. Augusta se veut représentante d’un territoire immense, sauvage et authentique.
+
+Dans cette capitale discrète, le drapeau flotte comme un rappel de ce lien permanent entre institutions et nature. Une ville calme, un État immense.`,
     },
     {
         stateCode: '23',
         citySlug: 'portland',
         cityName: 'Portland',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Portland.`,
+        flagImage: 'https://www.crwflags.com/fotw/images/u/us-me-pt-l.gif',
+        heroImage: 'https://images.unsplash.com/photo-1582488719899-a2a54cb479fe?q=80&w=1086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Portland, grande ville du Maine, mêle port, embruns et façades en briques dans un drapeau discret qui laisse la mer raconter l’essentiel.`,
+        story: `Portland vit tournée vers l’océan : ferries, quais en bois, restaurants de fruits de mer, entrepôts en briques et brume matinale qui glisse entre les rues. C’est la ville la plus vivante du Maine, un port historique devenu refuge d’artistes, de voyageurs et de rêveurs.
+
+Le drapeau reste pourtant simple : sceau classique, symboles maritimes, sobriété des villes du Nord-Est. Rien de spectaculaire, car l’essentiel est ailleurs : dans la lumière, la mer, le vent.
+
+Marcher dans Portland, c’est traverser une carte postale vivante. Le drapeau ne cherche pas à rivaliser : il accompagne juste cette identité océanique.`,
     },
+    // MASSACHUSETTS
     {
         stateCode: '25',
         citySlug: 'boston',
         cityName: 'Boston',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Boston.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Boston.svg/langfr-1280px-Flag_of_Boston.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1565127803082-69dd82351360?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Ville historique majeure, Boston porte un drapeau qui reflète son héritage colonial, son rôle fondateur et sa silhouette iconique du Nord-Est.`,
+        story: `Boston est l’un des berceaux de l’histoire américaine : révolution, universités prestigieuses, rues anciennes, port chargé de mémoire. C’est une ville où chaque quartier raconte un chapitre différent : Beacon Hill, Harvard, le Freedom Trail, le front de mer.
+
+Le drapeau, bleu clair avec un sceau doré, met en avant cette histoire fondatrice : monuments, architecture, formules latines, solennité. Il ne cherche pas la modernité — il affirme l’ancienneté.
+
+Boston mêle innovation et tradition, étudiants du monde entier, science, littérature, sports, culture irlandaise et Old Money américain. Le drapeau flotte au-dessus d’une ville qui regarde loin en avant mais qui n’oublie jamais ce qu’elle a été.`,
     },
+    // MICHIGAN
     {
         stateCode: '26',
         citySlug: 'lansing',
         cityName: 'Lansing',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Lansing.`,
+        flagImage: 'https://www.crwflags.com/fotw/images/u/us-milan-l.gif',
+        heroImage: 'https://www.office-tourisme-usa.com/app/uploads/2023/08/Lansing-Michigan-1800-1.jpg',
+        shortSummary: `Lansing, capitale administrative du Michigan, reflète dans son drapeau l’équilibre entre institutions, industrie et forêts du Nord.` ,
+        story: `Lansing n’est pas la ville la plus célèbre du Michigan — Detroit occupe ce rôle — mais c’est ici que se prennent les décisions de l’État. Capitale à taille humaine, entourée de nature et marquée par l’industrie automobile, elle incarne un certain équilibre du Midwest.
+
+Le drapeau joue la carte institutionnelle : sceaux, couleurs classiques, références politiques. Il reflète une ville calme, sérieuse, structurée.
+
+Autour du Capitole au dôme blanc, on trouve des quartiers résidentiels, des écoles, des familles, une vie quotidienne tranquille. Lansing est une capitale stable, discrète, mais essentielle.`,
     },
     {
         stateCode: '26',
         citySlug: 'detroit',
         cityName: 'Detroit',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Detroit.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Detroit.svg/langfr-2560px-Flag_of_Detroit.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1714276729981-da1b0a0a40af?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Detroit, ville industrielle mythique, porte un drapeau qui raconte immigration, musique, automobiles et renaissance urbaine.`,
+        story: `Detroit, c’est Motown. Les usines Ford. Le boom industriel. Le déclin. Les friches. Puis la renaissance. Peu de villes américaines ont un récit aussi puissant, aussi brut, aussi emblématique.
+
+Le drapeau de Detroit est un collage d’héritages : français, britanniques, américains. Il raconte les changements de souveraineté, les guerres, les révolutions industrielles et l’immigration qui a construit la ville.
+
+Aujourd’hui, Detroit se transforme : quartiers qui renaissent, artistes qui s’installent, entrepreneurs, musiciens, cafés et galeries qui redonnent de la couleur. Le drapeau flotte comme un rappel du passé, mais aussi de la résilience unique de cette ville légendaire.`,
     },
+
+    // OHIO
     {
         stateCode: '39',
         citySlug: 'columbus',
         cityName: 'Columbus',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Columbus.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_Columbus%2C_Ohio.svg/langfr-2560px-Flag_of_Columbus%2C_Ohio.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1654115480560-67642e776a30?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Columbus, capitale dynamique de l’Ohio, mélange innovation, universités, quartiers modernes et tradition dans un drapeau vif et chargé de symboles.`,
+        story: `Columbus est souvent sous-estimée, mais c’est l’une des capitales les plus actives du Midwest : ville universitaire, ville de tech, ville de recherche, ville de politique. Elle grandit vite, elle attire, elle invente.
+
+Le drapeau de Columbus combine couleurs vives et motifs historiques : aigle, étoile, références européennes et américaines. Il reflète cette identité hybride, entre héritage et modernité.
+
+Dans les rues, on trouve des marchés, des cafés, des musées, des stades, une ambiance jeune et créative. Columbus n’a rien d’une capitale ennuyeuse : elle avance, elle bouge, elle surprend.`,
     },
+    // SOUTH CAROLINA
     {
         stateCode: '45',
         citySlug: 'columbia',
         cityName: 'Columbia',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Columbia.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Columbia%2C_South_Carolina.svg/langfr-2560px-Flag_of_Columbia%2C_South_Carolina.svg.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/0/02/Fall_skyline_of_Columbia_SC_from_Arsenal_Hill.jpg',
+        shortSummary: `Columbia, capitale ensoleillée de la Caroline du Sud, mêle chaleur, histoire et campus dans un drapeau institutionnel porté par sa forte identité sudiste.`,
+        story: `Columbia est une ville où la chaleur écrase les après-midis, où les magnolias bordent les rues, et où la vie tourne autour du Capitole, des campus et des quartiers historiques. C’est une capitale du Sud, avec sa douceur, son rythme, ses cicatrices aussi.
+
+Le drapeau reflète cette histoire : emblèmes classiques, symboles institutionnels, palette solennelle. Il met en avant le rôle politique de la ville dans un État où tradition et modernité cohabitent difficilement parfois.
+
+Columbia, c’est la lumière intense, les fontaines devant le Capitole, les étudiants partout, les musées, les bâtiments publics. Une ville qui porte le Sud, avec tout ce que cela implique.`,
     },
     {
         stateCode: '45',
         citySlug: 'charleston',
         cityName: 'Charleston',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Charleston.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Charleston%2C_South_Carolina.svg/langfr-2560px-Flag_of_Charleston%2C_South_Carolina.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1623608103477-2b90432a3f85?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Charleston, perle historique du Sud, mêle architecture coloniale, port, douceur marine et mémoire douloureuse dans un drapeau à l’identité forte.`,
+        story: `Charleston est l’une des plus belles villes du Sud : façades pastel, rues pavées, arbres immenses couverts de mousse espagnole, port animé, histoire omniprésente. C’est une ville lumineuse, élégante, mais aussi marquée par un passé lourd : celui de l’esclavage et du commerce maritime.
+
+Le drapeau de Charleston, d’un bleu profond orné d’un palmier et d’un croissant, est devenu un symbole mythique de la ville. Il incarne sa relation à la mer, au climat, à l’identité sudiste.
+
+Charleston est un mélange de beauté, de nostalgie et de tension historique. Le drapeau flotte comme un rappel doux-amer : une ville magnifique qui n’oublie rien de son passé.`,
     },
 ];
 
@@ -1437,4 +1507,3 @@ export const cityFlags: CityFlag[] = baseCityFlags.map(city => ({
     ...city,
     ...(culturalReferences[city.citySlug] || {})
 }));
-
