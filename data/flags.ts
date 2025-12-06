@@ -28,10 +28,14 @@ const baseCityFlags: Omit<CityFlag, 'music' | 'books' | 'films' | 'series'>[] = 
         stateCode: '17',
         citySlug: 'springfield',
         cityName: 'Springfield',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Springfield.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flag_of_Springfield%2C_Illinois_%28no_text%29.svg/640px-Flag_of_Springfield%2C_Illinois_%28no_text%29.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1551301285-bdfcd0f17a02?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Capitale paisible de l’Illinois, Springfield porte un drapeau institutionnel qui évoque Lincoln, les plaines et l’administration d’un État dominé par Chicago.`,
+        story: `Quand on pense Illinois, on pense Chicago. Mais la capitale s’appelle Springfield : une ville de plaines, de musées dédiés à Lincoln et de bureaux où l’on gère la vie d’un État immense. Le drapeau de Springfield reflète ce rôle politique : sceau officiel, devise, étoiles, équilibre entre histoire et formalité.
+
+Dans les rues calmes, on croise des bâtiments publics, des diners, des quartiers résidentiels. Pas de vertige vertical, pas de skyline : Springfield avance à son propre rythme. Le drapeau flotte devant les institutions, rappelant que l’Illinois ne se résume pas à son monstre urbain au bord du lac Michigan.
+
+C’est un drapeau de continuité, pas de spectacle. Une bannière qui marque les lieux où s’écrit, loin du bruit de Chicago, la politique quotidienne d’un des États les plus influents du pays.`,
     },
     {
         stateCode: '17',
@@ -68,7 +72,7 @@ New York n'a pas besoin d'un drapeau flamboyant. Son skyline, ses rues, ses habi
         citySlug: 'los-angeles',
         cityName: 'Los Angeles',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Los_Angeles%2C_California.svg/1200px-Flag_of_Los_Angeles%2C_California.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=1600&q=80',
+        heroImage: 'https://plus.unsplash.com/premium_photo-1725408106567-a77bd9beff7c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un drapeau qui ressemble à un coucher de soleil déchiré.`,
         story: `Los Angeles agite un drapeau en dents de scie – vert, jaune, rouge – comme la pellicule d'un film qu'on aurait remonté à la main. Une ville qui vit entre l'ombre des studios et la lumière du désert.
 
@@ -87,7 +91,7 @@ C'est un drapeau excentrique, presque psychédélique, qui reflète parfaitement
         citySlug: 'phoenix',
         cityName: 'Phoenix',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Flag_of_Phoenix%2C_Arizona.svg/1200px-Flag_of_Phoenix%2C_Arizona.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1617407867245-f1315ab14d98?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un phénix blanc sur champ marron – la ville qui renaît de ses cendres, littéralement.`,
         story: `Le drapeau de Phoenix est d'une simplicité brutale : un champ marron (ou bordeaux selon la lumière) avec un phénix blanc stylisé au centre. Adopté en 1990 pour remplacer un design de 1921, c'est l'incarnation parfaite du nom de la ville.
 
@@ -102,7 +106,7 @@ Phoenix est aujourd'hui la 5e plus grande ville des États-Unis, capitale d'un �
         citySlug: 'tucson',
         cityName: 'Tucson',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Tucson%2C_Arizona.svg/1200px-Flag_of_Tucson%2C_Arizona.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1602955909693-579ecebbf5bf?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un yin-yang hispano-américain : la skyline de 1949 rencontre la mission espagnole.`,
         story: `Le drapeau de Tucson présente un design inhabituel : sur fond blanc, le sceau municipal montre deux demi-cercles imbriqués comme un yin-yang. Le côté jaune contient la skyline de Tucson en 1949 ; le côté bleu-violet montre la Mission San Xavier del Bac, joyau architectural du désert de Sonora.
 
@@ -119,7 +123,7 @@ Tucson (du mot O'odham "Cuk Ṣon" signifiant "au pied de la montagne noire") es
         citySlug: 'denver',
         cityName: 'Denver',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Denver%2C_Colorado.svg/1200px-Flag_of_Denver%2C_Colorado.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1619856699906-09e1f58c98b1?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1616984856322-e030a803e587?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un soleil doré au-dessus de montagnes blanches en zigzag – la simplicité parfaite.`,
         story: `Le drapeau de Denver est l'un des plus acclamés d'Amérique, et pour cause : une ligne blanche en zigzag sépare un ciel bleu d'un sol rouge, avec un cercle jaune éclatant au centre. Adopté en 1926, il a été dessiné par Margaret Overbeck, une élève de lycée qui a remporté un concours municipal.
 
@@ -135,8 +139,8 @@ Denver porte son drapeau avec fierté : sur les bâtiments publics, les tatouage
         stateCode: '16',
         citySlug: 'boise',
         cityName: 'Boise',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Boise%2C_Idaho.svg/1200px-Flag_of_Boise%2C_Idaho.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Boise%2C_Idaho%27s_official_flag.png/640px-Boise%2C_Idaho%27s_official_flag.png',
+        heroImage: 'https://images.unsplash.com/photo-1465244554671-e501f19a3bb3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `La "Ville des Arbres" – un fond bleu, le capitole d'État, et une forêt qui ne devrait pas exister ici.`,
         story: `Boise doit son nom aux explorateurs français qui, après avoir traversé des centaines de kilomètres de désert de l'Oregon, ont aperçu les arbres longeant la rivière Boise et se sont exclamés "Les bois ! Les bois !" (prononcer "boi-zi"). Le nom est resté, légèrement déformé en "Boise", et la ville porte fièrement le surnom de "City of Trees".
 
@@ -1140,8 +1144,12 @@ Le drapeau blanc simple ne montre rien de ces luttes – juste un sceau officiel
         cityName: 'Dover',
         flagImage: 'TODO-flag',
         heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Dover.`,
+        shortSummary: `Capitale discrète du Delaware, Dover cache derrière son drapeau officiel une histoire faite de plaines, de débats politiques et de routes qui filent vers la côte.`,
+        story: `Au premier regard, le drapeau de Dover a l’air très institutionnel : un blason, des inscriptions, un bleu sérieux qui évoque davantage les salles de réunion que les couchers de soleil. C’est logique : Dover est la capitale politique du Delaware, une ville où l’on vote les lois d’un des plus petits États du pays.
+
+Mais autour des bâtiments officiels, la ville reste profondément rurale. À quelques minutes du centre, les routes traversent des champs, des fermes, des stations-service où le temps semble glisser plus lentement. Le drapeau de Dover raconte ce lien entre l’administration et la campagne, entre le Capitole local et les granges à l’horizon.
+
+Accroché devant les écoles, les tribunaux ou les bureaux d’État, il ne fait pas le spectacle. Il rappelle simplement qu’ici, quelque part entre Philadelphie et l’océan, on continue à écrire le quotidien d’un État que beaucoup traversent sans jamais s’arrêter.`,
     },
 
     // WASHINGTON D.C.
