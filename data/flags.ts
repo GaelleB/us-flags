@@ -630,7 +630,7 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         citySlug: 'harrisburg',
         cityName: 'Harrisburg',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Harrisburg%2C_Pennsylvania.svg/1200px-Flag_of_Harrisburg%2C_Pennsylvania.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1611522086818-5a0da918bfbe?q=80&w=1383&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Keystone blanc avec dôme du Capitole sur bleu bordé d'or – capitale de la Pennsylvanie.`,
         story: `Le drapeau de Harrisburg présente un champ bleu avec une bordure jaune et l'emblème municipal centré. L'emblème consiste en un keystone blanc (pierre de voûte) avec une bordure rouge, incorporant le dôme du Capitole qui dénote l'importance de la ville comme capitale de l'État du Commonwealth de Pennsylvanie.
 
@@ -644,10 +644,16 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         stateCode: '42',
         citySlug: 'philadelphia',
         cityName: 'Philadelphia',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Philadelphia.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Flag_of_Philadelphia%2C_Pennsylvania.svg/langfr-1280px-Flag_of_Philadelphia%2C_Pennsylvania.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1637638022327-669931e1e271?q=80&w=705&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Berceau des États-Unis, Philadelphia mêle histoire révolutionnaire, diversité urbaine et énergie brute dans un drapeau bleu et jaune qui raconte une ville fière et complexe.`,
+        story: `Philadelphia, c’est une ville qui a tout vu : les débats qui ont mené à l’Indépendance, les signatures fondatrices, les premières rues des jeunes États-Unis. Aujourd’hui encore, en marchant dans le centre, on sent ce poids historique mêlé à l’agitation contemporaine : marchés, ruelles en briques, street art, stades, gratte-ciel et quartiers populaires.
+
+Le drapeau de la ville reprend ce mélange entre tradition et vitalité : un bleu profond, un jaune lumineux, des armoiries qui renvoient aux idéaux de justice et de prospérité. Il ne cherche pas à être moderne ; il affirme plutôt l’ancienneté d’une ville qui a servi de socle à tout un pays.
+
+Philadelphia est brute, vivante, parfois rugueuse, toujours fière. C’est un carrefour où cohabitent culture afro-américaine, institutions historiques, scènes artistiques, cuisine de rue et mémoires révolutionnaires. Le drapeau flotte sur cet ensemble comme un fil conducteur, un rappel que la ville n’a jamais cessé d’évoluer tout en gardant son identité.
+
+En passant devant l’Hôtel de Ville ou sur les marches du musée rendues célèbres par Rocky, on comprend que Philadelphia n’est pas simplement “la ville d’avant” : c’est une ville qui avance, qui lutte, qui invente. Et son drapeau porte cette détermination-là.`,
     },
 
     // NEW JERSEY
@@ -655,17 +661,23 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         stateCode: '34',
         citySlug: 'newark',
         cityName: 'Newark',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Newark.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Newark%2C_New_Jersey.png/640px-Flag_of_Newark%2C_New_Jersey.png',
+        heroImage: 'https://images.unsplash.com/photo-1655781723092-55bba63bdc0b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Newark, grande ville du New Jersey, mêle histoire industrielle, diversité culturelle et énergie urbaine dans un drapeau qui reflète son rôle de carrefour de toute la région.`,
+        story: `Newark n’est pas seulement une “ville juste à côté de New York”. C’est un lieu qui a sa propre vibration : un mélange d’histoire ouvrière, de quartiers anciens en briques, de rues animées, de diversité culturelle et de grands symboles de transport qui connectent tout le Nord-Est.
+
+Son drapeau raconte cette identité multiple : héritage industriel, sceaux historiques, couleurs solennelles qui rappellent le rôle administratif et institutionnel de la ville. On y retrouve l’influence des vagues d’immigration, des usines du XIXᵉ siècle, des ports et des rails.
+
+Newark est une ville vivante, inégale, parfois rude, mais profondément authentique. Elle est traversée par des voies ferrées, des autoroutes, des couloirs de métro et l’un des aéroports les plus fréquentés du pays. Ce n’est pas une ville musée : c’est une ville qui bouge, qui change, qui respire.
+
+Le drapeau flotte au-dessus d’une ville qui a tout connu — prospérité, crises, renaissance — et qui continue de tracer son propre chemin, entre mémoire industrielle et futur urbain.`,
     },
     {
         stateCode: '34',
         citySlug: 'trenton',
         cityName: 'Trenton',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Trenton%2C_New_Jersey.svg/1200px-Flag_of_Trenton%2C_New_Jersey.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1642507870790-9436d2b1a11c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Divisé bleu et or avec sceau – "Trenton Makes, The World Takes".`,
         story: `Le drapeau de Trenton est divisé en deux moitiés : bleue à la hampe et or à l'extrémité, avec le sceau municipal en or au centre. Le sceau a un champ blanc bordé d'un anneau bleu orné, avec un bouclier bleu contenant trois gerbes de blé (2 au-dessus de 1) en chamois au centre.
 
@@ -684,7 +696,7 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         citySlug: 'austin',
         cityName: 'Austin',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Austin%2C_Texas.svg/1200px-Flag_of_Austin%2C_Texas.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1557335200-a65f7f032602?q=80&w=1179&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `"Keep Austin Weird" – capitale du Texas, hub tech et musique live.`,
         story: `Le drapeau d'Austin, adopté en 1961, présente un champ bleu avec le sceau municipal au centre. Le sceau montre une étoile texane blanche entourée d'un anneau portant "CITY OF AUSTIN" en haut et "1839" (année de fondation) en bas.
 
@@ -700,10 +712,16 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         stateCode: '48',
         citySlug: 'houston',
         cityName: 'Houston',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Houston.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Flag_of_Houston%2C_Texas.svg/langfr-1280px-Flag_of_Houston%2C_Texas.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1470082719408-b2843ab5c9ab?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Houston, immense métropole du Texas, mêle espace, énergie, diversité et modernité dans un drapeau qui reflète une ville tournée vers le ciel autant que vers la terre.`,
+        story: `Houston, c’est l’endroit où l’on dit “Houston, we have a problem”, même si en réalité la ville a surtout trouvé des solutions. Ici, tout est vaste : les autoroutes, les quartiers, la chaleur, les ambitions. C’est l’une des métropoles les plus diversifiées des États-Unis, un centre d’énergie, d’ingénierie, de soins médicaux et d’exploration spatiale.
+
+Le drapeau de Houston reprend cette identité symbolique : une étoile — évidemment, le Texas — associée à des motifs simples et directs, comme la ville elle-même. Pas de fioritures, mais une clarté qui dit “ici, on construit, on invente, on avance”.
+
+Houston est tournée vers l’avenir : le Johnson Space Center, les laboratoires, les campus ultramodernes, les gratte-ciel qui s’élèvent dans une lumière étouffante. Mais elle reste aussi ancrée dans ses racines : musique du Sud, quartiers historiques, marchés latino, barbecues, vie quotidienne qui bat fort sous le soleil.
+
+Le drapeau flotte au-dessus d’une ville où se croisent ingénieurs, artistes, migrants, étudiants, médecins, pilotes, familles. Une ville qui incarne la démesure américaine, mais aussi son incroyable capacité à se réinventer. Houston ne se regarde pas : elle se projette — toujours plus loin, toujours plus haut.`,
     },
 
     // FLORIDE
@@ -712,7 +730,7 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         citySlug: 'jacksonville',
         cityName: 'Jacksonville',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Jacksonville%2C_Florida.svg/1200px-Flag_of_Jacksonville%2C_Florida.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1605723517503-3cadb5818a0c?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1613231365704-22aa7ad7cffc?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec fontaine sur bandes marron-or – plus grande ville par superficie aux États-Unis.`,
         story: `Le drapeau de Jacksonville, adopté en 1970, présente un sceau municipal sur un champ avec bandes marron et or. Le sceau montre la fontaine Friendship au centre, entouré de la devise "BOLD • NEW • CITY OF THE SOUTH".
 
@@ -740,7 +758,7 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         citySlug: 'charlotte',
         cityName: 'Charlotte',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Charlotte%2C_North_Carolina.svg/1200px-Flag_of_Charlotte%2C_North_Carolina.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1507810670121-b08efd787765?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Couronne sur bleu avec bandes vertes – "Queen City", deuxième centre bancaire américain.`,
         story: `Le drapeau de Charlotte, adopté en 1929, présente un champ bleu avec une couronne d'or au centre, flanquée de deux bandes verticales vertes près des bords. La couronne symbolise le nom de la ville, nommée en l'honneur de Charlotte de Mecklembourg-Strelitz, reine consort de Grande-Bretagne.
 
@@ -757,7 +775,7 @@ Le drapeau simple – couronne d'or sur bleu – capture cette dualité : reine 
         citySlug: 'raleigh',
         cityName: 'Raleigh',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Flag_of_Raleigh%2C_North_Carolina.svg/1200px-Flag_of_Raleigh%2C_North_Carolina.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1526870785157-7bcfdcaf5cef?q=80&w=1244&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Chêne et étoile sur rouge et blanc – capitale NC, cœur du Research Triangle.`,
         story: `Le drapeau de Raleigh, adopté en 1967, présente une bande rouge horizontale en haut (occupant 60% du drapeau) et une bande blanche en bas. Au centre se trouve le sceau municipal en couleur : un chêne vert avec une étoile blanche à cinq branches en haut à gauche.
 
@@ -775,17 +793,23 @@ Raleigh est nommée d'après Sir Walter Raleigh, qui a parrainé les premières 
         stateCode: '46',
         citySlug: 'pierre',
         cityName: 'Pierre',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Pierre.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Flag_of_Pierre%2C_South_Dakota.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/South_Dakota_State_Capitol%2C_Capitol_Avenue%2C_Pierre%2C_SD_-_53748063274.jpg/1280px-South_Dakota_State_Capitol%2C_Capitol_Avenue%2C_Pierre%2C_SD_-_53748063274.jpg',
+        shortSummary: `Pierre, capitale paisible du South Dakota, reflète dans son drapeau un territoire d’herbes hautes, de rivières larges et de silence immense.`,
+        story: `Pierre est l’une des plus petites capitales des États-Unis, posée au bord de la Missouri River, loin des grandes routes et du vacarme urbain. Ici, tout semble aller un peu plus lentement : les plaines s’étendent à perte de vue, le vent porte l’odeur de l’herbe sèche, et la lumière change doucement au fil des heures.
+
+Le drapeau de Pierre renvoie à cet environnement vaste : silhouettes de paysages, tonalités inspirées des prairies, motifs simples qui évoquent les pionniers et les racines autochtones de la région. Rien de spectaculaire, mais une authenticité tranquille — comme la ville elle-même.
+
+C’est une capitale sans verticalité, sans agitation, où les bâtiments d’État s’intègrent dans un décor presque rural. Les habitants vivent à deux pas de la nature, des sentiers, de la rivière, des grands espaces qui dominent tout.
+
+Le drapeau flotte là, comme un repère discret dans un État où le ciel, la terre et le vent racontent autant l’histoire que les archives officielles. Pierre n’a pas besoin d’être grande pour représenter le South Dakota : elle en capture l’essence, le calme et la profondeur.`,
     },
     {
         stateCode: '46',
         citySlug: 'sioux-falls',
         cityName: 'Sioux Falls',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Sioux_Falls%2C_South_Dakota.svg',
-        heroImage: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Sioux_Falls%2C_South_Dakota.svg/langfr-2560px-Flag_of_Sioux_Falls%2C_South_Dakota.svg.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Sioux_falls_sd_lg.JPG/1280px-Sioux_falls_sd_lg.JPG',
         shortSummary: `Cascade turquoise, prairie verte et soleil dore - la metropole qui fait tourner l'Etat sans impot.`,
         story: `Le nouveau drapeau de Sioux Falls, adopte en 2018 apres un concours communautaire, est d'une clarte graphique : une bande bleu nuit pour le ciel, une courbe turquoise qui chute comme les chutes du Big Sioux River, un triangle vert pour les prairies et un disque dore pour le soleil qui se leve sur la plaine.
 
@@ -802,7 +826,7 @@ Raleigh est nommée d'après Sir Walter Raleigh, qui a parrainé les premières 
         citySlug: 'memphis',
         cityName: 'Memphis',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Flag_of_Memphis%2C_Tennessee.svg/1200px-Flag_of_Memphis%2C_Tennessee.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1560930950-5cc20e80e392?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1543372742-e08542e25f8b?q=80&w=1317&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Bandes bleu-blanc-bleu avec sceau – berceau du blues, royaume d'Elvis, capitale du barbecue.`,
         story: `Le drapeau de Memphis présente trois bandes horizontales : bleu en haut, blanc au centre (deux fois plus large), bleu en bas. Au centre se trouve le sceau municipal en couleur, montrant un bateau à vapeur sur le Mississippi avec le soleil levant derrière.
 
@@ -818,8 +842,8 @@ Memphis est aussi capitale mondiale du barbecue (style Memphis : ribs sèches av
         stateCode: '47',
         citySlug: 'nashville',
         cityName: 'Nashville',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Nashville%2C_Tennessee.svg/1200px-Flag_of_Nashville%2C_Tennessee.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Nashville.png/2560px-Flag_of_Nashville.png',
+        heroImage: 'https://images.unsplash.com/photo-1545419913-775e3e82c7db?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec fleur de lys sur blanc et bleu – "Music City USA", capitale de la country.`,
         story: `Le drapeau de Nashville présente un champ divisé horizontalement : blanc en haut, bleu en bas. Au centre se trouve le sceau municipal, montrant une grande fleur de lys entourée de quatre étoiles.
 
@@ -837,17 +861,23 @@ Nashville est aussi la capitale du Tennessee avec 715 000 habitants (2 millions 
         stateCode: '22',
         citySlug: 'baton-rouge',
         cityName: 'Baton Rouge',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Baton Rouge.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Flag_of_Baton_Rouge%2C_Louisiana.svg/langfr-2560px-Flag_of_Baton_Rouge%2C_Louisiana.svg.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Baton_Rouge_skyline_2013_cropped-2.jpg/2560px-Baton_Rouge_skyline_2013_cropped-2.jpg',
+        shortSummary: `Entre Mississippi, héritage français et chaleur profonde du Sud, Baton Rouge porte un drapeau chargé de symboles royaux, coloniaux et américains.` ,
+        story: `Baton Rouge vit au bord du Mississippi, dans une lumière lourde, presque liquide. Les barges remontent le fleuve, les refineries dessinent des silhouettes industrielles la nuit, et les rues s'animent au rythme du jazz, de la cuisine créole et des étés interminables. C’est une ville où l’histoire a laissé des couches visibles, comme de la peinture qui ne sèche jamais complètement.
+
+Le drapeau de Baton Rouge reflète cette complexité : couronne royale, fleurs de lys, armoiries, références à la France, au Royaume-Uni, à l’Espagne et aux États-Unis. Peu de villes américaines ont connu autant de changements de souveraineté, de langues et de cultures. Le drapeau porte ces traces comme un patchwork d’identités.
+
+Baton Rouge est une capitale, mais aussi une ville universitaire, ouvrière, culturelle. On y trouve des quartiers anciens, des rues plus rudes, des bâtiments officiels, des bars où la musique déborde sur les trottoirs, des marchés grouillants et la présence omniprésente du fleuve.
+
+Flottant au-dessus d’un Capitole élégant qui domine l’horizon, le drapeau symbolise cette ville multiple — coloniale, américaine, louisianaise — qui a appris à faire cohabiter l'histoire, la chaleur et l’énergie d’un peuple qui vit avec intensité.`,
     },
     {
         stateCode: '22',
         citySlug: 'new-orleans',
         cityName: 'New Orleans',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_New_Orleans%2C_Louisiana.svg/1200px-Flag_of_New_Orleans%2C_Louisiana.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1473625247510-8ceb1760943f?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1635352934507-cd4ad73275c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Trois fleurs de lys sur blanc – "The Big Easy", berceau du jazz, Mardi Gras et résilience.`,
         story: `Le drapeau de la Nouvelle-Orléans, adopté en 1918, présente trois fleurs de lys dorées (or) disposées en triangle sur un champ blanc. C'est le drapeau municipal le plus simple et l'un des plus beaux d'Amérique.
 
@@ -867,8 +897,8 @@ Nashville est aussi la capitale du Tennessee avec 715 000 habitants (2 millions 
         stateCode: '40',
         citySlug: 'oklahoma-city',
         cityName: 'Oklahoma City',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Oklahoma_City%2C_Oklahoma.svg/1200px-Flag_of_Oklahoma_City%2C_Oklahoma.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/fr/c/c1/Oklahoma_City_drapeau.gif',
+        heroImage: 'https://images.unsplash.com/photo-1509910513818-4d13fdaf89c9?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau blanc sur bleu – "OKC", attentat de 1995, renaissance du centre-ville.`,
         story: `Le drapeau d'Oklahoma City présente un champ bleu avec le sceau municipal en blanc au centre. Le sceau montre un chariot couvert (symbole des pionniers de la Ruée vers les Terres en 1889), une charrue (agriculture), et un derrick pétrolier (industrie pétrolière).
 
@@ -887,7 +917,7 @@ Oklahoma City est la capitale de l'Oklahoma et sa plus grande ville (population 
         citySlug: 'little-rock',
         cityName: 'Little Rock',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Little_Rock%2C_Arkansas.svg/1200px-Flag_of_Little_Rock%2C_Arkansas.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1605212297995-dd77a9f4d509?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec pont sur blanc – Little Rock Nine 1957, déségrégation scolaire forcée.`,
         story: `Le drapeau de Little Rock présente un champ blanc avec le sceau municipal en couleur au centre. Le sceau montre un pont traversant la rivière Arkansas, symbolisant la position de Little Rock comme point de passage crucial.
 
@@ -907,17 +937,21 @@ Population actuelle : 204 000 habitants. Little Rock est la capitale de l'Arkans
         stateCode: '20',
         citySlug: 'topeka',
         cityName: 'Topeka',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Topeka.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Flag_of_Topeka%2C_Kansas.svg/langfr-2560px-Flag_of_Topeka%2C_Kansas.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1720986315856-7e41c55fa1da?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Capitale calme posée sur la prairie, Topeka affiche un drapeau plus institutionnel que spectaculaire, à l’image d’une ville qui administre un État souvent résumé par ses routes droites.`,
+        story: `Topeka n’a pas la notoriété de Kansas City, mais c’est pourtant là que se décident les lois de l’État. Capitale nichée dans la prairie, elle vit entre bâtiments officiels, quartiers résidentiels et écoles, loin des clichés de gratte-ciel ou de grandes avenues.
+
+Son drapeau, comme beaucoup de capitales administratives, joue sur les emblèmes et les couleurs classiques : bleu, or, sceaux, références à l’histoire fondatrice. On y lit des dates, des devises, des symboles qui renvoient autant à l’État qu’à la ville.
+
+Dans le vent du Midwest, le drapeau de Topeka n’apparaît pas dans les films ni sur les t-shirts de touristes. Il signale simplement un niveau de décision : ici, au milieu des champs et des silos, on construit la politique d’un État que beaucoup traversent sans le regarder vraiment.`,
     },
     {
         stateCode: '20',
         citySlug: 'wichita',
         cityName: 'Wichita',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Wichita%2C_Kansas.svg/1200px-Flag_of_Wichita%2C_Kansas.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Wichita%2C_Kansas_skyline_aerial_view.jpg/1280px-Wichita%2C_Kansas_skyline_aerial_view.jpg',
         shortSummary: `Soleil stylisé sur blanc – "Air Capital of the World", Boeing, Cessna, Beechcraft.`,
         story: `Le drapeau de Wichita, adopté en 1937, présente un champ blanc avec un soleil stylisé au centre. Le soleil a des rayons géométriques qui évoquent à la fois les rayons du soleil des Grandes Plaines et les hélices d'avions – référence subtile à l'identité aéronautique de Wichita.
 
@@ -938,7 +972,7 @@ Population actuelle : 204 000 habitants. Little Rock est la capitale de l'Arkans
         citySlug: 'bismarck',
         cityName: 'Bismarck',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_Bismarck%2C_North_Dakota.svg',
-        heroImage: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1600&q=80',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/2009-0521-ND-StateCapitol_%28cropped%29.jpg/2560px-2009-0521-ND-StateCapitol_%28cropped%29.jpg',
         shortSummary: `Croix dorée, tipi rouge et cercle blanc – capitale des Grandes Plaines et des champs de Bakken.`,
         story: `Le drapeau de Bismarck, adopté en 1973, est d'une lisibilité redoutable : un fond bleu profond, une croix dorée qui étire les cardinales et un tipi rouge cerclé de blanc au centre. Le symbole résume la rencontre des cultures : les nations dakotas qui habitaient ces plaines et la ville moderne née du chemin de fer du Northern Pacific.
 
@@ -951,9 +985,16 @@ Population actuelle : 204 000 habitants. Little Rock est la capitale de l'Arkans
         citySlug: 'fargo',
         cityName: 'Fargo',
         flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Fargo.`,
+        heroImage: 'https://images.unsplash.com/photo-1579126651289-6e9fd0a7bd18?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Fargo, grande ville du North Dakota, mêle plaines glacées, culture locale chaleureuse et modernité dans un drapeau qui évoque la résilience du Nord.` ,
+        story: `Fargo, c’est une ville qui vit avec les saisons extrêmes. L’hiver peut être brutal, les vents coupants, la neige omniprésente — et pourtant, la ville garde une énergie étonnamment chaleureuse. On y trouve des cafés, des librairies, des salles de concert, des fresques colorées et une vie universitaire très active.
+
+Le drapeau de Fargo reflète ce contraste : des couleurs franches, des symboles agricoles et industriels, un design qui renvoie à la fois à l’histoire pionnière et à la modernité. C’est un drapeau qui parle d’endurance, de travail et de communauté — des valeurs essentielles dans les grandes plaines du Nord.
+
+La ville s’est construite autour du rail, des champs, de la rivière Red et de la résilience des habitants. Aujourd’hui, Fargo continue de surprendre : une scène artistique qui se développe, une économie qui se diversifie, une identité qui ne ressemble à aucune autre.
+
+Sous un ciel immense, parfois limpide, parfois complètement blanc, le drapeau flotte comme un rappel : ici, on a appris à vivre avec les éléments, à avancer malgré le froid, à créer un quotidien vivant dans un territoire qui pourrait sembler hostile. Fargo, c’est l’humanité au milieu des étendues.`
+,
     },
 
     // MISSOURI
@@ -961,17 +1002,23 @@ Population actuelle : 204 000 habitants. Little Rock est la capitale de l'Arkans
         stateCode: '29',
         citySlug: 'jefferson-city',
         cityName: 'Jefferson City',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Jefferson City.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_Jefferson_City%2C_Missouri.svg/langfr-1280px-Flag_of_Jefferson_City%2C_Missouri.svg.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Jefferson_City.jpg/960px-Jefferson_City.jpg',
+        shortSummary: `Jefferson City, capitale du Missouri, mélange architecture classique, collines du Midwest et héritage politique dans un drapeau qui reflète un État aux identités multiples.`,
+        story: `Jefferson City est une capitale posée sur les hauteurs qui dominent la Missouri River. Pas une métropole tentaculaire, mais une ville de collines, de rues calmes et de bâtiments officiels qui semblent presque sortir d’une carte postale du Midwest. Son Capitole, massif et élégant, donne tout de suite le ton : ici, on gouverne un État vaste, divers et parfois contradictoire.
+
+Le drapeau de la ville rassemble ces influences : des éléments classiques, des références au Missouri, des couleurs solennelles, un style qui évoque autant l’histoire politique que le territoire. Ce n’est pas un drapeau qui cherche l’esthétique moderne ; il affirme une continuité, une tradition administrative qui structure la vie de l’État.
+
+Jefferson City vit au rythme de ses institutions, de ses écoles, de ses quartiers résidentiels, de la rivière qui passe lentement en bas des falaises. C’est une capitale tranquille, qui ne cherche pas à rivaliser avec Kansas City ou St. Louis. Elle occupe une autre place : celle du centre politique, du point d’équilibre.
+
+Le drapeau flotte au-dessus de cette ville ancrée, un rappel que le Missouri se raconte autant dans son histoire politique que dans ses paysages de collines et de fleuve.`,
     },
     {
         stateCode: '29',
         citySlug: 'kansas-city-mo',
         cityName: 'Kansas City',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kansas_City%2C_Missouri.svg/1200px-Flag_of_Kansas_City%2C_Missouri.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1600&q=80',
+        heroImage: 'https://images.unsplash.com/photo-1664733865764-768873659f2c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Cœur rouge sur blanc et bleu – jazz, barbecue, fontaines, la "vraie" Kansas City.`,
         story: `Le drapeau de Kansas City, Missouri présente un champ divisé horizontalement : blanc en haut, bleu en bas, avec un grand cœur rouge au centre contenant le sceau municipal. Le cœur symbolise la position de Kansas City comme "Heart of America" – le cœur de l'Amérique.
 
@@ -991,17 +1038,21 @@ Population actuelle : 204 000 habitants. Little Rock est la capitale de l'Arkans
         stateCode: '21',
         citySlug: 'frankfort',
         cityName: 'Frankfort',
-        flagImage: 'TODO-flag',
-        heroImage: 'TODO-hero',
-        shortSummary: `TODO: à écrire`,
-        story: `TODO: histoire à écrire pour Frankfort.`,
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_Frankfort%2C_Kentucky.svg/langfr-2560px-Flag_of_Frankfort%2C_Kentucky.svg.png',
+        heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Downtown_Frankfort_Kentucky_%28cropped%29.jpg/2560px-Downtown_Frankfort_Kentucky_%28cropped%29.jpg',
+        shortSummary: `Petite capitale au bord de la rivière Kentucky, Frankfort a un drapeau qui raconte une histoire de ponts, de collines et de gouvernement à taille humaine.`,
+        story: `Frankfort ne ressemble pas à l’image que l’on se fait d’une capitale : pas de gratte-ciel, pas d’autoroutes empilées, mais une petite ville lovée au bord de la rivière Kentucky, entourée de collines. Les bâtiments publics, le Capitole, les écoles, tout semble à échelle humaine.
+
+Le drapeau de Frankfort capture cette ambiance : une mise en scène du Capitole, de la rivière, parfois d’un pont. On y reconnaît le décor qu’on voit en vrai en levant les yeux : façades de pierre, coupoles, eau qui coule doucement. La politique y paraît moins abstraite que dans les grandes capitales d’État.
+
+Ce drapeau flotte lors des cérémonies officielles, mais aussi au quotidien, sur des mâts modestes devant des bâtiments qui n’ont rien de monumental. Il raconte une capitale qui ressemble davantage à une petite ville de province qu’à un centre de pouvoir lointain – et c’est exactement ce qui fait sa singularité.`,
     },
     {
         stateCode: '21',
         citySlug: 'louisville',
         cityName: 'Louisville',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Louisville%2C_Kentucky.svg/1200px-Flag_of_Louisville%2C_Kentucky.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/fr/a/aa/Louisville_drapeau.jpg',
+        heroImage: 'https://images.unsplash.com/photo-1600847724803-72991a6d5aec?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Fleur de lys sur blanc et bleu – Kentucky Derby, bourbon, Muhammad Ali.`,
         story: `Le drapeau de Louisville présente un champ divisé horizontalement : bleu en haut, blanc en bas, avec une grande fleur de lys dorée au centre. La fleur de lys honore le roi Louis XVI de France, dont la ville porte le nom.
 
@@ -1021,8 +1072,8 @@ Population actuelle : 204 000 habitants. Little Rock est la capitale de l'Arkans
         stateCode: '01',
         citySlug: 'birmingham',
         cityName: 'Birmingham',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_Birmingham%2C_Alabama.svg/1200px-Flag_of_Birmingham%2C_Alabama.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_Birmingham%2C_Alabama.svg/langfr-2560px-Flag_of_Birmingham%2C_Alabama.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1668466340226-bc3ad25f51aa?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec enclume sur blanc – "Bombingham", violence des droits civiques, rédemption.`,
         story: `Le drapeau de Birmingham présente un champ blanc avec le sceau municipal au centre. Le sceau montre une enclume – symbole de l'industrie sidérurgique qui a construit Birmingham et lui a donné le surnom "Pittsburgh du Sud".
 
@@ -1040,8 +1091,8 @@ Aujourd'hui, Birmingham (population 200 000) s'est transformé. Le Birmingham Ci
         stateCode: '01',
         citySlug: 'montgomery',
         cityName: 'Montgomery',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Flag_of_Montgomery%2C_Alabama.svg/1200px-Flag_of_Montgomery%2C_Alabama.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80',
+        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Flag_of_Montgomery%2C_Alabama.svg/langfr-2560px-Flag_of_Montgomery%2C_Alabama.svg.png',
+        heroImage: 'https://images.unsplash.com/photo-1728001528593-58c93982917b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau sur blanc – "Cradle of the Confederacy" et berceau du Mouvement des droits civiques.`,
         story: `Le drapeau de Montgomery présente un champ blanc avec le sceau municipal au centre. Montgomery porte deux titres contradictoires : "Cradle of the Confederacy" (Berceau de la Confédération) et berceau du Mouvement des droits civiques américain.
 
