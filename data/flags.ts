@@ -231,15 +231,21 @@ Santa Fe est la plus haute capitale du pays, perchée dans une lumière sèche e
         citySlug: 'albuquerque',
         cityName: 'Albuquerque',
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Albuquerque%2C_New_Mexico.svg/1200px-Flag_of_Albuquerque%2C_New_Mexico.svg.png',
-        heroImage: 'https://images.unsplash.com/photo-1605751216159-fc4057eba116?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        shortSummary: `Un champ rouge, un soleil Zia avec "1706", un thunderbird volant – le Nouveau-Mexique ancestral.`,
-        story: `Le drapeau d'Albuquerque, adopté en 1968, présente un champ rouge vif avec trois éléments en jaune : le symbole solaire Zia au centre contenant le nombre "1706", le mot "Albuquerque" en italique juste en dessous, et un oiseau-tonnerre (thunderbird) stylisé dans le canton supérieur.
+        heroImage: 'https://plus.unsplash.com/premium_photo-1674160595179-9f427026f9de?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        shortSummary: `Zia sun symbol sur jaune – Breaking Bad, montgolfières, carrefour culturel triculturel.`,
+        story: `Le drapeau d'Albuquerque présente un champ jaune avec le symbole Zia au centre – le même symbole sacré du peuple Zia Pueblo qui apparaît sur le drapeau du Nouveau-Mexique. C'est un soleil stylisé avec quatre rayons dans chaque direction cardinale.
 
-        Le nombre 1706 marque l'année de fondation d'Albuquerque par le gouverneur espagnol Francisco Cuervo y Valdés, qui nomma la colonie en l'honneur du duc d'Alburquerque (vice-roi de la Nouvelle-Espagne). Le premier "r" a été perdu avec le temps, donnant "Albuquerque". La ville est l'une des plus anciennes villes américaines d'origine européenne encore habitées.
+Albuquerque est la plus grande ville du Nouveau-Mexique (565 000 habitants) et incarne l'identité triculturelle unique de l'État : amérindienne (19 pueblos autochtones), hispanique (colonisation espagnole depuis 1540), et anglo (américaine depuis 1848).
 
-        Le symbole Zia vient des peuples Zia Pueblo du Nouveau-Mexique. Il représente le soleil avec quatre rayons dans quatre directions, symbolisant les quatre saisons, les quatre directions cardinales, les quatre périodes du jour, les quatre périodes de la vie. C'est le même symbole qui orne le drapeau d'État du Nouveau-Mexique – un design si influent qu'il a été classé meilleur drapeau d'État américain dans plusieurs enquêtes.
+Le monde connaît Albuquerque grâce à "Breaking Bad" et "Better Call Saul". Les séries ont transformé la ville en destination de tourisme pop culturel. La maison de Walter White, le lave-auto A1A, Los Pollos Hermanos (en fait Twisters) – des fans du monde entier visitent ces lieux.
 
-        Le thunderbird ajoute une dimension supplémentaire : c'est une créature mythologique des cultures amérindiennes du Sud-Ouest, associée à la puissance, à la protection et au tonnerre. Le drapeau d'Albuquerque, dessiné par Richard P. Vann (un optométriste local), a été hissé pour la première fois le 21 juin 1968. C'est un hommage visuel aux racines multiples de la ville : espagnole, mexicaine, amérindienne, américaine.`,
+Mais l'identité réelle d'Albuquerque est plus complexe. C'est un hub de recherche scientifique et militaire : Sandia National Laboratories (armes nucléaires, sécurité nationale), Kirtland Air Force Base (stockage d'armes nucléaires). La bombe atomique a été partiellement développée ici.
+
+Albuquerque accueille l'Albuquerque International Balloon Fiesta – le plus grand rassemblement de montgolfières au monde. Chaque octobre, 500+ montgolfières colorées s'élèvent au-dessus du désert. C'est spectaculaire.
+
+La ville se situe le long du Rio Grande, coincée entre les montagnes Sandia à l'est (3 200 mètres) et mesas volcaniques à l'ouest. Route 66 traverse Albuquerque – nostalgie américaine incarnée.
+
+Le drapeau jaune avec soleil Zia capture l'héritage autochtone – mais ne montre rien du mélange culturel moderne, des laboratoires nucléaires, ou de Walter White.`,
     },
 
     // UTAH
@@ -1296,29 +1302,6 @@ Jackson a aussi une histoire musicale : Mississippi Blues Trail passe par Jackso
 Mais le déclin est brutal. La population a chuté de 25% depuis 1980. La fuite blanche a vidé la base fiscale. L'infrastructure s'effondre. Jackson lutte pour survivre.
 
 Le drapeau blanc simple avec sceau ne montre rien de ces luttes – juste une façade officielle pour une capitale en crise.`,
-    },
-
-    // NOUVEAU MEXIQUE
-    {
-        stateCode: '35',
-        citySlug: 'albuquerque',
-        cityName: 'Albuquerque',
-        flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Albuquerque%2C_New_Mexico.svg/1200px-Flag_of_Albuquerque%2C_New_Mexico.svg.png',
-        heroImage: 'https://plus.unsplash.com/premium_photo-1674160595179-9f427026f9de?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        shortSummary: `Zia sun symbol sur jaune – Breaking Bad, montgolfières, carrefour culturel triculturel.`,
-        story: `Le drapeau d'Albuquerque présente un champ jaune avec le symbole Zia au centre – le même symbole sacré du peuple Zia Pueblo qui apparaît sur le drapeau du Nouveau-Mexique. C'est un soleil stylisé avec quatre rayons dans chaque direction cardinale.
-
-Albuquerque est la plus grande ville du Nouveau-Mexique (565 000 habitants) et incarne l'identité triculturelle unique de l'État : amérindienne (19 pueblos autochtones), hispanique (colonisation espagnole depuis 1540), et anglo (américaine depuis 1848).
-
-Le monde connaît Albuquerque grâce à "Breaking Bad" et "Better Call Saul". Les séries ont transformé la ville en destination de tourisme pop culturel. La maison de Walter White, le lave-auto A1A, Los Pollos Hermanos (en fait Twisters) – des fans du monde entier visitent ces lieux.
-
-Mais l'identité réelle d'Albuquerque est plus complexe. C'est un hub de recherche scientifique et militaire : Sandia National Laboratories (armes nucléaires, sécurité nationale), Kirtland Air Force Base (stockage d'armes nucléaires). La bombe atomique a été partiellement développée ici.
-
-Albuquerque accueille l'Albuquerque International Balloon Fiesta – le plus grand rassemblement de montgolfières au monde. Chaque octobre, 500+ montgolfières colorées s'élèvent au-dessus du désert. C'est spectaculaire.
-
-La ville se situe le long du Rio Grande, coincée entre les montagnes Sandia à l'est (3 200 mètres) et mesas volcaniques à l'ouest. Route 66 traverse Albuquerque – nostalgie américaine incarnée.
-
-Le drapeau jaune avec soleil Zia capture l'héritage autochtone – mais ne montre rien du mélange culturel moderne, des laboratoires nucléaires, ou de Walter White.`,
     },
 
     // NEBRASKA
