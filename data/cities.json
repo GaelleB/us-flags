@@ -3,7 +3,7 @@
     "features": [
         {
             "type": "Feature",
-            "properties": { "name": "New York City", "stateCode": "36" },
+            "properties": { "name": "New York City (NY)", "stateCode": "36" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-74.0060, 40.7128]
@@ -11,7 +11,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Chicago", "stateCode": "17" },
+            "properties": { "name": "Springfield (IL)", "stateCode": "17" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.6500, 39.7833]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Chicago (IL)", "stateCode": "17" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-87.6298, 41.8781]
@@ -19,7 +27,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Los Angeles", "stateCode": "06" },
+            "properties": { "name": "Los Angeles (CA)", "stateCode": "06" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-118.2437, 34.0522]
@@ -27,23 +35,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "San Francisco", "stateCode": "06" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.4194, 37.7749]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Miami", "stateCode": "12" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-80.1918, 25.7617]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Washington, D.C.", "stateCode": "11" },
+            "properties": { "name": "Washington (DC)", "stateCode": "11" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-77.0369, 38.9072]
@@ -51,7 +43,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Philadelphia", "stateCode": "42" },
+            "properties": { "name": "Philadelphia (PA)", "stateCode": "42" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-75.1652, 39.9526]
@@ -59,7 +51,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Boston", "stateCode": "25" },
+            "properties": { "name": "Boston (MA)", "stateCode": "25" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-71.0589, 42.3601]
@@ -67,7 +59,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Denver", "stateCode": "08" },
+            "properties": { "name": "Denver (CO)", "stateCode": "08" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-104.9903, 39.7392]
@@ -75,7 +67,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Phoenix", "stateCode": "04" },
+            "properties": { "name": "Phoenix (AZ)", "stateCode": "04" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-112.0740, 33.4484]
@@ -83,7 +75,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Seattle", "stateCode": "53" },
+            "properties": { "name": "Seattle (WA)", "stateCode": "53" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.3321, 47.6062]
@@ -91,7 +83,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Portland", "stateCode": "41" },
+            "properties": { "name": "Olympia (WA)", "stateCode": "53" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.9007, 47.0379]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Portland (OR)", "stateCode": "41" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.6765, 45.5152]
@@ -99,23 +99,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "St. Louis", "stateCode": "29" },
+            "properties": { "name": "Baton Rouge (LA)", "stateCode": "22" },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-90.1994, 38.6270]
+                "coordinates": [-91.1871, 30.4515]
             }
         },
         {
             "type": "Feature",
-            "properties": { "name": "New Orleans", "stateCode": "22" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-90.0715, 29.9511]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Baltimore", "stateCode": "24" },
+            "properties": { "name": "Baltimore (MD)", "stateCode": "24" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-76.6122, 39.2904]
@@ -123,7 +115,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Detroit", "stateCode": "26" },
+            "properties": { "name": "Annapolis (MD)", "stateCode": "24" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.501157, 38.978554]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Detroit (MI)", "stateCode": "26" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-83.0458, 42.3314]
@@ -131,23 +131,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Pittsburgh", "stateCode": "42" },
+            "properties": { "name": "Lansing (MI)", "stateCode": "26" },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-79.9959, 40.4406]
+                "coordinates": [-84.5555, 42.7325]
             }
         },
         {
             "type": "Feature",
-            "properties": { "name": "Cleveland", "stateCode": "39" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-81.6944, 41.4993]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Columbus", "stateCode": "39" },
+            "properties": { "name": "Columbus (OH)", "stateCode": "39" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-82.9988, 39.9612]
@@ -155,7 +147,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Indianapolis", "stateCode": "18" },
+            "properties": { "name": "Indianapolis (IN)", "stateCode": "18" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-86.1581, 39.7684]
@@ -163,7 +155,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Milwaukee", "stateCode": "55" },
+            "properties": { "name": "Milwaukee (WI)", "stateCode": "55" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-87.9065, 43.0389]
@@ -171,23 +163,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "San Diego", "stateCode": "06" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-117.1611, 32.7157]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "San Antonio", "stateCode": "48" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-98.4936, 29.4241]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Austin", "stateCode": "48" },
+            "properties": { "name": "Austin (TX)", "stateCode": "48" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-97.7431, 30.2672]
@@ -195,7 +171,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Houston", "stateCode": "48" },
+            "properties": { "name": "Houston (TX)", "stateCode": "48" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-95.3698, 29.7604]
@@ -203,15 +179,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Dallas", "stateCode": "48" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-96.7970, 32.7767]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Memphis", "stateCode": "47" },
+            "properties": { "name": "Memphis (TN)", "stateCode": "47" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-90.0490, 35.1495]
@@ -219,7 +187,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Nashville", "stateCode": "47" },
+            "properties": { "name": "Nashville (TN)", "stateCode": "47" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-86.7816, 36.1627]
@@ -227,7 +195,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Atlanta", "stateCode": "13" },
+            "properties": { "name": "Atlanta (GA)", "stateCode": "13" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-84.3880, 33.7490]
@@ -235,7 +203,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Minneapolis", "stateCode": "27" },
+            "properties": { "name": "Minneapolis (MN)", "stateCode": "27" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-93.2650, 44.9778]
@@ -243,7 +211,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Kansas City", "stateCode": "29" },
+            "properties": { "name": "Kansas City (MO)", "stateCode": "29" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-94.5786, 39.0997]
@@ -251,7 +219,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Albuquerque", "stateCode": "35" },
+            "properties": { "name": "Jefferson City (MO)", "stateCode": "29" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-92.1735, 38.5767]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Albuquerque (NM)", "stateCode": "35" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-106.6504, 35.0844]
@@ -259,7 +235,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Las Vegas", "stateCode": "32" },
+            "properties": { "name": "Santa Fe (NM)", "stateCode": "35" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-105.9378, 35.6870]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Las Vegas (NV)", "stateCode": "32" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-115.1398, 36.1699]
@@ -267,55 +251,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Tucson", "stateCode": "04" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-110.9747, 32.2226]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Colorado Springs", "stateCode": "08" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-104.8214, 38.8339]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Boise", "stateCode": "16" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-116.2023, 43.6150]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Pocatello", "stateCode": "16" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-112.4450, 42.8713]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Helena", "stateCode": "30" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-112.0391, 46.5891]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Great Falls", "stateCode": "30" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-111.3008, 47.5053]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Reno", "stateCode": "32" },
+            "properties": { "name": "Carson City (NV)", "stateCode": "32" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-119.8138, 39.5296]
@@ -323,15 +259,39 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Las Cruces", "stateCode": "35" },
+            "properties": { "name": "Tucson (AZ)", "stateCode": "04" },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-106.7636, 32.3199]
+                "coordinates": [-110.9747, 32.2226]
             }
         },
         {
             "type": "Feature",
-            "properties": { "name": "Salt Lake City", "stateCode": "49" },
+            "properties": { "name": "Boise (ID)", "stateCode": "16" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-116.2023, 43.6150]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Helena (MT)", "stateCode": "30" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-112.0391, 46.5891]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Billings (MT)", "stateCode": "30" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-108.5007, 45.7833]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Salt Lake City (UT)", "stateCode": "49" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-111.8910, 40.7608]
@@ -339,15 +299,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Provo", "stateCode": "49" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-111.6585, 40.2338]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Cheyenne", "stateCode": "56" },
+            "properties": { "name": "Cheyenne (WY)", "stateCode": "56" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-104.8202, 41.1400]
@@ -355,15 +307,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Laramie", "stateCode": "56" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-105.5911, 41.3114]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Anchorage", "stateCode": "02" },
+            "properties": { "name": "Anchorage (AK)", "stateCode": "02" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-149.9003, 61.2181]
@@ -371,7 +315,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Juneau", "stateCode": "02" },
+            "properties": { "name": "Juneau (AK)", "stateCode": "02" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-134.4197, 58.3019]
@@ -379,7 +323,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Sacramento", "stateCode": "06" },
+            "properties": { "name": "Sacramento (CA)", "stateCode": "06" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-121.4944, 38.5816]
@@ -387,15 +331,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Oakland", "stateCode": "06" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.2711, 37.8044]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Honolulu", "stateCode": "15" },
+            "properties": { "name": "Honolulu (HI)", "stateCode": "15" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-157.8583, 21.3099]
@@ -403,7 +339,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Salem", "stateCode": "41" },
+            "properties": { "name": "Salem (OR)", "stateCode": "41" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-123.0351, 44.9429]
@@ -411,15 +347,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Spokane", "stateCode": "53" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-117.4260, 47.6588]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Madison", "stateCode": "55" },
+            "properties": { "name": "Madison (WI)", "stateCode": "55" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-89.4012, 43.0731]
@@ -427,7 +355,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Saint Paul", "stateCode": "27" },
+            "properties": { "name": "Saint Paul (MN)", "stateCode": "27" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-93.0900, 44.9537]
@@ -435,111 +363,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Duluth", "stateCode": "27" },
+            "properties": { "name": "Des Moines (IA)", "stateCode": "19" },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-92.1005, 46.7867]
+                "coordinates": [-93.6091, 41.6005]
             }
         },
         {
             "type": "Feature",
-            "properties": { "name": "Grand Rapids", "stateCode": "26" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-85.6681, 42.9634]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Flint", "stateCode": "26" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-83.6875, 43.0125]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Cincinnati", "stateCode": "39" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-84.5120, 39.1031]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Toledo", "stateCode": "39" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-83.5379, 41.6528]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Dayton", "stateCode": "39" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-84.1916, 39.7589]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Fort Wayne", "stateCode": "18" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-85.1394, 41.0793]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "South Bend", "stateCode": "18" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-86.2520, 41.6764]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Rockford", "stateCode": "17" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-89.0940, 42.2711]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Peoria", "stateCode": "17" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-89.5889, 40.6936]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Buffalo", "stateCode": "36" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-78.8784, 42.8864]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Rochester", "stateCode": "36" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-77.6088, 43.1566]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Syracuse", "stateCode": "36" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-76.1474, 43.0481]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Albany", "stateCode": "36" },
+            "properties": { "name": "Albany (NY)", "stateCode": "36" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-73.7562, 42.6526]
@@ -547,15 +379,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Yonkers", "stateCode": "36" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-73.8987, 40.9312]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Hartford", "stateCode": "09" },
+            "properties": { "name": "Hartford (CT)", "stateCode": "09" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-72.6851, 41.7658]
@@ -563,15 +387,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Stamford", "stateCode": "09" },
+            "properties": { "name": "Bridgeport (CT)", "stateCode": "09" },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-73.5387, 41.0534]
+                "coordinates": [-73.1916, 41.1865]
             }
         },
         {
             "type": "Feature",
-            "properties": { "name": "Providence", "stateCode": "44" },
+            "properties": { "name": "Providence (RI)", "stateCode": "44" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-71.4128, 41.8240]
@@ -579,23 +403,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Worcester", "stateCode": "25" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-71.8023, 42.2626]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Springfield", "stateCode": "25" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-72.5395, 42.1015]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Burlington", "stateCode": "50" },
+            "properties": { "name": "Burlington (VT)", "stateCode": "50" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-73.2121, 44.4759]
@@ -603,7 +411,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Manchester", "stateCode": "33" },
+            "properties": { "name": "Montpelier (VT)", "stateCode": "50" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-73.1626, 44.2601]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Manchester (NH)", "stateCode": "33" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-71.5376, 42.9956]
@@ -611,7 +427,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Harrisburg", "stateCode": "42" },
+            "properties": { "name": "Concord (NH)", "stateCode": "33" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.5376, 43.2081]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Harrisburg (PA)", "stateCode": "42" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-76.8867, 40.2732]
@@ -619,7 +443,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Trenton", "stateCode": "34" },
+            "properties": { "name": "Trenton (NJ)", "stateCode": "34" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-74.7429, 40.2171]
@@ -627,39 +451,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Jersey City", "stateCode": "34" },
+            "properties": { "name": "Newark (NJ)", "stateCode": "34" },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-74.0776, 40.7178]
+                "coordinates": [-74.1724, 40.7357]
             }
         },
         {
             "type": "Feature",
-            "properties": { "name": "San Antonio", "stateCode": "48" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-98.4936, 29.4241]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Austin", "stateCode": "48" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-97.7431, 30.2672]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "El Paso", "stateCode": "48" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-106.4850, 31.7619]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Jacksonville", "stateCode": "12" },
+            "properties": { "name": "Jacksonville (FL)", "stateCode": "12" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-81.6557, 30.3322]
@@ -667,47 +467,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Tampa", "stateCode": "12" },
+            "properties": { "name": "Tallahassee (FL)", "stateCode": "12" },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-82.4572, 27.9506]
+                "coordinates": [-84.2807, 30.4383]
             }
         },
         {
             "type": "Feature",
-            "properties": { "name": "Orlando", "stateCode": "12" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-81.3792, 28.5383]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Columbus", "stateCode": "13" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-84.9877, 32.4609]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Augusta", "stateCode": "13" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-81.9748, 33.4735]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Savannah", "stateCode": "13" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-81.0998, 32.0809]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Charlotte", "stateCode": "37" },
+            "properties": { "name": "Charlotte (NC)", "stateCode": "37" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-80.8431, 35.2271]
@@ -715,7 +483,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Raleigh", "stateCode": "37" },
+            "properties": { "name": "Raleigh (NC)", "stateCode": "37" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-78.6382, 35.7796]
@@ -723,31 +491,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Greensboro", "stateCode": "37" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-79.7920, 36.0726]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Memphis", "stateCode": "47" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-90.0490, 35.1495]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Nashville", "stateCode": "47" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-86.7816, 36.1627]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "New Orleans", "stateCode": "22" },
+            "properties": { "name": "New Orleans (LA)", "stateCode": "22" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-90.0715, 29.9511]
@@ -755,7 +499,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Oklahoma City", "stateCode": "40" },
+            "properties": { "name": "Oklahoma City (OK)", "stateCode": "40" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-97.5164, 35.4676]
@@ -763,15 +507,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Tulsa", "stateCode": "40" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-95.9928, 36.1540]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Little Rock", "stateCode": "05" },
+            "properties": { "name": "Little Rock (AR)", "stateCode": "05" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-92.2896, 34.7465]
@@ -779,7 +515,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Wichita", "stateCode": "20" },
+            "properties": { "name": "Wichita (KS)", "stateCode": "20" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-97.3375, 37.6872]
@@ -787,31 +523,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Kansas City", "stateCode": "20" },
+            "properties": { "name": "Topeka (KS)", "stateCode": "20" },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-94.6275, 39.1142]
+                "coordinates": [-95.6890, 39.0558]
             }
         },
         {
             "type": "Feature",
-            "properties": { "name": "Kansas City", "stateCode": "29" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-94.5786, 39.0997]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "St. Louis", "stateCode": "29" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-90.1994, 38.6270]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Louisville", "stateCode": "21" },
+            "properties": { "name": "Louisville (KY)", "stateCode": "21" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-85.7585, 38.2527]
@@ -819,15 +539,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Lexington", "stateCode": "21" },
+            "properties": { "name": "Frankfort (KY)", "stateCode": "21" },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-84.5037, 38.0406]
+                "coordinates": [-84.8733, 38.2009]
             }
         },
         {
             "type": "Feature",
-            "properties": { "name": "Birmingham", "stateCode": "01" },
+            "properties": { "name": "Birmingham (AL)", "stateCode": "01" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-86.8025, 33.5207]
@@ -835,7 +555,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Montgomery", "stateCode": "01" },
+            "properties": { "name": "Montgomery (AL)", "stateCode": "01" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-86.3077, 32.3668]
@@ -843,15 +563,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Mobile", "stateCode": "01" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-88.0399, 30.6954]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Virginia Beach", "stateCode": "51" },
+            "properties": { "name": "Virginia Beach (VA)", "stateCode": "51" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-75.9779, 36.8529]
@@ -859,15 +571,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Norfolk", "stateCode": "51" },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-76.2859, 36.8508]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": { "name": "Richmond", "stateCode": "51" },
+            "properties": { "name": "Richmond (VA)", "stateCode": "51" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-77.4360, 37.5407]
@@ -875,7 +579,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Charleston", "stateCode": "54" },
+            "properties": { "name": "Charleston (WV)", "stateCode": "54" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-81.6326, 38.3498]
@@ -883,7 +587,7 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Wilmington", "stateCode": "10" },
+            "properties": { "name": "Wilmington (DE)", "stateCode": "10" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-75.5398, 39.7392]
@@ -891,7 +595,15 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Jackson", "stateCode": "28" },
+            "properties": { "name": "Dover (DE)", "stateCode": "10" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.5244, 39.1582]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Jackson (MS)", "stateCode": "28" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-90.1848, 32.2988]
@@ -899,10 +611,82 @@
         },
         {
             "type": "Feature",
-            "properties": { "name": "Omaha", "stateCode": "31" },
+            "properties": { "name": "Omaha (NE)", "stateCode": "31" },
             "geometry": {
                 "type": "Point",
                 "coordinates": [-95.9345, 41.2565]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Lincoln (NE)", "stateCode": "31" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-96.6852, 40.8136]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Portland (ME)", "stateCode": "23" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.2553, 43.6591]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Augusta (ME)", "stateCode": "23" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.7653, 44.3106]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Bismarck (ND)", "stateCode": "38" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-100.7837, 46.8083]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Fargo (ND)", "stateCode": "38" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-96.7898, 46.8772]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Charleston (SC)", "stateCode": "45" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-79.9311, 32.7765]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Columbia (SC)", "stateCode": "45" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.0348, 34.0007]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Sioux Falls (SD)", "stateCode": "46" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-96.7311, 43.5446]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "name": "Pierre (SD)", "stateCode": "46" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-100.3536, 44.3683]
             }
         }
     ]
