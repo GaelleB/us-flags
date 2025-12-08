@@ -1,0 +1,633 @@
+{
+  "comment": "Liste des 87 villes : 50 États × 2 (capitale + ville principale)",
+  "states": [
+    {
+      "stateCode": "01",
+      "stateName": "Alabama",
+      "capital": {
+        "citySlug": "montgomery",
+        "cityName": "Montgomery"
+      },
+      "mainCity": {
+        "citySlug": "birmingham",
+        "cityName": "Birmingham"
+      }
+    },
+    {
+      "stateCode": "02",
+      "stateName": "Alaska",
+      "capital": {
+        "citySlug": "juneau",
+        "cityName": "Juneau"
+      },
+      "mainCity": {
+        "citySlug": "anchorage",
+        "cityName": "Anchorage"
+      }
+    },
+    {
+      "stateCode": "04",
+      "stateName": "Arizona",
+      "capital": {
+        "citySlug": "phoenix",
+        "cityName": "Phoenix"
+      },
+      "mainCity": {
+        "citySlug": "tucson",
+        "cityName": "Tucson"
+      }
+    },
+    {
+      "stateCode": "05",
+      "stateName": "Arkansas",
+      "capital": {
+        "citySlug": "little-rock",
+        "cityName": "Little Rock"
+      },
+      "mainCity": {
+        "citySlug": "little-rock",
+        "cityName": "Little Rock",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "06",
+      "stateName": "California",
+      "capital": {
+        "citySlug": "sacramento",
+        "cityName": "Sacramento"
+      },
+      "mainCity": {
+        "citySlug": "los-angeles",
+        "cityName": "Los Angeles"
+      }
+    },
+    {
+      "stateCode": "08",
+      "stateName": "Colorado",
+      "capital": {
+        "citySlug": "denver",
+        "cityName": "Denver"
+      },
+      "mainCity": {
+        "citySlug": "denver",
+        "cityName": "Denver",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "09",
+      "stateName": "Connecticut",
+      "capital": {
+        "citySlug": "hartford",
+        "cityName": "Hartford"
+      },
+      "mainCity": {
+        "citySlug": "bridgeport",
+        "cityName": "Bridgeport"
+      }
+    },
+    {
+      "stateCode": "10",
+      "stateName": "Delaware",
+      "capital": {
+        "citySlug": "dover",
+        "cityName": "Dover"
+      },
+      "mainCity": {
+        "citySlug": "wilmington",
+        "cityName": "Wilmington"
+      }
+    },
+    {
+      "stateCode": "11",
+      "stateName": "District of Columbia",
+      "capital": {
+        "citySlug": "washington-dc",
+        "cityName": "Washington",
+        "note": "District fédéral - ville unique"
+      },
+      "mainCity": {
+        "citySlug": "washington-dc",
+        "cityName": "Washington"
+      }
+    },
+    {
+      "stateCode": "12",
+      "stateName": "Florida",
+      "capital": {
+        "citySlug": "tallahassee",
+        "cityName": "Tallahassee"
+      },
+      "mainCity": {
+        "citySlug": "jacksonville",
+        "cityName": "Jacksonville"
+      }
+    },
+    {
+      "stateCode": "13",
+      "stateName": "Georgia",
+      "capital": {
+        "citySlug": "atlanta",
+        "cityName": "Atlanta"
+      },
+      "mainCity": {
+        "citySlug": "atlanta",
+        "cityName": "Atlanta",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "15",
+      "stateName": "Hawaii",
+      "capital": {
+        "citySlug": "honolulu",
+        "cityName": "Honolulu"
+      },
+      "mainCity": {
+        "citySlug": "honolulu",
+        "cityName": "Honolulu",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "16",
+      "stateName": "Idaho",
+      "capital": {
+        "citySlug": "boise",
+        "cityName": "Boise"
+      },
+      "mainCity": {
+        "citySlug": "boise",
+        "cityName": "Boise",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "17",
+      "stateName": "Illinois",
+      "capital": {
+        "citySlug": "springfield",
+        "cityName": "Springfield"
+      },
+      "mainCity": {
+        "citySlug": "chicago",
+        "cityName": "Chicago"
+      }
+    },
+    {
+      "stateCode": "18",
+      "stateName": "Indiana",
+      "capital": {
+        "citySlug": "indianapolis",
+        "cityName": "Indianapolis"
+      },
+      "mainCity": {
+        "citySlug": "indianapolis",
+        "cityName": "Indianapolis",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "19",
+      "stateName": "Iowa",
+      "capital": {
+        "citySlug": "des-moines",
+        "cityName": "Des Moines"
+      },
+      "mainCity": {
+        "citySlug": "des-moines",
+        "cityName": "Des Moines",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "20",
+      "stateName": "Kansas",
+      "capital": {
+        "citySlug": "topeka",
+        "cityName": "Topeka"
+      },
+      "mainCity": {
+        "citySlug": "wichita",
+        "cityName": "Wichita"
+      }
+    },
+    {
+      "stateCode": "21",
+      "stateName": "Kentucky",
+      "capital": {
+        "citySlug": "frankfort",
+        "cityName": "Frankfort"
+      },
+      "mainCity": {
+        "citySlug": "louisville",
+        "cityName": "Louisville"
+      }
+    },
+    {
+      "stateCode": "22",
+      "stateName": "Louisiana",
+      "capital": {
+        "citySlug": "baton-rouge",
+        "cityName": "Baton Rouge"
+      },
+      "mainCity": {
+        "citySlug": "new-orleans",
+        "cityName": "New Orleans"
+      }
+    },
+    {
+      "stateCode": "23",
+      "stateName": "Maine",
+      "capital": {
+        "citySlug": "augusta",
+        "cityName": "Augusta"
+      },
+      "mainCity": {
+        "citySlug": "portland",
+        "cityName": "Portland"
+      }
+    },
+    {
+      "stateCode": "24",
+      "stateName": "Maryland",
+      "capital": {
+        "citySlug": "annapolis",
+        "cityName": "Annapolis"
+      },
+      "mainCity": {
+        "citySlug": "baltimore",
+        "cityName": "Baltimore"
+      }
+    },
+    {
+      "stateCode": "25",
+      "stateName": "Massachusetts",
+      "capital": {
+        "citySlug": "boston",
+        "cityName": "Boston"
+      },
+      "mainCity": {
+        "citySlug": "boston",
+        "cityName": "Boston",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "26",
+      "stateName": "Michigan",
+      "capital": {
+        "citySlug": "lansing",
+        "cityName": "Lansing"
+      },
+      "mainCity": {
+        "citySlug": "detroit",
+        "cityName": "Detroit"
+      }
+    },
+    {
+      "stateCode": "27",
+      "stateName": "Minnesota",
+      "capital": {
+        "citySlug": "saint-paul",
+        "cityName": "Saint Paul"
+      },
+      "mainCity": {
+        "citySlug": "minneapolis",
+        "cityName": "Minneapolis"
+      }
+    },
+    {
+      "stateCode": "28",
+      "stateName": "Mississippi",
+      "capital": {
+        "citySlug": "jackson",
+        "cityName": "Jackson"
+      },
+      "mainCity": {
+        "citySlug": "jackson",
+        "cityName": "Jackson",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "29",
+      "stateName": "Missouri",
+      "capital": {
+        "citySlug": "jefferson-city",
+        "cityName": "Jefferson City"
+      },
+      "mainCity": {
+        "citySlug": "kansas-city-mo",
+        "cityName": "Kansas City"
+      }
+    },
+    {
+      "stateCode": "30",
+      "stateName": "Montana",
+      "capital": {
+        "citySlug": "helena",
+        "cityName": "Helena"
+      },
+      "mainCity": {
+        "citySlug": "billings",
+        "cityName": "Billings"
+      }
+    },
+    {
+      "stateCode": "31",
+      "stateName": "Nebraska",
+      "capital": {
+        "citySlug": "lincoln",
+        "cityName": "Lincoln"
+      },
+      "mainCity": {
+        "citySlug": "omaha",
+        "cityName": "Omaha"
+      }
+    },
+    {
+      "stateCode": "32",
+      "stateName": "Nevada",
+      "capital": {
+        "citySlug": "carson-city",
+        "cityName": "Carson City"
+      },
+      "mainCity": {
+        "citySlug": "las-vegas",
+        "cityName": "Las Vegas"
+      }
+    },
+    {
+      "stateCode": "33",
+      "stateName": "New Hampshire",
+      "capital": {
+        "citySlug": "concord",
+        "cityName": "Concord"
+      },
+      "mainCity": {
+        "citySlug": "manchester",
+        "cityName": "Manchester"
+      }
+    },
+    {
+      "stateCode": "34",
+      "stateName": "New Jersey",
+      "capital": {
+        "citySlug": "trenton",
+        "cityName": "Trenton"
+      },
+      "mainCity": {
+        "citySlug": "newark",
+        "cityName": "Newark"
+      }
+    },
+    {
+      "stateCode": "35",
+      "stateName": "New Mexico",
+      "capital": {
+        "citySlug": "santa-fe",
+        "cityName": "Santa Fe"
+      },
+      "mainCity": {
+        "citySlug": "albuquerque",
+        "cityName": "Albuquerque"
+      }
+    },
+    {
+      "stateCode": "36",
+      "stateName": "New York",
+      "capital": {
+        "citySlug": "albany",
+        "cityName": "Albany"
+      },
+      "mainCity": {
+        "citySlug": "new-york-city",
+        "cityName": "New York City"
+      }
+    },
+    {
+      "stateCode": "37",
+      "stateName": "North Carolina",
+      "capital": {
+        "citySlug": "raleigh",
+        "cityName": "Raleigh"
+      },
+      "mainCity": {
+        "citySlug": "charlotte",
+        "cityName": "Charlotte"
+      }
+    },
+    {
+      "stateCode": "38",
+      "stateName": "North Dakota",
+      "capital": {
+        "citySlug": "bismarck",
+        "cityName": "Bismarck"
+      },
+      "mainCity": {
+        "citySlug": "fargo",
+        "cityName": "Fargo"
+      }
+    },
+    {
+      "stateCode": "39",
+      "stateName": "Ohio",
+      "capital": {
+        "citySlug": "columbus",
+        "cityName": "Columbus"
+      },
+      "mainCity": {
+        "citySlug": "columbus",
+        "cityName": "Columbus",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "40",
+      "stateName": "Oklahoma",
+      "capital": {
+        "citySlug": "oklahoma-city",
+        "cityName": "Oklahoma City"
+      },
+      "mainCity": {
+        "citySlug": "oklahoma-city",
+        "cityName": "Oklahoma City",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "41",
+      "stateName": "Oregon",
+      "capital": {
+        "citySlug": "salem",
+        "cityName": "Salem"
+      },
+      "mainCity": {
+        "citySlug": "portland",
+        "cityName": "Portland"
+      }
+    },
+    {
+      "stateCode": "42",
+      "stateName": "Pennsylvania",
+      "capital": {
+        "citySlug": "harrisburg",
+        "cityName": "Harrisburg"
+      },
+      "mainCity": {
+        "citySlug": "philadelphia",
+        "cityName": "Philadelphia"
+      }
+    },
+    {
+      "stateCode": "44",
+      "stateName": "Rhode Island",
+      "capital": {
+        "citySlug": "providence",
+        "cityName": "Providence"
+      },
+      "mainCity": {
+        "citySlug": "providence",
+        "cityName": "Providence",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "45",
+      "stateName": "South Carolina",
+      "capital": {
+        "citySlug": "columbia",
+        "cityName": "Columbia"
+      },
+      "mainCity": {
+        "citySlug": "charleston",
+        "cityName": "Charleston"
+      }
+    },
+    {
+      "stateCode": "46",
+      "stateName": "South Dakota",
+      "capital": {
+        "citySlug": "pierre",
+        "cityName": "Pierre"
+      },
+      "mainCity": {
+        "citySlug": "sioux-falls",
+        "cityName": "Sioux Falls"
+      }
+    },
+    {
+      "stateCode": "47",
+      "stateName": "Tennessee",
+      "capital": {
+        "citySlug": "nashville",
+        "cityName": "Nashville"
+      },
+      "mainCity": {
+        "citySlug": "memphis",
+        "cityName": "Memphis"
+      }
+    },
+    {
+      "stateCode": "48",
+      "stateName": "Texas",
+      "capital": {
+        "citySlug": "austin",
+        "cityName": "Austin"
+      },
+      "mainCity": {
+        "citySlug": "houston",
+        "cityName": "Houston"
+      }
+    },
+    {
+      "stateCode": "49",
+      "stateName": "Utah",
+      "capital": {
+        "citySlug": "salt-lake-city",
+        "cityName": "Salt Lake City"
+      },
+      "mainCity": {
+        "citySlug": "salt-lake-city",
+        "cityName": "Salt Lake City",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "50",
+      "stateName": "Vermont",
+      "capital": {
+        "citySlug": "montpelier",
+        "cityName": "Montpelier"
+      },
+      "mainCity": {
+        "citySlug": "burlington",
+        "cityName": "Burlington"
+      }
+    },
+    {
+      "stateCode": "51",
+      "stateName": "Virginia",
+      "capital": {
+        "citySlug": "richmond",
+        "cityName": "Richmond"
+      },
+      "mainCity": {
+        "citySlug": "virginia-beach",
+        "cityName": "Virginia Beach"
+      }
+    },
+    {
+      "stateCode": "53",
+      "stateName": "Washington",
+      "capital": {
+        "citySlug": "olympia",
+        "cityName": "Olympia"
+      },
+      "mainCity": {
+        "citySlug": "seattle",
+        "cityName": "Seattle"
+      }
+    },
+    {
+      "stateCode": "54",
+      "stateName": "West Virginia",
+      "capital": {
+        "citySlug": "charleston-wv",
+        "cityName": "Charleston"
+      },
+      "mainCity": {
+        "citySlug": "charleston-wv",
+        "cityName": "Charleston",
+        "note": "Capitale ET ville principale"
+      }
+    },
+    {
+      "stateCode": "55",
+      "stateName": "Wisconsin",
+      "capital": {
+        "citySlug": "madison",
+        "cityName": "Madison"
+      },
+      "mainCity": {
+        "citySlug": "milwaukee",
+        "cityName": "Milwaukee"
+      }
+    },
+    {
+      "stateCode": "56",
+      "stateName": "Wyoming",
+      "capital": {
+        "citySlug": "cheyenne",
+        "cityName": "Cheyenne"
+      },
+      "mainCity": {
+        "citySlug": "cheyenne",
+        "cityName": "Cheyenne",
+        "note": "Capitale ET ville principale"
+      }
+    }
+  ]
+}
