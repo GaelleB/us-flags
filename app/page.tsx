@@ -194,15 +194,15 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-stone-400 py-12">
+      <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <p className="font-sans text-sm">
             Un projet éditorial par{' '}
-            <a href="https://github.com/GaelleB" className="text-stone-100 hover:underline hover:text-white transition-colors">
+            <a href="https://github.com/GaelleB" className="text-white hover:underline font-semibold">
               Gaëlle B
             </a>
           </p>
-          <p className="font-sans text-xs mt-2">
+          <p className="font-sans text-xs mt-2 text-stone-300">
             Sources : Archives municipales, recherches historiques, données démographiques
           </p>
         </div>
