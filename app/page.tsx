@@ -198,7 +198,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 text-center">
           <p className="font-sans text-sm">
             Un projet éditorial par{' '}
-            <a href="https://github.com/GaelleB" className="text-white hover:underline">
+            <a href="https://github.com/GaelleB" className="text-stone-100 hover:underline hover:text-white transition-colors">
               Gaëlle B
             </a>
           </p>
