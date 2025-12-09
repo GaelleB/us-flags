@@ -18,17 +18,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!tagInfo) {
     return {
-      title: 'Catégorie non trouvée - Stars, Stripes & Stories',
+      title: 'Catégorie non trouvée - Flag Chronicles',
     };
   }
 
   const citiesWithTag = cityFlags.filter(city => city.tags?.includes(tag as CityTag));
 
   return {
-    title: `${tagInfo.label} - Stars, Stripes & Stories`,
+    title: `${tagInfo.label} - Flag Chronicles`,
     description: `${tagInfo.description}. Découvrez ${citiesWithTag.length} villes américaines liées à ce thème.`,
     openGraph: {
-      title: `${tagInfo.label} - Stars, Stripes & Stories`,
+      title: `${tagInfo.label} - Flag Chronicles`,
       description: `${tagInfo.description}. ${citiesWithTag.length} villes américaines.`,
     },
   };

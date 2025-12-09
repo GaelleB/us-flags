@@ -6,10 +6,10 @@ import ChoroplethMap from '../components/ChoroplethMap';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Datavisualisations - Stars, Stripes & Stories',
+  title: 'Datavisualisations - Flag Chronicles',
   description: 'Explorez les données des drapeaux des villes américaines à travers des visualisations interactives : timeline, statistiques et carte choroplèthe.',
   openGraph: {
-    title: 'Datavisualisations - Stars, Stripes & Stories',
+    title: 'Datavisualisations - Flag Chronicles',
     description: 'Timeline, statistiques et carte choroplèthe des drapeaux américains',
   },
 };

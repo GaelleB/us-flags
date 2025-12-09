@@ -28,8 +28,8 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   title: {
-    default: "Stars, Stripes & Stories - Histoires des drapeaux des villes américaines",
-    template: "%s | Stars, Stripes & Stories",
+    default: "Flag Chronicles - Histoires des drapeaux des villes américaines",
+    template: "%s | Flag Chronicles",
   },
   description: "L'histoire cachée des villes américaines racontée à travers leurs drapeaux. 87 villes, 87 drapeaux, 87 récits à découvrir sur une carte interactive.",
   keywords: ["drapeaux américains", "villes américaines", "histoire américaine", "vexillologie", "culture américaine", "drapeaux municipaux"],
@@ -39,21 +39,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     url: "https://us-flags.vercel.app",
-    title: "Stars, Stripes & Stories - Histoires des drapeaux des villes américaines",
+    title: "Flag Chronicles - Histoires des drapeaux des villes américaines",
     description: "L'histoire cachée des villes américaines racontée à travers leurs drapeaux. 87 villes, 87 drapeaux, 87 récits.",
-    siteName: "Stars, Stripes & Stories",
+    siteName: "Flag Chronicles",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Stars, Stripes & Stories - Drapeaux des villes américaines",
+        alt: "Flag Chronicles - Drapeaux des villes américaines",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stars, Stripes & Stories",
+    title: "Flag Chronicles",
     description: "L'histoire cachée des villes américaines racontée à travers leurs drapeaux",
     creator: "@votre_twitter",
     images: ["/og-image.jpg"],

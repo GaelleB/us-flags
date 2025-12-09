@@ -5,10 +5,10 @@ import type { Metadata } from 'next';
 import TagBadge from './components/TagBadge';
 
 export const metadata: Metadata = {
-  title: 'Stars, Stripes & Stories - Histoires des drapeaux des villes américaines',
+  title: 'Flag Chronicles - Histoires des drapeaux des villes américaines',
   description: "L'histoire cachée des villes américaines racontée à travers leurs drapeaux. Découvrez Chicago, New Orleans, Detroit et 84 autres villes.",
   openGraph: {
-    title: 'Stars, Stripes & Stories',
+    title: 'Flag Chronicles',
     description: "L'histoire cachée des villes américaines racontée à travers leurs drapeaux",
     type: 'website',
   },
@@ -30,7 +30,7 @@ export default function HomePage() {
 
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <h1 className="font-display text-6xl md:text-8xl font-bold mb-6 leading-tight">
-            Stars, Stripes<br/>& Stories
+            Flag<br/>Chronicles
           </h1>
 
           <p className="font-serif text-xl md:text-2xl text-stone-200 mb-8 max-w-3xl mx-auto leading-relaxed">

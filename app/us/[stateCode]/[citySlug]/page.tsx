@@ -23,15 +23,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!cityFlag) {
     return {
-      title: 'Ville non trouvée - Stars, Stripes & Stories',
+      title: 'Ville non trouvée - Flag Chronicles',
     };
   }
 
   return {
-    title: `${cityFlag.cityName} - Stars, Stripes & Stories`,
+    title: `${cityFlag.cityName} - Flag Chronicles`,
     description: cityFlag.shortSummary,
     openGraph: {
-      title: `${cityFlag.cityName} - Stars, Stripes & Stories`,
+      title: `${cityFlag.cityName} - Flag Chronicles`,
       description: cityFlag.shortSummary,
       images: [
         {
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${cityFlag.cityName} - Stars, Stripes & Stories`,
+      title: `${cityFlag.cityName} - Flag Chronicles`,
       description: cityFlag.shortSummary,
       images: [cityFlag.heroImage || cityFlag.flagImage],
     },
