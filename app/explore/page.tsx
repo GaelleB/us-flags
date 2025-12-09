@@ -3,10 +3,17 @@
 import { useState } from 'react';
 import MapUS, { StateInfo } from '../components/MapUS';
 import StateSidebar from '../components/StateSidebar';
-import { cityFlags } from '../../data/flags';
+import { cityFlags, CityTag } from '../../data/flags';
 
 export default function ExplorePage() {
   const [selectedState, setSelectedState] = useState<StateInfo | null>(null);
+  const [selectedTags, setSelectedTags] = useState<CityTag[]>([]);
+
+  const handleTagToggle = (tag: CityTag) => {
+    setSelectedTags((prev) =>
+      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
+    );
+  };
 
   return (
     <main id="main-content" className="w-screen h-screen flex flex-col md:flex-row">
@@ -20,7 +27,12 @@ export default function ExplorePage() {
       </section>
 
       {/* Sidebar à droite */}
-      <StateSidebar selectedState={selectedState} flags={cityFlags} />
+      <StateSidebar
+        selectedState={selectedState}
+        flags={cityFlags}
+        selectedTags={selectedTags}
+        onTagToggle={handleTagToggle}
+      />
     </main>
   );
 }

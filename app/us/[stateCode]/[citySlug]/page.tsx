@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { cityFlags } from '@/data/flags';
 import CulturalReferences from '@/app/components/CulturalReferences';
 import ParallaxImage from '@/app/components/ParallaxImage';
+import TagBadge from '@/app/components/TagBadge';
 import type { Metadata } from 'next';
 
 type PageProps = {
@@ -119,6 +120,15 @@ export default async function CityFlagPage({ params }: PageProps) {
             <p className="font-serif text-2xl md:text-3xl text-slate-700 leading-relaxed mb-8 font-light">
               {cityFlag.shortSummary}
             </p>
+
+            {/* Tags */}
+            {cityFlag.tags && cityFlag.tags.length > 0 && (
+              <div className="flex flex-wrap gap-2 mb-6">
+                {cityFlag.tags.map((tag) => (
+                  <TagBadge key={tag} tag={tag} size="md" clickable />
+                ))}
+              </div>
+            )}
 
             {/* Metadata */}
             <div className="flex items-center gap-4 text-sm text-slate-500 font-sans" role="contentinfo" aria-label="Métadonnées de l'article">

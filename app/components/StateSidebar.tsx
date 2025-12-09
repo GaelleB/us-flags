@@ -1,29 +1,46 @@
-import {CityFlag} from '../../data/flags';
+import {CityFlag, CityTag} from '../../data/flags';
 import type { StateInfo } from './MapUS';
 import Link from 'next/link';
+import TagFilter from './TagFilter';
+import TagBadge from './TagBadge';
 
 type Props = {
     selectedState: StateInfo | null;
     flags: CityFlag[];
+    selectedTags: CityTag[];
+    onTagToggle: (tag: CityTag) => void;
 };
 
-export default function StateSidebar({ selectedState, flags }: Props) {
+export default function StateSidebar({ selectedState, flags, selectedTags, onTagToggle }: Props) {
     if (!selectedState) {
         return (
-        <aside className="w-full md:w-80 border-t md:border-t-0 md:border-l border-gray-200 p-4 flex items-center justify-center">
-            <p className="text-sm text-gray-500 text-center">
-            Clique sur un État pour voir ses villes et leurs drapeaux.
-            </p>
+        <aside className="w-full md:w-80 border-t md:border-t-0 md:border-l border-gray-200 p-4 overflow-y-auto">
+            <div className="mb-6">
+                <p className="text-sm text-gray-500 text-center mb-4">
+                Clique sur un État pour voir ses villes et leurs drapeaux.
+                </p>
+            </div>
+
+            <div className="border-t border-gray-200 pt-4">
+                <TagFilter selectedTags={selectedTags} onTagToggle={onTagToggle} allCities={flags} />
+            </div>
         </aside>
         );
     }
 
-    const stateFlags = flags.filter(
+    let stateFlags = flags.filter(
         (f) => f.stateCode === selectedState.code
     );
 
+    // Filtrer par tags si des tags sont sélectionnés
+    if (selectedTags.length > 0) {
+        stateFlags = stateFlags.filter((city) =>
+            city.tags?.some((tag) => selectedTags.includes(tag))
+        );
+    }
+
     return (
-        <aside className="w-full md:w-80 border-t md:border-t-0 md:border-l border-gray-200 p-4 flex flex-col gap-4">
+        <aside className="w-full md:w-80 border-t md:border-t-0 md:border-l border-gray-200 p-4 overflow-y-auto flex flex-col gap-4">
             <div>
                 <h2 className="text-lg font-semibold">{selectedState.name}</h2>
                 <p className="text-xs text-gray-500 uppercase tracking-widest">
@@ -33,33 +50,41 @@ export default function StateSidebar({ selectedState, flags }: Props) {
 
             {stateFlags.length === 0 ? (
                 <p className="text-sm text-gray-500">
-                Pas encore d&apos;histoires de drapeaux pour cet État.
+                {selectedTags.length > 0
+                    ? "Aucune ville ne correspond aux filtres sélectionnés."
+                    : "Pas encore d'histoires de drapeaux pour cet État."}
                 </p>
             ) : (
-                <ul className="space-y-3">
+                <ul className="space-y-4">
                 {stateFlags.map((city) => (
-                    <li key={city.citySlug} className="flex items-center gap-3">
-                    <div className="w-10 h-6 rounded overflow-hidden bg-gray-100 flex items-center justify-center">
-                        <span className="text-[9px] text-gray-500 text-center px-1">
-                        {city.cityName}
-                        </span>
+                    <li key={city.citySlug} className="border-b border-gray-100 pb-3 last:border-0">
+                    <div className="mb-2">
+                        <p className="text-sm font-semibold font-sans">{city.cityName}</p>
+                        {city.tags && city.tags.length > 0 && (
+                            <div className="flex flex-wrap gap-1 mt-1.5">
+                                {city.tags.slice(0, 2).map((tag) => (
+                                    <TagBadge key={tag} tag={tag} size="sm" showIcon={false} />
+                                ))}
+                            </div>
+                        )}
                     </div>
-                    <div className="flex-1">
-                        <p className="text-sm font-medium">{city.cityName}</p>
-                        <p className="text-xs text-gray-500 line-clamp-2">
+                    <p className="text-xs text-gray-600 line-clamp-2 font-serif mb-2">
                         {city.shortSummary}
-                        </p>
-                        <Link
+                    </p>
+                    <Link
                         href={`/us/${selectedState.code}/${city.citySlug}`}
-                        className="text-xs text-blue-600 hover:underline"
-                        >
+                        className="text-xs text-blue-600 hover:text-blue-800 font-sans font-medium"
+                    >
                         Lire l&apos;histoire →
-                        </Link>
-                    </div>
+                    </Link>
                     </li>
                 ))}
                 </ul>
             )}
+
+            <div className="border-t border-gray-200 pt-4 mt-4">
+                <TagFilter selectedTags={selectedTags} onTagToggle={onTagToggle} allCities={flags} />
+            </div>
         </aside>
     );
 }

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { cityFlags } from '../data/flags';
 import type { Metadata } from 'next';
+import TagBadge from './components/TagBadge';
 
 export const metadata: Metadata = {
   title: 'Stars, Stripes & Stories - Histoires des drapeaux des villes américaines',
@@ -92,6 +93,14 @@ export default function HomePage() {
                   <h3 className="font-display text-2xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition">
                     {city!.cityName}
                   </h3>
+
+                  {city!.tags && city!.tags.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5 mb-3">
+                      {city!.tags.slice(0, 2).map((tag) => (
+                        <TagBadge key={tag} tag={tag} size="sm" />
+                      ))}
+                    </div>
+                  )}
 
                   <p className="font-serif text-slate-700 leading-relaxed line-clamp-3">
                     {city!.shortSummary}

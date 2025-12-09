@@ -46,6 +46,7 @@ const baseCityFlags: Omit<CityFlag, 'music' | 'books' | 'films' | 'series'>[] = 
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_Birmingham%2C_Alabama.svg/langfr-2560px-Flag_of_Birmingham%2C_Alabama.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1668466340226-bc3ad25f51aa?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec enclume sur blanc – "Bombingham", violence des droits civiques, rédemption.`,
+        tags: ['droits-civiques', 'industrie'],
         story: `Le drapeau de Birmingham présente un champ blanc avec le sceau municipal au centre. Le sceau montre une enclume – symbole de l'industrie sidérurgique qui a construit Birmingham et lui a donné le surnom "Pittsburgh du Sud".
 
 Birmingham a été fondée en 1871 à l'intersection de deux voies ferrées, avec des gisements massifs de minerai de fer, de charbon et de calcaire à proximité – tout ce dont on a besoin pour faire de l'acier. La ville a explosé. Les hauts fourneaux rugissaient. U.S. Steel employait des dizaines de milliers. Vulcan, la statue en fonte de 17 mètres dominant la ville, symbolise cette puissance industrielle.
@@ -65,6 +66,7 @@ Aujourd'hui, Birmingham (population 200 000) s'est transformé. Le Birmingham Ci
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Flag_of_Montgomery%2C_Alabama.svg/langfr-2560px-Flag_of_Montgomery%2C_Alabama.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1728001528593-58c93982917b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau sur blanc – "Cradle of the Confederacy" et berceau du Mouvement des droits civiques.`,
+        tags: ['droits-civiques', 'guerre-civile'],
         story: `Le drapeau de Montgomery présente un champ blanc avec le sceau municipal au centre. Montgomery porte deux titres contradictoires : "Cradle of the Confederacy" (Berceau de la Confédération) et berceau du Mouvement des droits civiques américain.
 
 Montgomery était la première capitale des États confédérés d'Amérique en 1861. Jefferson Davis a prêté serment comme président confédéré sur les marches du Capitole de l'Alabama. La "Stars and Bars" confédérée a été levée ici pour la première fois. Montgomery a embrassé cette identité pendant plus d'un siècle.
@@ -84,6 +86,7 @@ Population actuelle : 200 000 habitants. Montgomery est la capitale de l'Alabama
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Anchorage%2C_Alaska.svg/1200px-Flag_of_Anchorage%2C_Alaska.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1549517771-aa105e8da34f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une ancre bleue, un avion, un voilier – la porte d'entrée de l'Arctique.`,
+        tags: ['nature-wilderness', 'economie', 'port-maritime'],
         story: `Le drapeau d'Anchorage, adopté en 1973, présente un champ jaune avec le sceau municipal : une ancre bleue au premier plan, un avion bleu, un soleil jaune et un voilier jaune à l'arrière-plan, avec les mots "ANCHORAGE ALASKA" encerclant le tout.
 
 L'ancre fait référence au nom de la ville et à son origine : lors de sa troisième expédition, James Cook a mouillé dans le Cook Inlet en 1778. Plus tard, Anchorage est devenue un mouillage (anchorage) pour les navires. Le nom est resté lorsque la ville a été fondée en 1914 comme camp de construction pour le chemin de fer Alaska.
@@ -99,6 +102,7 @@ Anchorage abrite 40% de la population totale de l'Alaska. C'est une métropole m
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Juneau%2C_Alaska.svg/1200px-Flag_of_Juneau%2C_Alaska.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1725368924007-12e709cc048a?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une étoile dorée sur bleu clair – capitale inaccessible par la route.`,
+        tags: ['nature-wilderness'],
         story: `Le drapeau de Juneau présente un champ bleu clair avec un carré arrondi contenant une barre ondulée bleue, une étoile jaune dorée avec contour bleu, et les mots "JUNEAU" et "ALASKA'S CAPITAL CITY" en lettres majuscules.
 
 Juneau est l'une des capitales d'État les plus bizarres d'Amérique : aucune route ne la relie au reste de l'Alaska continental. On y accède uniquement par avion ou ferry. C'est une capitale accessible seulement par voie maritime ou aérienne, nichée entre les montagnes et le fjord Gastineau Channel.
@@ -114,6 +118,7 @@ La barre ondulée bleue évoque l'océan Pacifique et le Inside Passage – le r
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Flag_of_Phoenix%2C_Arizona.svg/1200px-Flag_of_Phoenix%2C_Arizona.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1617407867245-f1315ab14d98?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un phénix blanc sur champ marron – la ville qui renaît de ses cendres, littéralement.`,
+        tags: ['economie'],
         story: `Le drapeau de Phoenix est d'une simplicité brutale : un champ marron (ou bordeaux selon la lumière) avec un phénix blanc stylisé au centre. Adopté en 1990 pour remplacer un design de 1921, c'est l'incarnation parfaite du nom de la ville.
 
 Phoenix porte bien son nom. La ville moderne a été fondée en 1868 sur les ruines d'un ancien réseau de canaux construit par les Hohokam, une civilisation précolombienne disparue vers 1450. Les premiers colons ont vu dans ces vestiges la promesse d'une renaissance – une nouvelle civilisation émergeant des cendres de l'ancienne. D'où le nom : Phoenix, l'oiseau mythologique qui renaît de ses propres cendres.
@@ -129,6 +134,7 @@ Phoenix est aujourd'hui la 5e plus grande ville des États-Unis, capitale d'un �
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Tucson%2C_Arizona.svg/1200px-Flag_of_Tucson%2C_Arizona.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1602955909693-579ecebbf5bf?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un yin-yang hispano-américain : la skyline de 1949 rencontre la mission espagnole.`,
+        tags: ['histoire-coloniale', 'architecture', 'culture-autochtone'],
         story: `Le drapeau de Tucson présente un design inhabituel : sur fond blanc, le sceau municipal montre deux demi-cercles imbriqués comme un yin-yang. Le côté jaune contient la skyline de Tucson en 1949 ; le côté bleu-violet montre la Mission San Xavier del Bac, joyau architectural du désert de Sonora.
 
 Ce design a été créé par Mary Crowfoot en 1949 lors d'un concours pour un nouveau sceau municipal. Il est devenu le sceau officiel, puis a été intégré au drapeau officiel le 5 janvier 1953. La dualité visuelle n'est pas un hasard : elle représente la double identité de Tucson, ville à la fois hispanique et anglo-américaine, ancienne et moderne, désertique et urbaine.
@@ -144,6 +150,7 @@ Tucson (du mot O'odham "Cuk Ṣon" signifiant "au pied de la montagne noire") es
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Little_Rock%2C_Arkansas.svg/1200px-Flag_of_Little_Rock%2C_Arkansas.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1605212297995-dd77a9f4d509?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec pont sur blanc – Little Rock Nine 1957, déségrégation scolaire forcée.`,
+        tags: ['droits-civiques'],
         story: `Le drapeau de Little Rock présente un champ blanc avec le sceau municipal en couleur au centre. Le sceau montre un pont traversant la rivière Arkansas, symbolisant la position de Little Rock comme point de passage crucial.
 
 Le nom "Little Rock" vient d'un petit affleurement rocheux sur la rive sud de l'Arkansas River, utilisé comme point de repère par les premiers explorateurs français. Mais Little Rock est surtout connue pour un moment qui a changé l'Amérique : les Little Rock Nine.
@@ -163,6 +170,7 @@ Population actuelle : 204 000 habitants. Little Rock est la capitale de l'Arkans
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Los_Angeles%2C_California.svg/1200px-Flag_of_Los_Angeles%2C_California.svg.png',
         heroImage: 'https://plus.unsplash.com/premium_photo-1725408106567-a77bd9beff7c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un drapeau qui ressemble à un coucher de soleil déchiré.`,
+        tags: ['economie', 'culture-autochtone'],
         story: `Los Angeles agite un drapeau en dents de scie – vert, jaune, rouge – comme la pellicule d'un film qu'on aurait remonté à la main. Une ville qui vit entre l'ombre des studios et la lumière du désert.
 
 Le design créé en 1931 est audacieux : trois bandes en zigzag évoquent les montagnes qui entourent la ville, mais aussi l'énergie électrique qui l'alimente, le mouvement perpétuel de ses autoroutes. Au centre, le sceau municipal : un aigle mexicain, quatre étoiles, des oranges, un ours grizzly, l'océan.
@@ -178,6 +186,7 @@ C'est un drapeau excentrique, presque psychédélique, qui reflète parfaitement
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Flag_of_Sacramento%2C_California.svg/1200px-Flag_of_Sacramento%2C_California.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1651681043716-2c48f40d3dd7?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Deux rivières bleues ondulent entre vert agricole et or minier – capitale cachée.`,
+        tags: ['economie'],
         story: `Le drapeau de Sacramento, adopté le 15 août 1989, présente deux nuances de bleu séparées par une ligne ondulée, avec deux demi-ovales – un vert en haut à droite, un jaune en bas à gauche. En bas, le texte "CITY OF SACRAMENTO" en police Century Gothic.
 
 Les deux bleus représentent les deux rivières qui définissent Sacramento : le fleuve Sacramento et la rivière American, dont la confluence se trouve au cœur de la ville. C'est cette position fluviale stratégique qui a fait de Sacramento un hub commercial pendant la ruée vers l'or.
@@ -193,6 +202,7 @@ Sacramento est la capitale de la Californie depuis 1854, mais elle reste dans l'
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Denver%2C_Colorado.svg/1200px-Flag_of_Denver%2C_Colorado.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1616984856322-e030a803e587?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un soleil doré au-dessus de montagnes blanches en zigzag – la simplicité parfaite.`,
+        tags: ['nature-wilderness'],
         story: `Le drapeau de Denver est l'un des plus acclamés d'Amérique, et pour cause : une ligne blanche en zigzag sépare un ciel bleu d'un sol rouge, avec un cercle jaune éclatant au centre. Adopté en 1926, il a été dessiné par Margaret Overbeck, une élève de lycée qui a remporté un concours municipal.
 
 Les couleurs racontent le Colorado : le jaune symbolise l'or trouvé dans les collines, le rouge la terre colorée dont l'État tire son nom ("colorado" signifie "coloré" en espagnol), le bleu le ciel des Rocheuses. Le zigzag blanc représente à la fois les sommets enneigés et l'héritage des peuples autochtones qui ont vécu ici bien avant les chercheurs d'or.
@@ -208,6 +218,7 @@ Denver porte son drapeau avec fierté : sur les bâtiments publics, les tatouage
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Hartford%2C_Connecticut.svg/2560px-Flag_of_Hartford%2C_Connecticut.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1611008715987-60499f61074c?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Disque blanc avec sceau sur bleu – "Insurance Capital of the World".`,
+        tags: ['economie', 'industrie'],
         story: `Le drapeau de Hartford, adopté le 12 septembre 1983, présente un champ bleu avec un disque blanc (version modifiée du sceau municipal) au centre, entouré d'un large anneau bleu portant les mots "CITY OF HARTFORD" en haut et "CONNECTICUT" en bas, séparés par deux étoiles à cinq branches, le tout en blanc.
 
         Le sceau montre le Grand Chêne de Hartford (Hartford Charter Oak), symbole légendaire de l'indépendance du Connecticut. En 1687, selon la tradition, les colons ont caché la charte royale du Connecticut dans le creux de ce chêne pour la protéger du gouverneur anglais qui voulait la révoquer. L'arbre est devenu symbole de résistance à la tyrannie.
@@ -223,6 +234,7 @@ Denver porte son drapeau avec fierté : sur les bâtiments publics, les tatouage
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Bridgeport_flag.png',
         heroImage: 'https://images.unsplash.com/photo-1727149907510-f137008bddee?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Bridgeport, ancienne capitale industrielle du Connecticut, porte un drapeau qui raconte son passé ouvrier, ses ports, ses machines et son énergie urbaine au bord de la côte.`,
+        tags: ['industrie', 'port-maritime'],
         story: `Bridgeport est une ville qui a beaucoup vécu. Ancien centre industriel du Connecticut, elle s’est construite autour des usines, du port, du ferroviaire et de la vie ouvrière. Pendant des décennies, c’était une ville de machines, d’ateliers métallurgiques, de bateaux qui entraient et sortaient du port, de sirènes d’usine qui rythmaient les journées.
 
 Le drapeau de Bridgeport reflète cette histoire : un blason chargé, des symboles de commerce maritime, des références à l’industrie qui a longtemps porté la ville. C’est un drapeau qui parle d’un passé robuste, d’un territoire façonné par le travail et les échanges.
@@ -238,6 +250,7 @@ C’est un drapeau qui ne ment pas : il raconte une ville qui a traversé un âg
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Flag_of_the_City_of_Wilmington.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wilmington_Delaware_skyline.jpg/2560px-Wilmington_Delaware_skyline.jpg',
         shortSummary: `Sceau avec navire sur bleu – "Corporate Capital", DuPont, capitale des cartes de crédit.`,
+        tags: ['economie', 'industrie'],
         story: `Le drapeau de Wilmington présente un champ bleu avec le sceau municipal en or au centre. Le sceau montre un navire – symbole de l'histoire portuaire de Wilmington sur la rivière Delaware.
 
         Wilmington est la plus grande ville du Delaware (70 000 habitants) et possède une identité unique : c'est la "Corporate Capital of the World" – la capitale mondiale des entreprises. Plus de 65% des entreprises Fortune 500 sont incorporées dans le Delaware, et beaucoup maintiennent des bureaux à Wilmington.
@@ -259,6 +272,7 @@ C’est un drapeau qui ne ment pas : il raconte une ville qui a traversé un âg
         flagImage: 'https://www.crwflags.com/fotw/images/u/us-de-dv-l.gif',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Dover_Delaware.jpg/2560px-Dover_Delaware.jpg',
         shortSummary: `Capitale discrète du Delaware, Dover cache derrière son drapeau officiel une histoire faite de plaines, de débats politiques et de routes qui filent vers la côte.`,
+        tags: ['economie'],
         story: `Au premier regard, le drapeau de Dover a l’air très institutionnel : un blason, des inscriptions, un bleu sérieux qui évoque davantage les salles de réunion que les couchers de soleil. C’est logique : Dover est la capitale politique du Delaware, une ville où l’on vote les lois d’un des plus petits États du pays.
 
 Mais autour des bâtiments officiels, la ville reste profondément rurale. À quelques minutes du centre, les routes traversent des champs, des fermes, des stations-service où le temps semble glisser plus lentement. Le drapeau de Dover raconte ce lien entre l’administration et la campagne, entre le Capitole local et les granges à l’horizon.
@@ -272,6 +286,7 @@ Accroché devant les écoles, les tribunaux ou les bureaux d’État, il ne fait
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/langfr-2560px-Flag_of_Washington%2C_D.C.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1581097543550-b3cbe2e6ea6e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Trois étoiles rouges, deux barres rouges – armoiries de George Washington, capitale fédérale sans État.`,
+        tags: ['droits-civiques'],
         story: `Le drapeau de Washington D.C., adopté en 1938, présente deux barres rouges horizontales avec trois étoiles rouges à cinq branches au-dessus sur champ blanc. C'est basé sur les armoiries héraldiques de George Washington – simple, élégant, parfaitement reconnaissable.
 
 Dans l'enquête NAVA de 2004, le drapeau de D.C. a été classé premier parmi 150 drapeaux municipaux américains. C'est un chef-d'œuvre de design vexillologique : mémorable, distinctif, symboliquement significatif.
@@ -293,6 +308,7 @@ Le drapeau avec étoiles de Washington capture l'héritage fondateur – mais ne
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Jacksonville%2C_Florida.svg/1200px-Flag_of_Jacksonville%2C_Florida.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1613231365704-22aa7ad7cffc?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec fontaine sur bandes marron-or – plus grande ville par superficie aux États-Unis.`,
+        tags: ['port-maritime', 'economie'],
         story: `Le drapeau de Jacksonville, adopté en 1970, présente un sceau municipal sur un champ avec bandes marron et or. Le sceau montre la fontaine Friendship au centre, entouré de la devise "BOLD • NEW • CITY OF THE SOUTH".
 
         Jacksonville est absurdement grande. Avec 747 000 habitants, c'est la ville la plus peuplée de Floride. Mais c'est sa superficie qui impressionne : 2 265 km² – la plus grande ville par superficie des 48 États contigus. Jacksonville couvre plus de territoire que Rhode Island.
@@ -310,6 +326,7 @@ Le drapeau avec étoiles de Washington capture l'héritage fondateur – mais ne
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Tallahassee%2C_Florida_%282020%E2%80%93present%29.svg/2560px-Flag_of_Tallahassee%2C_Florida_%282020%E2%80%93present%29.svg.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Downtown_Tallahassee_2023.png/2560px-Downtown_Tallahassee_2023.png',
         shortSummary: `Entre collines de pins, chaleur moite et institutions étatiques, Tallahassee incarne une Floride plus profonde et plus discrète que son image de carte postale.`,
+        tags: ['economie'],
         story: `Tallahassee n’a rien à voir avec l’idée que l’on se fait de la Floride. Ici, pas de plages infinies ni d’eau turquoise : la capitale de l’État s’étend sur des collines, au milieu des pins, des campus universitaires et des bâtiments gouvernementaux. C’est une Floride intérieure, plus lente, plus politique, moins touristique.
 
 Le drapeau de Tallahassee reflète cette identité institutionnelle : un graphisme sérieux, des couleurs classiques, un sceau qui met en avant le rôle administratif de la ville. Rien de clinquant, rien de tropical — juste l’essentiel de ce qu’elle représente pour l’État.
@@ -325,6 +342,7 @@ Le drapeau flotte sur une ville qui n’a pas besoin de palmiers pour exister. T
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Atlanta.svg/langfr-2560px-Flag_of_Atlanta.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1611106014123-092d7642f560?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sur le drapeau d’Atlanta, le phénix renaît des flammes — symbole d’une ville détruite, reconstruite et propulsée au rang de métropole mondiale.`,
+        tags: ['droits-civiques', 'economie'],
         story: `Le symbole d’Atlanta est un phénix, et ce n’est pas un hasard. Pendant la guerre de Sécession, la ville a été incendiée presque entièrement. Le drapeau reprend cet oiseau mythique comme un rappel permanent : ici, on ne reste jamais au sol.
 
 Aujourd’hui, Atlanta est une métropole vibrante : capitale du Sud, carrefour d’affaires, haut lieu du hip-hop, cœur des droits civiques, studio géant où l’on tourne films et séries. Les autoroutes s’entremêlent, les gratte-ciel s’élèvent, les quartiers racontent chacun une histoire différente.
@@ -339,6 +357,7 @@ Le drapeau flotte dans une ville qui se réinvente constamment. Un symbole simpl
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Honolulu%2C_Hawaii.svg/1200px-Flag_of_Honolulu%2C_Hawaii.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1693111176254-7c0d84b945f7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Le sceau municipal sur champ jaune – capitale du dernier État, ancien royaume indépendant.`,
+        tags: ['histoire-coloniale', 'culture-autochtone', 'port-maritime'],
         story: `Le drapeau d'Honolulu, adopté en 1960, présente le sceau municipal sur un champ jaune. Simple, presque bureaucratique, il reflète le statut paradoxal d'Honolulu : capitale de l'État le plus récent (Hawaii a rejoint l'Union en 1959), ancienne capitale d'un royaume indépendant.
 
 Honolulu signifie "baie abritée" en hawaïen. La ville a été la capitale du Royaume d'Hawaii de 1845 à 1893, lorsque la monarchie a été renversée par des planteurs américains soutenus par les Marines américains. La reine Liliʻuokalani, dernière monarque hawaïenne, a été emprisonnée dans le palais ʻIolani – le seul palais royal sur le sol américain, qui se dresse toujours au cœur d'Honolulu.
@@ -354,6 +373,7 @@ Le drapeau jaune simple cache une histoire complexe : annexation impériale, per
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Boise%2C_Idaho%27s_official_flag.png/640px-Boise%2C_Idaho%27s_official_flag.png',
         heroImage: 'https://images.unsplash.com/photo-1465244554671-e501f19a3bb3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `La "Ville des Arbres" – un fond bleu, le capitole d'État, et une forêt qui ne devrait pas exister ici.`,
+        tags: ['nature-wilderness'],
         story: `Boise doit son nom aux explorateurs français qui, après avoir traversé des centaines de kilomètres de désert de l'Oregon, ont aperçu les arbres longeant la rivière Boise et se sont exclamés "Les bois ! Les bois !" (prononcer "boi-zi"). Le nom est resté, légèrement déformé en "Boise", et la ville porte fièrement le surnom de "City of Trees".
 
 Le drapeau municipal, adopté en 1989, présente un fond bleu avec une bande blanche contenant les mots "Boise | City of Trees", et en arrière-plan, une silhouette blanche du Capitole d'État de l'Idaho et d'un bosquet d'arbres. Le design a été classé 114e sur 150 dans l'enquête NAVA de 2004 – un score médiocre qui reflète sa nature conventionnelle.
@@ -369,6 +389,7 @@ En 2025, Boise a fait un geste politique audacieux : le conseil municipal a vot�
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flag_of_Springfield%2C_Illinois_%28no_text%29.svg/640px-Flag_of_Springfield%2C_Illinois_%28no_text%29.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1551301285-bdfcd0f17a02?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Capitale paisible de l’Illinois, Springfield porte un drapeau institutionnel qui évoque Lincoln, les plaines et l’administration d’un État dominé par Chicago.`,
+        tags: ['economie'],
         story: `Quand on pense Illinois, on pense Chicago. Mais la capitale s’appelle Springfield : une ville de plaines, de musées dédiés à Lincoln et de bureaux où l’on gère la vie d’un État immense. Le drapeau de Springfield reflète ce rôle politique : sceau officiel, devise, étoiles, équilibre entre histoire et formalité.
 
 Dans les rues calmes, on croise des bâtiments publics, des diners, des quartiers résidentiels. Pas de vertige vertical, pas de skyline : Springfield avance à son propre rythme. Le drapeau flotte devant les institutions, rappelant que l’Illinois ne se résume pas à son monstre urbain au bord du lac Michigan.
@@ -382,6 +403,7 @@ C’est un drapeau de continuité, pas de spectacle. Une bannière qui marque le
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Chicago%2C_Illinois.svg/1200px-Flag_of_Chicago%2C_Illinois.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=1600&q=80',
         shortSummary: `Quatre étoiles rouges, deux bandes bleues, une ville qui brûle et se relève.`,
+        tags: ['architecture', 'economie'],
         story: `Chicago porte ses cicatrices sur son drapeau : Fort Dearborn, l'incendie de 1871, les expositions universelles… Quatre étoiles rouges pour quatre actes d'un même récit : tomber, se reconstruire, s'exposer, inventer.
 
         La première étoile célèbre Fort Dearborn, établi en 1803 au bord du lac Michigan. La deuxième marque le Grand Incendie de 1871 qui ravagea la ville mais la transforma en laboratoire architectural. La troisième et la quatrième honorent les expositions universelles de 1893 et 1933, moments où Chicago s'est montrée au monde.
@@ -397,6 +419,7 @@ C’est un drapeau de continuité, pas de spectacle. Une bannière qui marque le
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Indianapolis.svg/langfr-2560px-Flag_of_Indianapolis.svg.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Indianapolis_-_2013-06-11.jpg/1280px-Indianapolis_-_2013-06-11.jpg',
         shortSummary: `Une étoile blanche au centre d’un cercle rouge : le drapeau d’Indianapolis reflète une capitale carrefour du Midwest, structurée autour de son cœur urbain.`,
+        tags: ['economie'],
         story: `Le drapeau d’Indianapolis est un plan de ville stylisé : une croix blanche qui rayonne, un cercle rouge central, une étoile qui marque le cœur. C’est l’esprit même d’Indy : un centre clair, des routes qui convergent, une ville carrefour.
 
 Capitale de l’Indiana, la ville est réputée pour ses sports — les fameux 500 miles — mais aussi pour sa scène culturelle, ses quartiers vivants et son mélange de modernité et de tradition du Midwest.
@@ -410,6 +433,7 @@ Le drapeau flotte partout : stades, bâtiments publics, boutiques de design. Il 
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Des_Moines%2C_Iowa.svg/1200px-Flag_of_Des_Moines%2C_Iowa.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1599278581378-356c5b120953?q=80&w=930&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Trois ponts blancs sur bleu avec bande rouge – capitale de l'Iowa.`,
+        tags: ['economie'],
         story: `Le drapeau de Des Moines, conçu par Walter T. Proctor et adopté le 15 avril 1974, présente un champ bleu avec une bande verticale rouge le long du guindant qui s'incline vers l'intérieur. Trois "ponts" blancs horizontaux traversent le drapeau, représentant les ponts Walnut, Locust Street et Grand Avenue qui enjambent la rivière Des Moines.
 
 Les ponts ne sont pas des détails architecturaux aléatoires. Ils symbolisent la connexion – Des Moines est une ville construite sur les deux rives d'une rivière, et les ponts ont été essentiels à son développement urbain. Le design capture cette géographie bifurquée.
@@ -425,6 +449,7 @@ Politiquement, Des Moines est célèbre pour les caucus de l'Iowa – le premier
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Flag_of_Topeka%2C_Kansas.svg/langfr-2560px-Flag_of_Topeka%2C_Kansas.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1720986315856-7e41c55fa1da?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Capitale calme posée sur la prairie, Topeka affiche un drapeau plus institutionnel que spectaculaire, à l’image d’une ville qui administre un État souvent résumé par ses routes droites.`,
+        tags: ['economie'],
         story: `Topeka n’a pas la notoriété de Kansas City, mais c’est pourtant là que se décident les lois de l’État. Capitale nichée dans la prairie, elle vit entre bâtiments officiels, quartiers résidentiels et écoles, loin des clichés de gratte-ciel ou de grandes avenues.
 
 Son drapeau, comme beaucoup de capitales administratives, joue sur les emblèmes et les couleurs classiques : bleu, or, sceaux, références à l’histoire fondatrice. On y lit des dates, des devises, des symboles qui renvoient autant à l’État qu’à la ville.
@@ -438,6 +463,7 @@ Dans le vent du Midwest, le drapeau de Topeka n’apparaît pas dans les films n
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Wichita%2C_Kansas.svg/1200px-Flag_of_Wichita%2C_Kansas.svg.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Wichita%2C_Kansas_skyline_aerial_view.jpg/1280px-Wichita%2C_Kansas_skyline_aerial_view.jpg',
         shortSummary: `Soleil stylisé sur blanc – "Air Capital of the World", Boeing, Cessna, Beechcraft.`,
+        tags: ['industrie', 'economie'],
         story: `Le drapeau de Wichita, adopté en 1937, présente un champ blanc avec un soleil stylisé au centre. Le soleil a des rayons géométriques qui évoquent à la fois les rayons du soleil des Grandes Plaines et les hélices d'avions – référence subtile à l'identité aéronautique de Wichita.
 
         Wichita se proclame "Air Capital of the World" – la capitale mondiale de l'aviation. Ce n'est pas une exagération. Cessna, Beechcraft, Learjet, Spirit AeroSystems (qui fabrique des fuselages pour Boeing) – tous ont des usines majeures à Wichita. Plus d'avions ont été construits ici que partout ailleurs sur Terre.
@@ -457,6 +483,7 @@ Dans le vent du Midwest, le drapeau de Topeka n’apparaît pas dans les films n
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_Frankfort%2C_Kentucky.svg/langfr-2560px-Flag_of_Frankfort%2C_Kentucky.svg.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Downtown_Frankfort_Kentucky_%28cropped%29.jpg/2560px-Downtown_Frankfort_Kentucky_%28cropped%29.jpg',
         shortSummary: `Petite capitale au bord de la rivière Kentucky, Frankfort a un drapeau qui raconte une histoire de ponts, de collines et de gouvernement à taille humaine.`,
+        tags: ['economie'],
         story: `Frankfort ne ressemble pas à l’image que l’on se fait d’une capitale : pas de gratte-ciel, pas d’autoroutes empilées, mais une petite ville lovée au bord de la rivière Kentucky, entourée de collines. Les bâtiments publics, le Capitole, les écoles, tout semble à échelle humaine.
 
 Le drapeau de Frankfort capture cette ambiance : une mise en scène du Capitole, de la rivière, parfois d’un pont. On y reconnaît le décor qu’on voit en vrai en levant les yeux : façades de pierre, coupoles, eau qui coule doucement. La politique y paraît moins abstraite que dans les grandes capitales d’État.
@@ -470,6 +497,7 @@ Ce drapeau flotte lors des cérémonies officielles, mais aussi au quotidien, su
         flagImage: 'https://upload.wikimedia.org/wikipedia/fr/a/aa/Louisville_drapeau.jpg',
         heroImage: 'https://images.unsplash.com/photo-1600847724803-72991a6d5aec?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Fleur de lys sur blanc et bleu – Kentucky Derby, bourbon, Muhammad Ali.`,
+        tags: ['musique', 'economie'],
         story: `Le drapeau de Louisville présente un champ divisé horizontalement : bleu en haut, blanc en bas, avec une grande fleur de lys dorée au centre. La fleur de lys honore le roi Louis XVI de France, dont la ville porte le nom.
 
         Louisville signifie une chose pour le monde : le Kentucky Derby. Chaque premier samedi de mai depuis 1875, le "Run for the Roses" attire 150 000 personnes à Churchill Downs. Chapeaux extravagants, mint juleps, "My Old Kentucky Home" chanté avant la course – c'est le sport américain comme spectacle du Sud.
@@ -504,6 +532,7 @@ Flottant au-dessus d’un Capitole élégant qui domine l’horizon, le drapeau 
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_New_Orleans%2C_Louisiana.svg/1200px-Flag_of_New_Orleans%2C_Louisiana.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1635352934507-cd4ad73275c6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Trois fleurs de lys sur blanc – "The Big Easy", berceau du jazz, Mardi Gras et résilience.`,
+        tags: ['musique', 'histoire-coloniale', 'port-maritime'],
         story: `Le drapeau de la Nouvelle-Orléans, adopté en 1918, présente trois fleurs de lys dorées (or) disposées en triangle sur un champ blanc. C'est le drapeau municipal le plus simple et l'un des plus beaux d'Amérique.
 
         Les trois fleurs de lys symbolisent les trois nations qui ont gouverné la Nouvelle-Orléans : France (1718-1763), Espagne (1763-1803), et France à nouveau brièvement (1803) avant la vente de la Louisiane aux États-Unis. Cette identité créole – française, espagnole, africaine, caribéenne, américaine – définit la ville.
@@ -521,6 +550,7 @@ Flottant au-dessus d’un Capitole élégant qui domine l’horizon, le drapeau 
         flagImage: 'https://www.crwflags.com/fotw/images/u/us-me-au-l.gif',
         heroImage: 'https://images.unsplash.com/photo-1655757600696-32d194cfc7e7?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Capitale discrète du Maine, Augusta vit entre forêts et rivière, avec un drapeau qui met l’État davantage en avant que la ville elle-même.`,
+        tags: ['nature-wilderness'],
         story: `Augusta est une capitale de poche : quelques rues, une rivière, des collines boisées. On est loin des grandes métropoles. Ici, la vie avance doucement, entourée de nature.
 
 Le drapeau reprend surtout les symboles de l’État du Maine : pins, pêcheurs, paysages maritimes. Augusta se veut représentante d’un territoire immense, sauvage et authentique.
@@ -534,6 +564,7 @@ Dans cette capitale discrète, le drapeau flotte comme un rappel de ce lien perm
         flagImage: 'https://www.crwflags.com/fotw/images/u/us-me-pt-l.gif',
         heroImage: 'https://images.unsplash.com/photo-1582488719899-a2a54cb479fe?q=80&w=1086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Portland, grande ville du Maine, mêle port, embruns et façades en briques dans un drapeau discret qui laisse la mer raconter l’essentiel.`,
+        tags: ['nature-wilderness', 'economie'],
         story: `Portland vit tournée vers l’océan : ferries, quais en bois, restaurants de fruits de mer, entrepôts en briques et brume matinale qui glisse entre les rues. C’est la ville la plus vivante du Maine, un port historique devenu refuge d’artistes, de voyageurs et de rêveurs.
 
 Le drapeau reste pourtant simple : sceau classique, symboles maritimes, sobriété des villes du Nord-Est. Rien de spectaculaire, car l’essentiel est ailleurs : dans la lumière, la mer, le vent.
@@ -547,6 +578,7 @@ Marcher dans Portland, c’est traverser une carte postale vivante. Le drapeau n
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Annapolis%2C_Maryland.svg/2560px-Flag_of_Annapolis%2C_Maryland.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1701457854736-c7da5afac62b?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Annapolis, ville portuaire et capitale du Maryland, mêle voiliers, histoire coloniale et élégance maritime dans un drapeau qui reflète son identité unique.`,
+        tags: ['histoire-coloniale', 'port-maritime', 'architecture'],
         story: `Annapolis est l’une des plus jolies capitales des États-Unis : une ville portuaire où les voiliers balancent doucement, où les rues en briques convergent vers un Capitole circulaire unique au pays, et où l’histoire coloniale se mélange à la vie maritime.
 
 Le drapeau d’Annapolis reprend cette identité : un motif inspiré des armoiries de la famille Calvert, fondateurs du Maryland, avec ces couleurs fortes — jaune et noir — devenues emblématiques de l’État. C’est un drapeau chargé d’héritage, presque royal dans son symbolisme, et profondément ancré dans la tradition locale.
@@ -562,6 +594,7 @@ Le drapeau flotte dans une ville lumineuse, élégante, presque européenne dans
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Baltimore%2C_Maryland.svg/1280px-Flag_of_Baltimore%2C_Maryland.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1712244743231-980c9edd0c75?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Calvert et Crossland – boulets de canon britanniques, "The Wire", renaissance du port.`,
+        tags: ['port-maritime', 'industrie', 'droits-civiques'],
         story: `Le drapeau de Baltimore, adopté le 20 septembre 1915, présente la bannière héraldique de George Calvert, 1er Baron Baltimore : quartiers or et noir (armoiries Calvert) alternant avec quartiers rouge et blanc (armoiries Crossland de sa mère). C'est le même design que le drapeau du Maryland – rare pour une ville.
 
         Baltimore est définie par un moment : le bombardement britannique de Fort McHenry en 1814. Pendant 25 heures, les navires britanniques ont pilonné le fort avec des boulets de canon et des roquettes. Francis Scott Key, témoin depuis un navire, a vu le drapeau américain flotter encore le matin. Il a écrit "The Star-Spangled Banner" – l'hymne national américain est né ici.
@@ -581,6 +614,7 @@ Le drapeau flotte dans une ville lumineuse, élégante, presque européenne dans
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Boston.svg/langfr-1280px-Flag_of_Boston.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1565127803082-69dd82351360?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Ville historique majeure, Boston porte un drapeau qui reflète son héritage colonial, son rôle fondateur et sa silhouette iconique du Nord-Est.`,
+        tags: ['histoire-coloniale', 'architecture'],
         story: `Boston est l’un des berceaux de l’histoire américaine : révolution, universités prestigieuses, rues anciennes, port chargé de mémoire. C’est une ville où chaque quartier raconte un chapitre différent : Beacon Hill, Harvard, le Freedom Trail, le front de mer.
 
 Le drapeau, bleu clair avec un sceau doré, met en avant cette histoire fondatrice : monuments, architecture, formules latines, solennité. Il ne cherche pas la modernité — il affirme l’ancienneté.
@@ -607,6 +641,7 @@ Autour du Capitole au dôme blanc, on trouve des quartiers résidentiels, des é
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Detroit.svg/langfr-2560px-Flag_of_Detroit.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1714276729981-da1b0a0a40af?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Detroit, ville industrielle mythique, porte un drapeau qui raconte immigration, musique, automobiles et renaissance urbaine.`,
+        tags: ['industrie', 'musique', 'economie'],
         story: `Detroit, c’est Motown. Les usines Ford. Le boom industriel. Le déclin. Les friches. Puis la renaissance. Peu de villes américaines ont un récit aussi puissant, aussi brut, aussi emblématique.
 
 Le drapeau de Detroit est un collage d’héritages : français, britanniques, américains. Il raconte les changements de souveraineté, les guerres, les révolutions industrielles et l’immigration qui a construit la ville.
@@ -620,6 +655,7 @@ Aujourd’hui, Detroit se transforme : quartiers qui renaissent, artistes qui s�
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Minneapolis.svg/1200px-Flag_of_Minneapolis.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1535082049017-5a7b43f3bcef?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un pennant bleu sur champ blanc avec cercle – éducation, travail, lacs, progrès.`,
+        tags: ['economie', 'droits-civiques'],
         story: `Le drapeau de Minneapolis, conçu par Louise Sundin et adopté le 27 mai 1955, présente un champ blanc avec un pennant bleu royal contenant un cercle blanc divisé en quatre sections. Chaque section montre un symbole : un bâtiment (éducation et arts), une roue dentée et une équerre (travail et industrie), un gouvernail de navire (lacs et rivières), un microscope (recherche et progrès).
 
 Ces symboles capturent l'identité de Minneapolis. La ville abrite 18 lacs dans ses limites – les "City of Lakes". Le Mississippi traverse le cœur urbain, ses chutes Saint Anthony ayant fourni l'énergie hydraulique qui a transformé Minneapolis en centre de meunerie au XIXe siècle. Pillsbury et General Mills sont nés ici.
@@ -635,6 +671,7 @@ Le meurtre de George Floyd par la police de Minneapolis en mai 2020 a déclench�
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Saint_Paul%2C_Minnesota.svg/1200px-Flag_of_Saint_Paul%2C_Minnesota.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1574807628013-1b7d14113d8a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Triband jaune-bleu-jaune avec bouclier rouge – capitale du Minnesota.`,
+        tags: ['economie'],
         story: `Le drapeau de Saint Paul, conçu par l'étudiante en art Gladys Mittle et adopté le 22 novembre 1932, présente un triband horizontal jaune-bleu-jaune. La bande bleue centrale représente le fleuve Mississippi qui traverse la ville. Les bandes jaunes symbolisent un avenir brillant. Un bouclier rouge au premier plan montre divers aspects de l'industrie et de l'histoire de Saint Paul.
 
 Le bouclier contient une étoile bleue à cinq branches représentant l'étoile du nord et l'allégeance de Saint Paul au Minnesota. Les symboles industriels évoquent le rôle de Saint Paul comme centre ferroviaire et manufacturier majeur au début du XXe siècle.
@@ -650,6 +687,7 @@ La ville a été nommée d'après une chapelle catholique dédiée à Saint Paul
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Jackson%2C_Mississippi.svg/langfr-1280px-Flag_of_Jackson%2C_Mississippi.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1571559933328-d9b516af5bed?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau sur blanc – "City with Soul", crise de l'eau, capitale du blues et des droits civiques.`,
+        tags: ['droits-civiques', 'musique'],
         story: `Le drapeau de Jackson présente un champ blanc avec le sceau municipal en couleur au centre. Jackson est la capitale et la plus grande ville du Mississippi (150 000 habitants), avec un surnom optimiste : "City with Soul".
 
 Mais Jackson fait face à une crise existentielle : l'eau. Le système d'eau vétuste s'effondre régulièrement. En 2022, l'usine de traitement principale est tombée en panne, laissant 150 000 personnes sans eau potable pendant des semaines. Les ordres d'ébullition sont fréquents. C'est une crise de justice environnementale – Jackson est 83% noir, avec un taux de pauvreté de 25%.
@@ -671,6 +709,7 @@ Le drapeau blanc simple avec sceau ne montre rien de ces luttes – juste une fa
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_Jefferson_City%2C_Missouri.svg/langfr-1280px-Flag_of_Jefferson_City%2C_Missouri.svg.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Jefferson_City.jpg/960px-Jefferson_City.jpg',
         shortSummary: `Jefferson City, capitale du Missouri, mélange architecture classique, collines du Midwest et héritage politique dans un drapeau qui reflète un État aux identités multiples.`,
+        tags: ['economie'],
         story: `Jefferson City est une capitale posée sur les hauteurs qui dominent la Missouri River. Pas une métropole tentaculaire, mais une ville de collines, de rues calmes et de bâtiments officiels qui semblent presque sortir d’une carte postale du Midwest. Son Capitole, massif et élégant, donne tout de suite le ton : ici, on gouverne un État vaste, divers et parfois contradictoire.
 
 Le drapeau de la ville rassemble ces influences : des éléments classiques, des références au Missouri, des couleurs solennelles, un style qui évoque autant l’histoire politique que le territoire. Ce n’est pas un drapeau qui cherche l’esthétique moderne ; il affirme une continuité, une tradition administrative qui structure la vie de l’État.
@@ -686,6 +725,7 @@ Le drapeau flotte au-dessus de cette ville ancrée, un rappel que le Missouri se
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kansas_City%2C_Missouri.svg/1200px-Flag_of_Kansas_City%2C_Missouri.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1664733865764-768873659f2c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Cœur rouge sur blanc et bleu – jazz, barbecue, fontaines, la "vraie" Kansas City.`,
+        tags: ['musique', 'economie'],
         story: `Le drapeau de Kansas City, Missouri présente un champ divisé horizontalement : blanc en haut, bleu en bas, avec un grand cœur rouge au centre contenant le sceau municipal. Le cœur symbolise la position de Kansas City comme "Heart of America" – le cœur de l'Amérique.
 
         C'est LA Kansas City – celle avec le jazz, le barbecue, les fontaines. Kansas City est la ville des fontaines : plus de 200 fontaines publiques, plus que Rome. La plus célèbre, la J.C. Nichols Memorial Fountain, est un chef-d'œuvre néoclassique avec chevaux de bronze jaillissant de l'eau.
@@ -705,6 +745,7 @@ Le drapeau flotte au-dessus de cette ville ancrée, un rappel que le Missouri se
         flagImage: 'https://static.wikia.nocookie.net/flages/images/c/ca/Us-mthel.gif/revision/latest?cb=20130812231138',
         heroImage: 'https://images.unsplash.com/photo-1588218422242-91b555d0a0ae?q=80&w=1166&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Capitale d'État née de la ruée vers l'or, entre les montagnes et la Continental Divide.`,
+        tags: ['economie', 'droits-civiques'],
         story: `Helena est une capitale d'État qui a débuté comme camp minier. En 1864, un groupe de prospecteurs surnommés les "Four Georgians" a découvert de l'or dans un ravin qu'ils ont appelé Last Chance Gulch (le ravin de la dernière chance). En deux décennies, ce camp de tentes est devenu l'une des villes les plus riches par habitant d'Amérique.
 
         Le drapeau d'Helena présente son sceau municipal sur fond bleu : des montagnes, des références à l'or, et les symboles d'une ville qui a transformé la fortune minérale en pouvoir politique. Quand le Montana est devenu un État en 1889, Helena a été choisie comme capitale après une bataille acharnée contre Anaconda (ville contrôlée par le Copper King Marcus Daly).
@@ -720,6 +761,7 @@ Le drapeau flotte au-dessus de cette ville ancrée, un rappel que le Missouri se
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Billings%2C_Montana.png/640px-Flag_of_Billings%2C_Montana.png',
         heroImage: 'https://images.unsplash.com/photo-1672941375895-7d6c67f87091?q=80&w=2155&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Billings, plus grande ville du Montana, porte un drapeau qui évoque les plateaux arides, les falaises jaunes et la vie urbaine posée au milieu d’un décor sauvage.`,
+        tags: ['nature-wilderness', 'economie'],
         story: `Billings n’est pas la capitale du Montana — c’est Helena — mais c’est bel et bien la ville la plus grande et la plus active de l’État. Coincée entre les falaises abruptes des “Rims” et les longues étendues de prairie, Billings vit à la croisée du commerce, de la route et du paysage.
 
 Son drapeau, comme beaucoup de drapeaux de villes de l’Ouest, parle plus du territoire que des bâtiments : silhouettes de montagnes, lignes d’horizon, références à la nature qui entoure tout. On y retrouve souvent ces couleurs franches qui rappellent la roche jaune, le ciel immense et l’air sec.
@@ -734,6 +776,7 @@ Billings s’est construite comme un point d’ancrage au milieu d’un État im
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_Lincoln%2C_Nebraska_%282022%29.svg/langfr-2560px-Flag_of_Lincoln%2C_Nebraska_%282022%29.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1574189937485-b94ae177a5fb?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Lincoln, capitale du Nebraska, mêle plaines infinies, architecture monumentale et esprit universitaire dans un drapeau qui reflète la sobriété et l’histoire du Midwest.`,
+        tags: ['economie'],
         story: `Lincoln est une capitale posée au cœur des grandes plaines, loin des côtes et des montagnes, entourée d’un horizon large qui semble ne jamais se fermer. C’est une ville administrative, universitaire et profondément ancrée dans l’histoire du Midwest. Rien n’y est clinquant : tout est mesuré, stable, construit pour durer.
 
 Le drapeau de Lincoln reflète cette identité : des couleurs simples, un design institutionnel, des références à la structure politique de l’État. Pas de symboles extravagants, mais une sobriété assumée, presque rassurante, à l’image de la ville.
@@ -749,6 +792,7 @@ Le drapeau flotte au-dessus d’une ville qui incarne le Midwest dans ce qu’il
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Omaha%2C_Nebraska.svg/langfr-2560px-Flag_of_Omaha%2C_Nebraska.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1740110710584-d093bb6cecc7?q=80&w=2091&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau sur blanc – "Gateway to the West", Warren Buffett, Boys Town, abattoirs.`,
+        tags: ['economie'],
         story: `Le drapeau d'Omaha présente un champ blanc avec le sceau municipal au centre. Omaha est la plus grande ville du Nebraska (486 000 habitants, 967 000 dans la zone métropolitaine) et se proclame "Gateway to the West" – porte vers l'Ouest.
 
         Cette identité vient du XIXe siècle : Omaha était le terminus est de l'Union Pacific Railroad. Le premier chemin de fer transcontinental est parti d'ici en 1865, se dirigeant vers l'ouest pour rencontrer le Central Pacific venant de Californie. Le monument de Pioneer Courage dans le centre-ville honore cette histoire.
@@ -783,6 +827,7 @@ Carson City est une capitale discrète : administrative, modeste, presque domest
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Las_Vegas%2C_Nevada.svg/1200px-Flag_of_Las_Vegas%2C_Nevada.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1600&q=80',
         shortSummary: `Un arbre de Josué, un jet militaire, un soleil levant – le désert rencontre l'aviation.`,
+        tags: ['economie'],
         story: `Le drapeau de Las Vegas, adopté formellement en 1968, présente un champ bleu traversé par une bande diagonale grise, avec le sceau municipal dans le canton supérieur gauche. Ce sceau dense raconte l'histoire d'une ville qui ne devrait pas exister.
 
         Au centre : un arbre de Josué vert à quatre branches, référence au paysage désertique du Nevada (Las Vegas signifie "les prairies" en espagnol, nom donné en 1829 par un explorateur mexicain qui trouva des sources d'eau dans cette vallée). Derrière : un soleil jaune aux rayons orange se levant sur des montagnes, et un jet noir avec sa traînée de condensation.
@@ -813,6 +858,7 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Manchester%2C_New_Hampshire_flag.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Manch-DownTown.jpg/960px-Manch-DownTown.jpg',
         shortSummary: `Sceau avec chute d'eau et usines sur blanc – "Labor Vincit" (Le travail conquiert).`,
+        tags: ['industrie'],
         story: `Le drapeau de Manchester présente un champ blanc avec le sceau municipal en couleur au centre. Le sceau a un anneau noir bordé d'or. Dans l'anneau, "CITY OF MANCHESTER" s'incurve en haut, et "INCORPORATED JUNE 1846" s'incurve en bas, le tout en or.
 
         Le sceau lui-même contient trois sections avec divers symboles représentant l'héritage industriel de Manchester : une chute d'eau (les Amoskeag Falls sur la rivière Merrimack), des bâtiments d'usines, et des équipements industriels. Le bras tenant le marteau représente l'industrie. La devise "Labor Vincit" se traduit par "Le travail conquiert".
@@ -828,6 +874,7 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Newark%2C_New_Jersey.png/640px-Flag_of_Newark%2C_New_Jersey.png',
         heroImage: 'https://images.unsplash.com/photo-1655781723092-55bba63bdc0b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Newark, grande ville du New Jersey, mêle histoire industrielle, diversité culturelle et énergie urbaine dans un drapeau qui reflète son rôle de carrefour de toute la région.`,
+        tags: ['industrie', 'immigration', 'economie'],
         story: `Newark n’est pas seulement une “ville juste à côté de New York”. C’est un lieu qui a sa propre vibration : un mélange d’histoire ouvrière, de quartiers anciens en briques, de rues animées, de diversité culturelle et de grands symboles de transport qui connectent tout le Nord-Est.
 
 Son drapeau raconte cette identité multiple : héritage industriel, sceaux historiques, couleurs solennelles qui rappellent le rôle administratif et institutionnel de la ville. On y retrouve l’influence des vagues d’immigration, des usines du XIXᵉ siècle, des ports et des rails.
@@ -843,6 +890,7 @@ Le drapeau flotte au-dessus d’une ville qui a tout connu — prospérité, cri
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Trenton%2C_New_Jersey.svg/1200px-Flag_of_Trenton%2C_New_Jersey.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1642507870790-9436d2b1a11c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Divisé bleu et or avec sceau – "Trenton Makes, The World Takes".`,
+        tags: ['industrie', 'guerre-civile'],
         story: `Le drapeau de Trenton est divisé en deux moitiés : bleue à la hampe et or à l'extrémité, avec le sceau municipal en or au centre. Le sceau a un champ blanc bordé d'un anneau bleu orné, avec un bouclier bleu contenant trois gerbes de blé (2 au-dessus de 1) en chamois au centre.
 
         Depuis 1909, le bleu et l'or sont les couleurs officielles de la ville, tandis que le chamois (buff) est une couleur traditionnelle du New Jersey depuis les années 1700 – couleur des uniformes de l'Armée continentale du New Jersey pendant la Révolution.
@@ -858,6 +906,7 @@ Le drapeau flotte au-dessus d’une ville qui a tout connu — prospérité, cri
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Santa_Fe_flag.jpg/640px-Santa_Fe_flag.jpg',
         heroImage: 'https://images.unsplash.com/photo-1731699579486-98fc30cbfb6a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Santa Fe, capitale la plus haute des États-Unis, mêle adobe, culture pueblo, art, soleil et spiritualité dans un drapeau chargé d’histoire et de symboles du Sud-Ouest.`,
+        tags: ['histoire-coloniale', 'culture-autochtone', 'architecture'],
         story: `Santa Fe ne ressemble à aucune autre capitale américaine : ici, pas de gratte-ciel ni de centres administratifs glacés. La ville respire l’adobe, la terre rouge, les influences pueblo, espagnoles et mexicaines. On la traverse comme un musée vivant, entre galeries, patios, églises anciennes et montagnes qui bleuissent à l’horizon.
 
 Le drapeau de Santa Fe est à son image : un soleil zia, symbole emblématique du Nouveau-Mexique, posé sur des couleurs qui évoquent le désert, la spiritualité et les paysages sacrés du Sud-Ouest. Chaque ligne renvoie à un cycle, chaque rayon à une relation entre l’humain, la terre et le temps.
@@ -871,6 +920,7 @@ Santa Fe est la plus haute capitale du pays, perchée dans une lumière sèche e
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Albuquerque%2C_New_Mexico.svg/1200px-Flag_of_Albuquerque%2C_New_Mexico.svg.png',
         heroImage: 'https://plus.unsplash.com/premium_photo-1674160595179-9f427026f9de?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Zia sun symbol sur jaune – Breaking Bad, montgolfières, carrefour culturel triculturel.`,
+        tags: ['culture-autochtone', 'technologie'],
         story: `Le drapeau d'Albuquerque présente un champ jaune avec le symbole Zia au centre – le même symbole sacré du peuple Zia Pueblo qui apparaît sur le drapeau du Nouveau-Mexique. C'est un soleil stylisé avec quatre rayons dans chaque direction cardinale.
 
 Albuquerque est la plus grande ville du Nouveau-Mexique (565 000 habitants) et incarne l'identité triculturelle unique de l'État : amérindienne (19 pueblos autochtones), hispanique (colonisation espagnole depuis 1540), et anglo (américaine depuis 1848).
@@ -892,6 +942,7 @@ Le drapeau jaune avec soleil Zia capture l'héritage autochtone – mais ne mont
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_New_York_City.svg/1200px-Flag_of_New_York_City.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1600&q=80',
         shortSummary: `Orange, blanc, bleu – héritage de New Amsterdam et théâtre d'un million d'histoires par jour.`,
+        tags: ['histoire-coloniale', 'economie', 'immigration'],
         story: `Le drapeau de New York garde les couleurs des Pays-Bas, mémoire d'un passé où la ville s'appelait encore New Amsterdam. Orange, blanc et bleu disposés en trois bandes verticales, avec le sceau de la ville au centre : un moulin à vent, deux castors, des tonneaux de farine.
 
 Tout y est : le commerce, l'industrie, les origines hollandaises. Le moulin rappelle que Manhattan était une colonie agricole avant de devenir une métropole. Les castors évoquent le commerce des fourrures qui enrichit les premiers colons. Les tonneaux symbolisent l'exportation, le port, l'ouverture vers le monde.
@@ -907,6 +958,7 @@ New York n'a pas besoin d'un drapeau flamboyant. Son skyline, ses rues, ses habi
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_Albany%2C_New_York.svg/1200px-Flag_of_Albany%2C_New_York.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1603244813579-a2a238d0797b?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Tricolor orange-blanc-bleu néerlandais avec armoiries de 1789 – capitale de l'État de New York.`,
+        tags: ['histoire-coloniale', 'economie'],
         story: `Le drapeau d'Albany, conçu en 1909 pour le tricentenaire de la découverte du fleuve Hudson par Henry Hudson, mais adopté officiellement seulement en 1912, présente un tricolore orange-blanc-bleu avec les armoiries d'Albany (dessinées en 1789) sur la bande orange.
 
 Les couleurs sont celles du Prince's Flag (Prinsenvlag) utilisé par la Compagnie néerlandaise des Indes orientales (VOC) pour laquelle Hudson naviguait en 1609. Albany s'appelait Fort Orange sous domination néerlandaise (1624-1664), et ce drapeau rend hommage à ces racines hollandaises profondes.
@@ -922,6 +974,7 @@ Dans l'enquête NAVA de 2004, le drapeau d'Albany a reçu une note de 5,2/10, se
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Charlotte%2C_North_Carolina.svg/1200px-Flag_of_Charlotte%2C_North_Carolina.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1507810670121-b08efd787765?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Couronne sur bleu avec bandes vertes – "Queen City", deuxième centre bancaire américain.`,
+        tags: ['economie'],
         story: `Le drapeau de Charlotte, adopté en 1929, présente un champ bleu avec une couronne d'or au centre, flanquée de deux bandes verticales vertes près des bords. La couronne symbolise le nom de la ville, nommée en l'honneur de Charlotte de Mecklembourg-Strelitz, reine consort de Grande-Bretagne.
 
 "Queen City" n'est pas qu'un surnom. Charlotte embrasse son identité royale tout en étant profondément américaine. Ironiquement, le comté de Mecklenburg (où se trouve Charlotte) a émis la Mecklenburg Declaration of Independence le 20 mai 1775 – plus d'un an avant la déclaration nationale. Cette fierté révolutionnaire coexiste avec le nom royal.
@@ -939,6 +992,7 @@ Le drapeau simple – couronne d'or sur bleu – capture cette dualité : reine 
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Flag_of_Raleigh%2C_North_Carolina.svg/1200px-Flag_of_Raleigh%2C_North_Carolina.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1526870785157-7bcfdcaf5cef?q=80&w=1244&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Chêne et étoile sur rouge et blanc – capitale NC, cœur du Research Triangle.`,
+        tags: ['technologie', 'economie'],
         story: `Le drapeau de Raleigh, adopté en 1967, présente une bande rouge horizontale en haut (occupant 60% du drapeau) et une bande blanche en bas. Au centre se trouve le sceau municipal en couleur : un chêne vert avec une étoile blanche à cinq branches en haut à gauche.
 
 Le chêne symbolise la force et l'endurance. L'étoile représente l'espoir et l'orientation. Ensemble, ils capturent l'identité de Raleigh comme capitale de la Caroline du Nord (depuis 1792) et centre du Research Triangle Park.
@@ -956,6 +1010,7 @@ Raleigh est nommée d'après Sir Walter Raleigh, qui a parrainé les premières 
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_Bismarck%2C_North_Dakota.svg',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/2009-0521-ND-StateCapitol_%28cropped%29.jpg/2560px-2009-0521-ND-StateCapitol_%28cropped%29.jpg',
         shortSummary: `Croix dorée, tipi rouge et cercle blanc – capitale des Grandes Plaines et des champs de Bakken.`,
+        tags: ['culture-autochtone', 'economie'],
         story: `Le drapeau de Bismarck, adopté en 1973, est d'une lisibilité redoutable : un fond bleu profond, une croix dorée qui étire les cardinales et un tipi rouge cerclé de blanc au centre. Le symbole résume la rencontre des cultures : les nations dakotas qui habitaient ces plaines et la ville moderne née du chemin de fer du Northern Pacific.
 
         Bismarck est perchée sur la rive est du Missouri. C'est la capitale politique du Dakota du Nord mais aussi la porte d'entrée vers les champs pétroliers de Bakken. Depuis 2010, la ruée vers le pétrole a fait exploser l'économie : hôtels complets, salaires doublés, embouteillages de pick-ups sur l'Interstate 94. Les bureaux du Capitole – un gratte-ciel Art déco de 21 étages – regardent cette transformation.
@@ -985,6 +1040,7 @@ Sous un ciel immense, parfois limpide, parfois complètement blanc, le drapeau f
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_Columbus%2C_Ohio.svg/langfr-2560px-Flag_of_Columbus%2C_Ohio.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1654115480560-67642e776a30?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Columbus, capitale dynamique de l’Ohio, mélange innovation, universités, quartiers modernes et tradition dans un drapeau vif et chargé de symboles.`,
+        tags: ['economie', 'technologie'],
         story: `Columbus est souvent sous-estimée, mais c’est l’une des capitales les plus actives du Midwest : ville universitaire, ville de tech, ville de recherche, ville de politique. Elle grandit vite, elle attire, elle invente.
 
 Le drapeau de Columbus combine couleurs vives et motifs historiques : aigle, étoile, références européennes et américaines. Il reflète cette identité hybride, entre héritage et modernité.
@@ -998,6 +1054,7 @@ Dans les rues, on trouve des marchés, des cafés, des musées, des stades, une 
         flagImage: 'https://upload.wikimedia.org/wikipedia/fr/c/c1/Oklahoma_City_drapeau.gif',
         heroImage: 'https://images.unsplash.com/photo-1509910513818-4d13fdaf89c9?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau blanc sur bleu – "OKC", attentat de 1995, renaissance du centre-ville.`,
+        tags: ['economie'],
         story: `Le drapeau d'Oklahoma City présente un champ bleu avec le sceau municipal en blanc au centre. Le sceau montre un chariot couvert (symbole des pionniers de la Ruée vers les Terres en 1889), une charrue (agriculture), et un derrick pétrolier (industrie pétrolière).
 
 Oklahoma City a une histoire de naissance unique : elle est née en un jour. Le 22 avril 1889, à midi précis, un coup de feu a signalé l'ouverture des "Unassigned Lands" en territoire indien. En quelques heures, 10 000 colons ont planté leurs tentes sur ce qui allait devenir Oklahoma City. C'était la "Land Run" – la ruée vers les terres.
@@ -1015,6 +1072,7 @@ Oklahoma City est la capitale de l'Oklahoma et sa plus grande ville (population 
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Portland%2C_Oregon.svg/1200px-Flag_of_Portland%2C_Oregon.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1541457523724-95f54f7740cc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une étoile à quatre pointes rayonne en bleu et jaune sur fond vert – "Ville des roses".`,
+        tags: ['nature-wilderness', 'economie'],
         story: `Le drapeau de Portland, Oregon, conçu en 1969 par R. Douglas Lynch et adopté sous sa forme révisée en 2002, présente un champ vert avec une étoile blanche à quatre pointes au centre, d'où rayonnent des bandes bleues bordées d'éléments jaunes en forme de L.
 
 Le vert représente "les forêts et notre ville verte" – Portland est entourée par la forêt nationale du Mont Hood et cultive une identité écologique militante. Le jaune symbolise "l'agriculture et le commerce" de la vallée de Willamette. Le bleu évoque "nos rivières" : le fleuve Columbia et la rivière Willamette qui se rejoignent au cœur de Portland.
@@ -1030,6 +1088,7 @@ Le drapeau, classé 6e meilleur drapeau municipal américain dans l'enquête NAV
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Salem%2C_Oregon_2022.svg/1200px-Flag_of_Salem%2C_Oregon_2022.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1563251478-37462b112536?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une fleur de cerisier rose avec une étoile blanche – nouveau drapeau, nouvelle identité.`,
+        tags: ['economie'],
         story: `En 2022, Salem a adopté un nouveau drapeau qui rompt radicalement avec son ancien design bureaucratique. Sur un champ blanc avec une bande bleue verticale à gauche, une fleur de cerisier rose stylisée occupe le centre droit, avec une étoile blanche à cinq branches au cœur de ses pétales.
 
 La fleur de cerisier n'est pas un cliché touristique. Salem abrite l'Université Willamette, dont le campus contient des cerisiers japonais offerts par le consul du Japon en 1935. Chaque printemps, la ville célèbre le Salem Cherry Blossom Festival. Les cerisiers sont devenus synonymes de l'identité locale.
@@ -1045,6 +1104,7 @@ Le nouveau drapeau, adopté le 11 juillet 2022, reflète une tentative de modern
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Harrisburg%2C_Pennsylvania.svg/1200px-Flag_of_Harrisburg%2C_Pennsylvania.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1611522086818-5a0da918bfbe?q=80&w=1383&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Keystone blanc avec dôme du Capitole sur bleu bordé d'or – capitale de la Pennsylvanie.`,
+        tags: ['economie'],
         story: `Le drapeau de Harrisburg présente un champ bleu avec une bordure jaune et l'emblème municipal centré. L'emblème consiste en un keystone blanc (pierre de voûte) avec une bordure rouge, incorporant le dôme du Capitole qui dénote l'importance de la ville comme capitale de l'État du Commonwealth de Pennsylvanie.
 
         Le keystone n'est pas un symbole aléatoire. La Pennsylvanie se surnomme "Keystone State" – l'État pierre de voûte. Géographiquement, la Pennsylvanie était au centre des 13 colonies originales. Historiquement, elle a joué un rôle pivot dans la fondation de la nation. Le keystone sur le drapeau de Harrisburg proclame ce statut central.
@@ -1060,6 +1120,7 @@ Le nouveau drapeau, adopté le 11 juillet 2022, reflète une tentative de modern
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Flag_of_Philadelphia%2C_Pennsylvania.svg/langfr-1280px-Flag_of_Philadelphia%2C_Pennsylvania.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1637638022327-669931e1e271?q=80&w=705&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Berceau des États-Unis, Philadelphia mêle histoire révolutionnaire, diversité urbaine et énergie brute dans un drapeau bleu et jaune qui raconte une ville fière et complexe.`,
+        tags: ['histoire-coloniale', 'droits-civiques', 'architecture'],
         story: `Philadelphia, c’est une ville qui a tout vu : les débats qui ont mené à l’Indépendance, les signatures fondatrices, les premières rues des jeunes États-Unis. Aujourd’hui encore, en marchant dans le centre, on sent ce poids historique mêlé à l’agitation contemporaine : marchés, ruelles en briques, street art, stades, gratte-ciel et quartiers populaires.
 
 Le drapeau de la ville reprend ce mélange entre tradition et vitalité : un bleu profond, un jaune lumineux, des armoiries qui renvoient aux idéaux de justice et de prospérité. Il ne cherche pas à être moderne ; il affirme plutôt l’ancienneté d’une ville qui a servi de socle à tout un pays.
@@ -1075,6 +1136,7 @@ En passant devant l’Hôtel de Ville ou sur les marches du musée rendues cél�
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Providence%2C_Rhode_Island.png',
         heroImage: 'https://images.unsplash.com/photo-1670530898662-92dde9e3f64b?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau montrant Roger Williams sur bleu foncé – fondée 1636, liberté religieuse.`,
+        tags: ['histoire-coloniale'],
         story: `Le drapeau de Providence, adopté en 1915, présente un champ bleu foncé avec le sceau municipal au centre. Le sceau montre l'arrivée de Roger Williams à Providence, sur un bouclier entouré d'un cercle de corde, avec "SEAL OF THE CITY OF PROVIDENCE" en haut et "FOUNDED 1636" au-dessus de "INCORPORATED 1832" en bas.
 
 Roger Williams n'est pas une figure historique mineure. Banni de la colonie de Massachusetts Bay en 1636 pour ses opinions religieuses radicales (séparation de l'Église et de l'État, liberté de conscience), il a fondé Providence comme refuge pour la liberté religieuse. C'était révolutionnaire : aucune religion d'État, aucune persecution religieuse.
@@ -1090,6 +1152,7 @@ Aujourd'hui, Providence est la capitale du Rhode Island et un hub d'éducation (
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Columbia%2C_South_Carolina.svg/langfr-2560px-Flag_of_Columbia%2C_South_Carolina.svg.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/0/02/Fall_skyline_of_Columbia_SC_from_Arsenal_Hill.jpg',
         shortSummary: `Columbia, capitale ensoleillée de la Caroline du Sud, mêle chaleur, histoire et campus dans un drapeau institutionnel porté par sa forte identité sudiste.`,
+        tags: ['economie'],
         story: `Columbia est une ville où la chaleur écrase les après-midis, où les magnolias bordent les rues, et où la vie tourne autour du Capitole, des campus et des quartiers historiques. C’est une capitale du Sud, avec sa douceur, son rythme, ses cicatrices aussi.
 
 Le drapeau reflète cette histoire : emblèmes classiques, symboles institutionnels, palette solennelle. Il met en avant le rôle politique de la ville dans un État où tradition et modernité cohabitent difficilement parfois.
@@ -1103,6 +1166,7 @@ Columbia, c’est la lumière intense, les fontaines devant le Capitole, les ét
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Charleston%2C_South_Carolina.svg/langfr-2560px-Flag_of_Charleston%2C_South_Carolina.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1623608103477-2b90432a3f85?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Charleston, perle historique du Sud, mêle architecture coloniale, port, douceur marine et mémoire douloureuse dans un drapeau à l’identité forte.`,
+        tags: ['histoire-coloniale', 'port-maritime', 'architecture'],
         story: `Charleston est l’une des plus belles villes du Sud : façades pastel, rues pavées, arbres immenses couverts de mousse espagnole, port animé, histoire omniprésente. C’est une ville lumineuse, élégante, mais aussi marquée par un passé lourd : celui de l’esclavage et du commerce maritime.
 
 Le drapeau de Charleston, d’un bleu profond orné d’un palmier et d’un croissant, est devenu un symbole mythique de la ville. Il incarne sa relation à la mer, au climat, à l’identité sudiste.
@@ -1116,6 +1180,7 @@ Charleston est un mélange de beauté, de nostalgie et de tension historique. Le
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Flag_of_Pierre%2C_South_Dakota.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/South_Dakota_State_Capitol%2C_Capitol_Avenue%2C_Pierre%2C_SD_-_53748063274.jpg/1280px-South_Dakota_State_Capitol%2C_Capitol_Avenue%2C_Pierre%2C_SD_-_53748063274.jpg',
         shortSummary: `Pierre, capitale paisible du South Dakota, reflète dans son drapeau un territoire d’herbes hautes, de rivières larges et de silence immense.`,
+        tags: ['nature-wilderness'],
         story: `Pierre est l’une des plus petites capitales des États-Unis, posée au bord de la Missouri River, loin des grandes routes et du vacarme urbain. Ici, tout semble aller un peu plus lentement : les plaines s’étendent à perte de vue, le vent porte l’odeur de l’herbe sèche, et la lumière change doucement au fil des heures.
 
 Le drapeau de Pierre renvoie à cet environnement vaste : silhouettes de paysages, tonalités inspirées des prairies, motifs simples qui évoquent les pionniers et les racines autochtones de la région. Rien de spectaculaire, mais une authenticité tranquille — comme la ville elle-même.
@@ -1131,6 +1196,7 @@ Le drapeau flotte là, comme un repère discret dans un État où le ciel, la te
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Sioux_Falls%2C_South_Dakota.svg/langfr-2560px-Flag_of_Sioux_Falls%2C_South_Dakota.svg.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Sioux_falls_sd_lg.JPG/1280px-Sioux_falls_sd_lg.JPG',
         shortSummary: `Cascade turquoise, prairie verte et soleil dore - la metropole qui fait tourner l'Etat sans impot.`,
+        tags: ['economie'],
         story: `Le nouveau drapeau de Sioux Falls, adopte en 2018 apres un concours communautaire, est d'une clarte graphique : une bande bleu nuit pour le ciel, une courbe turquoise qui chute comme les chutes du Big Sioux River, un triangle vert pour les prairies et un disque dore pour le soleil qui se leve sur la plaine.
 
         Tout part de l'eau. Les chutes qui donnent son nom a la ville - 30 metres de denivele sur des dalles de quartzite rose - sont toujours au coeur de Falls Park. Les Lakotas appelaient ce lieu Inyan Ochan Ku, "sentier des rochers", et utilisaient le quartzite pour leurs outils bien avant l'arrivee des colons.
@@ -1146,6 +1212,7 @@ Le drapeau flotte là, comme un repère discret dans un État où le ciel, la te
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Flag_of_Memphis%2C_Tennessee.svg/1200px-Flag_of_Memphis%2C_Tennessee.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1543372742-e08542e25f8b?q=80&w=1317&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Bandes bleu-blanc-bleu avec sceau – berceau du blues, royaume d'Elvis, capitale du barbecue.`,
+        tags: ['musique', 'port-maritime'],
         story: `Le drapeau de Memphis présente trois bandes horizontales : bleu en haut, blanc au centre (deux fois plus large), bleu en bas. Au centre se trouve le sceau municipal en couleur, montrant un bateau à vapeur sur le Mississippi avec le soleil levant derrière.
 
 Le Mississippi n'est pas décoratif pour Memphis. C'est tout. Memphis existe à cause du fleuve. Fondée en 1819 sur une falaise surplombant le Mississippi, Memphis est devenue le plus grand marché de coton du monde au XIXe siècle. Les bateaux à vapeur descendaient le fleuve chargés de balles de coton.
@@ -1163,6 +1230,7 @@ Memphis est aussi capitale mondiale du barbecue (style Memphis : ribs sèches av
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Nashville.png/2560px-Flag_of_Nashville.png',
         heroImage: 'https://images.unsplash.com/photo-1545419913-775e3e82c7db?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec fleur de lys sur blanc et bleu – "Music City USA", capitale de la country.`,
+        tags: ['musique', 'economie'],
         story: `Le drapeau de Nashville présente un champ divisé horizontalement : blanc en haut, bleu en bas. Au centre se trouve le sceau municipal, montrant une grande fleur de lys entourée de quatre étoiles.
 
 La fleur de lys n'est pas un symbole de Nashville – c'est un symbole français. Elle apparaît ici parce que Nashville est nommée d'après Francis Nash, général de la Révolution américaine. Les fondateurs français de la ville ont incorporé la fleur de lys comme clin d'œil aux origines françaises de Tennessee (exploré par des Français au XVIIe siècle).
@@ -1180,6 +1248,7 @@ Nashville est aussi la capitale du Tennessee avec 715 000 habitants (2 millions 
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Austin%2C_Texas.svg/1200px-Flag_of_Austin%2C_Texas.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1557335200-a65f7f032602?q=80&w=1179&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `"Keep Austin Weird" – capitale du Texas, hub tech et musique live.`,
+        tags: ['technologie', 'musique', 'economie'],
         story: `Le drapeau d'Austin, adopté en 1961, présente un champ bleu avec le sceau municipal au centre. Le sceau montre une étoile texane blanche entourée d'un anneau portant "CITY OF AUSTIN" en haut et "1839" (année de fondation) en bas.
 
         Le design est classique et sobre, mais l'identité d'Austin est tout sauf conventionnelle. Le slogan officieux "Keep Austin Weird" capture l'esprit : progressiste dans un État conservateur, artistique dans un pays d'affaires, écologique dans le pays du pétrole.
@@ -1197,6 +1266,7 @@ Nashville est aussi la capitale du Tennessee avec 715 000 habitants (2 millions 
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Flag_of_Houston%2C_Texas.svg/langfr-1280px-Flag_of_Houston%2C_Texas.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1470082719408-b2843ab5c9ab?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Houston, immense métropole du Texas, mêle espace, énergie, diversité et modernité dans un drapeau qui reflète une ville tournée vers le ciel autant que vers la terre.`,
+        tags: ['technologie', 'economie'],
         story: `Houston, c’est l’endroit où l’on dit “Houston, we have a problem”, même si en réalité la ville a surtout trouvé des solutions. Ici, tout est vaste : les autoroutes, les quartiers, la chaleur, les ambitions. C’est l’une des métropoles les plus diversifiées des États-Unis, un centre d’énergie, d’ingénierie, de soins médicaux et d’exploration spatiale.
 
 Le drapeau de Houston reprend cette identité symbolique : une étoile — évidemment, le Texas — associée à des motifs simples et directs, comme la ville elle-même. Pas de fioritures, mais une clarté qui dit “ici, on construit, on invente, on avance”.
@@ -1212,6 +1282,7 @@ Le drapeau flotte au-dessus d’une ville où se croisent ingénieurs, artistes,
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Salt_Lake_City_%282020%29.svg/1200px-Flag_of_Salt_Lake_City_%282020%29.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1708994916126-10277fa96889?q=80&w=1341&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Le Sego Flag – un lys blanc sur bleu et blanc, symbole de résilience et de renouveau.`,
+        tags: ['nature-wilderness'],
         story: `En 2020, Salt Lake City a dévoilé un nouveau drapeau après un concours municipal qui a attiré des centaines de propositions. Le design gagnant, surnommé le "Sego Flag", présente deux bandes horizontales – bleue en haut, blanche en bas – avec un lys sego blanc dans le canton supérieur.
 
 Le lys sego (Calochortus nuttallii) occupe une place spéciale dans l'histoire de l'Utah. En 1848, alors que les premiers colons mormons faisaient face à la famine après que des nuées de criquets aient dévoré leurs récoltes, ils ont survécu en mangeant les bulbes de cette fleur sauvage. Le lys sego est devenu la fleur d'État de l'Utah en 1911, symbole de survie et d'adaptation.
@@ -1227,6 +1298,7 @@ Salt Lake City, capitale de l'Utah et siège mondial de l'Église de Jésus-Chri
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Montpelier%2C_Vermont.svg/langfr-2560px-Flag_of_Montpelier%2C_Vermont.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1603559934483-aeb4d9fa45a3?q=80&w=1152&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Plus petite capitale des États-Unis, Montpelier mêle collines, bâtiments en briques et atmosphère artisanale dans un drapeau à l’image d’un Vermont paisible et enraciné.`,
+        tags: ['nature-wilderness'],
         story: `Montpelier est une capitale à échelle humaine, presque improbable. C’est la plus petite des États-Unis, nichée entre des collines verdoyantes, avec des rues calmes, des cafés locaux, et un Capitole doré qui domine la ville comme un phare posé au milieu des arbres.
 
 Son drapeau reflète cette douceur : un graphisme traditionnel, des couleurs sobres, une symbolique qui mélange l’histoire du Vermont, l’artisanat et la nature environnante. Pas de grand geste, pas de modernisme outrancier — Montpelier préfère la simplicité et la continuité.
@@ -1242,6 +1314,7 @@ Le drapeau flotte comme une carte postale tranquille : il rappelle que le pouvoi
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Burlington%2C_Vermont.svg/1200px-Flag_of_Burlington%2C_Vermont.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1737038934032-027964b14a0d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Cinq bandes en zigzag bleu-blanc-vert - nouveau drapeau 2017, conçu par des jumeaux de 7e année.`,
+        tags: ['nature-wilderness'],
         story: `Le drapeau de Burlington, adopté par le conseil municipal le 27 novembre 2017, présente cinq bandes horizontales en zigzag : bleu, blanc, vert, blanc, bleu. Ce design simple mais mémorable a été créé par des jumeaux de septième année, Owen et Lucas Marchessault, et levé pour la première fois lors des célébrations du Nouvel An 2017.
 
         Le design a une symbolique claire : la bande bleue du haut représente le ciel, l'histoire de Burlington et l'espoir pour l'avenir. La ligne blanche symbolise les montagnes enneigées. La bande verte évoque le surnom du Vermont "Green Mountain State" et l'engagement de la ville pour la protection environnementale.
@@ -1257,6 +1330,7 @@ Le drapeau flotte comme une carte postale tranquille : il rappelle que le pouvoi
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Flag_of_Virginia_Beach%2C_Virginia.png/1280px-Flag_of_Virginia_Beach%2C_Virginia.png',
         heroImage: 'https://images.unsplash.com/photo-1573510460136-8a26ce45ed2c?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Trident de Neptune sur bleu et blanc – station balnéaire, base militaire massive.`,
+        tags: ['port-maritime'],
         story: `Le drapeau de Virginia Beach, adopté le 20 juin 1966, présente un champ divisé horizontalement : bleu en haut, blanc en bas, avec un trident doré (symbole de Neptune, dieu de la mer) au centre.
 
 Le trident n'est pas décoratif. Virginia Beach se proclame la "plus grande station balnéaire de la côte Est". La statue géante de Neptune en bronze (9 mètres) domine le boardwalk – 5 km de promenade en bord de mer bordée d'hôtels, restaurants, boutiques. Des millions de touristes visitent chaque année.
@@ -1276,6 +1350,7 @@ Le drapeau bleu et blanc avec trident capture cette identité balnéaire – mai
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Richmond%2C_Virginia.svg/1200px-Flag_of_Richmond%2C_Virginia.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1655484966364-bcda71eb896b?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Sceau avec statue équestre sur blanc – capitale confédérée, Monument Avenue controversée.`,
+        tags: ['guerre-civile', 'droits-civiques'],
         story: `Le drapeau de Richmond présente un champ blanc avec le sceau municipal au centre. Le design est sobre, presque anonyme – ce qui est ironique pour une ville dont l'histoire est si chargée.
 
 Richmond était la capitale des États confédérés d'Amérique (1861-1865). Jefferson Davis gouvernait depuis le Confederate White House (maintenant un musée). Le Capitole de Virginie, conçu par Thomas Jefferson, a accueilli le Congrès confédéré. Richmond a construit des canons, produit de la poudre, armé les armées rebelles.
@@ -1297,6 +1372,7 @@ Le drapeau blanc simple cache ces batailles – passées et présentes.`,
         flagImage: 'https://www.fotw.info/images/u/us-waoly-l.gif',
         heroImage: 'https://images.unsplash.com/photo-1720986315586-20959403c719?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Capitale discrète du Washington, Olympia mêle forêts humides, baie grise et bâtiments d’État dans un drapeau qui évoque autant la nature que la politique.`,
+        tags: ['nature-wilderness'],
         story: `Olympia n’a rien d’une ville tapageuse : ici, pas de gratte-ciel, pas de centres technologiques à perte de vue comme à Seattle. La capitale du Washington vit au rythme de la pluie, des marées, des pins droits comme des piquets et des bâtiments d’État posés face à la baie.
 
 Son drapeau rappelle cette double identité : institutionnelle d’un côté, profondément naturelle de l’autre. On y devine les influences du Pacifique Nord-Ouest — les silhouettes de montagnes, la couleur des forêts humides, les teintes douces qui évoquent plus la brume que les néons.
@@ -1312,6 +1388,7 @@ C’est un drapeau qui parle doucement, mais qui dit juste : “Ici, la politiqu
         flagImage: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Flag_of_Seattle.svg/1280px-Flag_of_Seattle.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1502175353174-a7a70e73b362?q=80&w=1726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Turquoise et blanc, le portrait du Chef Seattle – "City of Goodwill".`,
+        tags: ['technologie', 'economie', 'culture-autochtone'],
         story: `Le drapeau de Seattle, adopté le 16 juillet 1990 pour les Goodwill Games, présente un champ turquoise et blanc avec le logo municipal : un portrait du Chef Seattle entouré de deux lignes, avec les mots "City of Goodwill" au-dessus et "Seattle" en dessous.
 
         La couleur turquoise/bleu-vert a été choisie pour évoquer "la couleur du Puget Sound au crépuscule" – cette mer intérieure qui définit Seattle géographiquement, économiquement, spirituellement. Seattle est une ville maritime, construite sur des collines entre le Puget Sound à l'ouest et le lac Washington à l'est.
@@ -1327,6 +1404,7 @@ C’est un drapeau qui parle doucement, mais qui dit juste : “Ici, la politiqu
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Charleston%2C_West_Virginia.svg/2560px-Flag_of_Charleston%2C_West_Virginia.svg.png',
         heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Charleston%2C_West_Virginia_%282023%29.jpg/2560px-Charleston%2C_West_Virginia_%282023%29.jpg',
         shortSummary: `Sceau sur blanc – capitale de Virginie-Occidentale, État né de la sécession.`,
+        tags: ['industrie', 'economie'],
         story: `Le drapeau de Charleston présente un champ blanc avec le sceau municipal au centre. Charleston est la capitale et la plus grande ville de Virginie-Occidentale – l'État qui a fait sécession de la sécession.
 
 L'histoire est bizarre : quand la Virginie a rejoint la Confédération en 1861, les comtés de l'ouest (montagneux, peu d'esclaves, culturellement différents) ont refusé de suivre. Ils ont fait sécession de la Virginie et rejoint l'Union comme nouvel État en 1863. La Virginie-Occidentale est littéralement née de la Guerre de Sécession.
@@ -1348,6 +1426,7 @@ Le drapeau blanc simple ne montre rien de ces luttes – juste un sceau officiel
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Milwaukee%2C_Wisconsin.svg/1200px-Flag_of_Milwaukee%2C_Wisconsin.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1729879590699-e16b0732d591?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un engrenage bleu, le sceau municipal – "La ville qui a rendu la bière célèbre".`,
+        tags: ['industrie'],
         story: `Le drapeau de Milwaukee, adopté en 1954, présente un champ bleu moyen avec un grand engrenage doré au centre. À l'intérieur de cet engrenage se trouve le sceau de la ville, montrant des symboles industriels, agricoles et commerciaux qui définissent l'identité de Milwaukee.
 
 L'engrenage n'est pas métaphorique. Milwaukee a été construite sur la fabrication industrielle : machines-outils, équipements lourds, motocyclettes Harley-Davidson, et surtout, la bière. Pabst, Miller, Schlitz – ces noms ont transformé Milwaukee en capitale brassicole américaine au XIXe siècle. Les immigrants allemands ont apporté leurs recettes et leur savoir-faire, créant une culture de brassage qui perdure.
@@ -1363,6 +1442,7 @@ Milwaukee est une ville de contradictions : fortement ségrégée mais politique
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_Madison%2C_Wisconsin_%282018%E2%80%93present%29.svg/1200px-Flag_of_Madison%2C_Wisconsin_%282018%E2%80%93present%29.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1661224094420-2d84936d498e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Une bande blanche diagonale, un disque doré – capitale entre deux lacs.`,
+        tags: ['nature-wilderness'],
         story: `Le drapeau de Madison, adopté dans sa forme actuelle en 2018, présente un champ bleu ciel avec une bande blanche diagonale représentant l'isthme entre le lac Mendota et le lac Monona. Une croix noire au centre symbolise les quatre lacs qui entourent la ville et la forme en croix du Capitole de l'État du Wisconsin. Un disque doré représente le dôme doré emblématique du Capitole.
 
 Cette géographie lacustre définit Madison. La ville est littéralement construite sur une bande de terre étroite entre deux lacs, avec le Capitole au sommet de la colline au centre. C'est une capitale d'État inhabituelle : universitaire, progressive, entourée de nature.
@@ -1378,6 +1458,7 @@ Le drapeau de 2018 a remplacé un design précédent qui utilisait le symbole so
         flagImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Cheyenne%2C_Wyoming.svg/1200px-Flag_of_Cheyenne%2C_Wyoming.svg.png',
         heroImage: 'https://images.unsplash.com/photo-1684788482273-0f50cff592af?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         shortSummary: `Un champ blanc, une bordure brune, le sceau de la capitale de l'État le moins peuplé.`,
+        tags: ['economie'],
         story: `Le drapeau de Cheyenne présente un champ blanc encadré d'une bordure brune, avec le sceau municipal au centre : une skyline stylisée de la ville en bleu, un disque rouge représentant le soleil, et le slogan "Star of the Big Sky Country" (l'étoile du pays du grand ciel) en lettres rouges capitales.
 
 Cheyenne a été fondée en 1867 lors de la construction du premier chemin de fer transcontinental. C'est une ville née du rail : Union Pacific a établi un dépôt ici, et en trois mois, une ville de tentes et de baraques a surgi dans les plaines. Le nom vient du peuple Cheyenne, tribu des Grandes Plaines qui vivait dans cette région avant l'arrivée des colons.
