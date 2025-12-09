@@ -9,9 +9,13 @@ export default function ExplorePage() {
   const [selectedState, setSelectedState] = useState<StateInfo | null>(null);
 
   return (
-    <main className="w-screen h-screen flex flex-col md:flex-row">
+    <main id="main-content" className="w-screen h-screen flex flex-col md:flex-row">
       {/* Carte à gauche */}
-      <section className="flex-1">
+      <section
+        aria-label="Carte interactive des États-Unis"
+        role="region"
+        className="flex-1"
+      >
         <MapUS onStateClick={setSelectedState} />
       </section>
 

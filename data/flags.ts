@@ -6,6 +6,20 @@ export type CulturalReference = {
     link?: string;
 };
 
+export type CityTag =
+    | 'droits-civiques'
+    | 'industrie'
+    | 'nature-wilderness'
+    | 'architecture'
+    | 'immigration'
+    | 'technologie'
+    | 'culture-autochtone'
+    | 'histoire-coloniale'
+    | 'guerre-civile'
+    | 'economie'
+    | 'musique'
+    | 'port-maritime';
+
 export type CityFlag = {
     stateCode: string;
     citySlug: string;
@@ -14,6 +28,7 @@ export type CityFlag = {
     heroImage?: string;
     shortSummary: string;
     story: string;
+    tags?: CityTag[];
     // Références culturelles
     music?: CulturalReference[];
     books?: CulturalReference[];

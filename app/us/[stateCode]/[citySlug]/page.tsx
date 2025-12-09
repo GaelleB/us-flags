@@ -69,13 +69,14 @@ export default async function CityFlagPage({ params }: PageProps) {
   return (
     <>
       {/* Navigation sticky */}
-      <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-stone-200">
+      <nav aria-label="Navigation principale" className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-stone-200">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link
             href="/"
             className="inline-flex items-center text-sm font-sans font-medium text-slate-600 hover:text-slate-900 transition"
+            aria-label="Retour à la page d'accueil"
           >
-            <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
             Retour
@@ -84,13 +85,14 @@ export default async function CityFlagPage({ params }: PageProps) {
           <Link
             href="/explore"
             className="text-sm font-sans font-medium text-blue-600 hover:text-blue-800 transition"
+            aria-label="Explorer la carte interactive"
           >
             Explorer la carte →
           </Link>
         </div>
       </nav>
 
-      <main className="min-h-screen bg-stone-50">
+      <main id="main-content" className="min-h-screen bg-stone-50">
         {/* Hero Image */}
         {cityFlag.heroImage && (
           <div className="relative">
@@ -101,15 +103,15 @@ export default async function CityFlagPage({ params }: PageProps) {
               className="h-[50vh] md:h-[60vh]"
               priority
             />
-            <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/60"></div>
+            <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/60" aria-hidden="true"></div>
           </div>
         )}
 
         {/* Hero Section */}
-        <section className="bg-white border-b border-stone-200">
+        <section aria-labelledby="city-title" className="bg-white border-b border-stone-200">
           <div className="max-w-4xl mx-auto px-6 pt-16 pb-12">
             {/* City Name - Display Font */}
-            <h1 className="font-display text-5xl md:text-7xl font-bold text-slate-900 mb-6 leading-tight">
+            <h1 id="city-title" className="font-display text-5xl md:text-7xl font-bold text-slate-900 mb-6 leading-tight">
               {cityFlag.cityName}
             </h1>
 
@@ -119,16 +121,16 @@ export default async function CityFlagPage({ params }: PageProps) {
             </p>
 
             {/* Metadata */}
-            <div className="flex items-center gap-4 text-sm text-slate-500 font-sans">
+            <div className="flex items-center gap-4 text-sm text-slate-500 font-sans" role="contentinfo" aria-label="Métadonnées de l'article">
               <span>Lecture : 4 min</span>
-              <span>·</span>
+              <span aria-hidden="true">·</span>
               <span>Histoire américaine</span>
             </div>
           </div>
         </section>
 
         {/* Flag Image Section */}
-        <section className="bg-linear-to-b from-stone-100 to-white py-12">
+        <section aria-label="Drapeau de la ville" className="bg-linear-to-b from-stone-100 to-white py-12">
           <div className="max-w-3xl mx-auto px-6">
             <figure>
               <div className="w-full rounded-lg overflow-hidden shadow-xl bg-white">

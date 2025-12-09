@@ -22,9 +22,9 @@ export default function HomePage() {
   ].filter(Boolean);
 
   return (
-    <main className="min-h-screen bg-stone-50">
+    <main id="main-content" className="min-h-screen bg-stone-50">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-linear-to-b from-slate-900 to-slate-800 text-white">
+      <section aria-label="En-tête principal" className="relative h-screen flex items-center justify-center bg-linear-to-b from-slate-900 to-slate-800 text-white">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=1920')] bg-cover bg-center opacity-20"></div>
 
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
@@ -52,7 +52,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce" aria-hidden="true">
           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
@@ -60,12 +60,12 @@ export default function HomePage() {
       </section>
 
       {/* Featured Stories */}
-      <section id="featured" className="max-w-7xl mx-auto px-6 py-20">
+      <section id="featured" aria-labelledby="featured-heading" className="max-w-7xl mx-auto px-6 py-20">
         <div className="mb-12">
-          <h2 className="font-display text-5xl font-bold text-slate-900 mb-4">
+          <h2 id="featured-heading" className="font-display text-5xl font-bold text-slate-900 mb-4">
             Histoires à la une
           </h2>
-          <div className="w-24 h-1 bg-slate-900"></div>
+          <div className="w-24 h-1 bg-slate-900" aria-hidden="true"></div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -99,7 +99,7 @@ export default function HomePage() {
 
                   <div className="mt-4 flex items-center text-sm font-sans font-semibold text-blue-600 group-hover:text-blue-800">
                     Lire l&rsquo;histoire
-                    <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </div>
@@ -111,7 +111,7 @@ export default function HomePage() {
       </section>
 
       {/* Stats Section */}
-      <section className="bg-white py-20">
+      <section aria-label="Statistiques du projet" className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-12 text-center">
             <div>
@@ -143,9 +143,9 @@ export default function HomePage() {
       </section>
 
       {/* CTA Final - Large and impactful */}
-      <section className="relative bg-linear-to-br from-slate-900 via-slate-800 to-blue-900 py-32 overflow-hidden">
+      <section aria-labelledby="explore-cta-heading" className="relative bg-linear-to-br from-slate-900 via-slate-800 to-blue-900 py-32 overflow-hidden">
         {/* Background pattern */}
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 opacity-10" aria-hidden="true">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
             backgroundSize: '40px 40px'
@@ -153,7 +153,7 @@ export default function HomePage() {
         </div>
 
         <div className="relative max-w-5xl mx-auto px-6 text-center">
-          <h2 className="font-display text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
+          <h2 id="explore-cta-heading" className="font-display text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
             Explorez la carte<br/>interactive
           </h2>
           <p className="font-serif text-xl md:text-2xl text-stone-200 mb-12 max-w-3xl mx-auto leading-relaxed">
@@ -162,9 +162,10 @@ export default function HomePage() {
           <Link
             href="/explore"
             className="inline-flex items-center gap-3 bg-white text-slate-900 px-12 py-5 rounded-lg font-sans font-bold hover:bg-stone-100 transition text-lg shadow-2xl"
+            aria-label="Voir la carte interactive des drapeaux"
           >
             <span>Voir la carte</span>
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </Link>
