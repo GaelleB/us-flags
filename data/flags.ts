@@ -384,7 +384,6 @@ Aujourd'hui, Honolulu est une métropole de près d'un million d'habitants, conc
 
 Le drapeau jaune simple cache une histoire complexe : annexation impériale, perte de souveraineté, militarisation, tourisme de masse, montée du mouvement de souveraineté hawaïenne. Honolulu porte le poids d'être à la fois paradis tropical carte postale et capitale d'un État dont l'incorporation dans l'Union reste contestée par certains Hawaïens natifs. Le sceau sur le drapeau ne dit rien – et c'est peut-être intentionnel.`,
         adoptionYear: 1959,
-        adoptionYear: 2004,
     },
 {
         stateCode: '16',
@@ -827,9 +826,8 @@ Le drapeau de Lincoln reflète cette identité : des couleurs simples, un design
 
 Le bâtiment le plus emblématique, le Nebraska State Capitol, domine Lincoln avec sa tour Art déco unique aux États-Unis. Au pied de cette architecture imposante, la ville vit au rythme des étudiants, des matchs de football universitaire et des rues qui respirent le calme d’une capitale à taille humaine.
 
-Le drapeau flotte au-dessus d’une ville qui incarne le Midwest dans ce qu’il a de plus authentique : une terre de travail, de stabilité, de communautés soudées. Lincoln n’a pas besoin de tapage pour exister — elle avance dans la continuité, avec la ligne droite des plaines comme horizon.`,
+Le drapeau flotte au-dessus d'une ville qui incarne le Midwest dans ce qu'il a de plus authentique : une terre de travail, de stabilité, de communautés soudées. Lincoln n'a pas besoin de tapage pour exister — elle avance dans la continuité, avec la ligne droite des plaines comme horizon.`,
         adoptionYear: 1932,
-        adoptionYear: 1985,
     },
 {
         stateCode: '31',
@@ -1105,9 +1103,8 @@ Sous un ciel immense, parfois limpide, parfois complètement blanc, le drapeau f
 
 Le drapeau de Columbus combine couleurs vives et motifs historiques : aigle, étoile, références européennes et américaines. Il reflète cette identité hybride, entre héritage et modernité.
 
-Dans les rues, on trouve des marchés, des cafés, des musées, des stades, une ambiance jeune et créative. Columbus n’a rien d’une capitale ennuyeuse : elle avance, elle bouge, elle surprend.`,
+Dans les rues, on trouve des marchés, des cafés, des musées, des stades, une ambiance jeune et créative. Columbus n'a rien d'une capitale ennuyeuse : elle avance, elle bouge, elle surprend.`,
         adoptionYear: 1929,
-        adoptionYear: 1968,
     },
 {
         stateCode: '40',

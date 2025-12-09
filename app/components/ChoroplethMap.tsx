@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useMemo } from 'react';
 import maplibregl from 'maplibre-gl';
 import statesGeoJson from '../../data/states.json';
 import type { CityFlag } from '@/data/flags';
@@ -11,12 +11,9 @@ type ChoroplethMapProps = {
 
 export default function ChoroplethMap({ cities }: ChoroplethMapProps) {
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
-  const [legend, setLegend] = useState<{ color: string; label: string; count: number }[]>([]);
 
-  useEffect(() => {
-    if (!mapContainerRef.current) return;
-
-    // Calculer l'année moyenne d'adoption par état
+  // Calculer l'année moyenne d'adoption par état
+  const stateAverages = useMemo(() => {
     const stateYears = new Map<string, number[]>();
     cities.forEach(city => {
       if (city.adoptionYear) {
@@ -27,11 +24,46 @@ export default function ChoroplethMap({ cities }: ChoroplethMapProps) {
       }
     });
 
-    const stateAverages = new Map<string, number>();
+    const averages = new Map<string, number>();
     stateYears.forEach((years, stateCode) => {
       const avg = years.reduce((a, b) => a + b, 0) / years.length;
-      stateAverages.set(stateCode, Math.round(avg));
+      averages.set(stateCode, Math.round(avg));
     });
+
+    return averages;
+  }, [cities]);
+
+  // Préparer les données de légende
+  const legend = useMemo(() => {
+    const getColorForLegend = (year: number): number => {
+      if (year < 1900) return 0;
+      if (year < 1930) return 1;
+      if (year < 1960) return 2;
+      if (year < 1990) return 3;
+      return 4;
+    };
+
+    const legendData = [
+      { color: '#1e3a8a', label: 'Avant 1900', count: 0 },
+      { color: '#3b82f6', label: '1900-1929', count: 0 },
+      { color: '#60a5fa', label: '1930-1959', count: 0 },
+      { color: '#93c5fd', label: '1960-1989', count: 0 },
+      { color: '#dbeafe', label: '1990+', count: 0 },
+      { color: '#e5e7eb', label: 'Pas de données', count: 0 },
+    ];
+
+    stateAverages.forEach(year => {
+      legendData[getColorForLegend(year)].count++;
+    });
+
+    // États sans données
+    legendData[5].count = 50 - stateAverages.size;
+
+    return legendData;
+  }, [stateAverages]);
+
+  useEffect(() => {
+    if (!mapContainerRef.current) return;
 
     // Définir les plages de couleurs
     const getColor = (year: number | undefined): string => {
@@ -43,29 +75,6 @@ export default function ChoroplethMap({ cities }: ChoroplethMapProps) {
       return '#dbeafe'; // bleu pâle
     };
 
-    // Préparer les données de légende
-    const legendData = [
-      { color: '#1e3a8a', label: 'Avant 1900', count: 0 },
-      { color: '#3b82f6', label: '1900-1929', count: 0 },
-      { color: '#60a5fa', label: '1930-1959', count: 0 },
-      { color: '#93c5fd', label: '1960-1989', count: 0 },
-      { color: '#dbeafe', label: '1990+', count: 0 },
-      { color: '#e5e7eb', label: 'Pas de données', count: 0 },
-    ];
-
-    stateAverages.forEach(year => {
-      if (year < 1900) legendData[0].count++;
-      else if (year < 1930) legendData[1].count++;
-      else if (year < 1960) legendData[2].count++;
-      else if (year < 1990) legendData[3].count++;
-      else legendData[4].count++;
-    });
-
-    // États sans données
-    legendData[5].count = 50 - stateAverages.size;
-
-    setLegend(legendData);
-
     const map = new maplibregl.Map({
       container: mapContainerRef.current,
       style: 'https://demotiles.maplibre.org/style.json',
@@ -76,6 +85,7 @@ export default function ChoroplethMap({ cities }: ChoroplethMapProps) {
     map.on('load', () => {
       map.addSource('us-states', {
         type: 'geojson',
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         data: statesGeoJson as any,
       });
 
@@ -91,7 +101,8 @@ export default function ChoroplethMap({ cities }: ChoroplethMapProps) {
               getColor(year),
             ]),
             '#e5e7eb', // couleur par défaut
-          ],
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          ] as any,
           'fill-opacity': 0.8,
         },
       });
@@ -111,7 +122,6 @@ export default function ChoroplethMap({ cities }: ChoroplethMapProps) {
         if (e.features && e.features.length > 0) {
           const feature = e.features[0];
           const stateCode = feature.properties?.STATE;
-          const stateName = feature.properties?.NAME;
           const avgYear = stateAverages.get(stateCode);
 
           if (avgYear) {
@@ -129,7 +139,7 @@ export default function ChoroplethMap({ cities }: ChoroplethMapProps) {
     return () => {
       map.remove();
     };
-  }, [cities]);
+  }, [stateAverages]);
 
   return (
     <div className="space-y-4">
