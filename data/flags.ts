@@ -28,6 +28,7 @@ export type CityFlag = {
     heroImage?: string;
     shortSummary: string;
     story: string;
+    adoptionYear?: number; // Année d'adoption du drapeau
     tags?: CityTag[];
     // Références culturelles
     music?: CulturalReference[];
@@ -58,6 +59,7 @@ Le 15 septembre 1963, quatre fillettes noires – Addie Mae Collins, Cynthia Wes
 Les marches de 1963, les chiens policiers et lances à incendie utilisés contre des manifestants pacifiques (immortalisés en photos brutales) ont galvanisé le soutien national au Civil Rights Act de 1964.
 
 Aujourd'hui, Birmingham (population 200 000) s'est transformé. Le Birmingham Civil Rights Institute préserve cette histoire douloureuse. La ville a élu des maires noirs. Mais les cicatrices restent, et le drapeau blanc avec enclume ne montre rien de cette lutte.`,
+        adoptionYear: 1951,
     },
 {
         stateCode: '01',
@@ -78,6 +80,7 @@ Le boycott a réussi. La Cour suprême a déclaré la ségrégation dans les bus
 Montgomery était aussi le terminus de la marche Selma-Montgomery de 1965 – 54 miles de protestation qui ont abouti à 25 000 manifestants sur les marches du Capitole. Le Voting Rights Act a suivi cinq mois plus tard.
 
 Population actuelle : 200 000 habitants. Montgomery est la capitale de l'Alabama et un site de pèlerinage pour l'histoire des droits civiques. Le National Memorial for Peace and Justice commémore les victimes de lynchage. Le drapeau blanc simple cache des couches d'histoire complexes et douloureuses.`,
+        adoptionYear: 1952,
     },
 {
         stateCode: '02',
@@ -94,6 +97,7 @@ L'ancre fait référence au nom de la ville et à son origine : lors de sa trois
 L'avion moderne symbolise le rôle crucial d'Anchorage comme hub aérien. L'aéroport international Ted Stevens Anchorage est l'un des plus fréquentés au monde pour le fret – situé à mi-chemin entre l'Asie et l'Amérique du Nord, c'est une escale technique parfaite. FedEx et UPS y ont des hubs majeurs.
 
 Anchorage abrite 40% de la population totale de l'Alaska. C'est une métropole moderne posée au bord du désert arctique. Des orignaux traversent les rues. Des ours errent dans les banlieues. Le soleil ne se couche pas en été, ne se lève pas en hiver. Le drapeau, dessiné par Joan Kimura en 1973, capture cette dualité : Anchorage est à la fois porte d'entrée logistique mondiale et avant-poste de la frontière sauvage.`,
+        adoptionYear: 1973,
     },
 {
         stateCode: '02',
@@ -110,6 +114,7 @@ Juneau est l'une des capitales d'État les plus bizarres d'Amérique : aucune ro
 L'étoile dorée représente le statut de capitale de l'Alaska. Juneau est devenue capitale du territoire de l'Alaska en 1906, succédant à Sitka. Quand l'Alaska est devenu un État en 1959, Juneau est restée capitale malgré des tentatives répétées de déplacer la capitale vers Anchorage (plus peuplée) ou vers une nouvelle ville construite pour cet usage.
 
 La barre ondulée bleue évoque l'océan Pacifique et le Inside Passage – le réseau de voies navigables protégées qui longe la côte de l'Alaska. Les montagnes vertes suggèrent le climat nordique et le terrain montagneux spectaculaire. Juneau est entourée par la forêt nationale de Tongass, la plus grande forêt nationale américaine. C'est une capitale qui ressemble plus à un village de pêcheurs qu'à un centre politique.`,
+        adoptionYear: 1959,
     },
 {
         stateCode: '04',
@@ -126,6 +131,7 @@ Phoenix porte bien son nom. La ville moderne a été fondée en 1868 sur les rui
 Le drapeau a été classé 4e sur 150 dans l'enquête NAVA de 2004, derrière D.C., Chicago et Denver. Sa force réside dans sa lisibilité : même à distance, même en mouvement, le phénix est reconnaissable. Pas de sceau compliqué, pas de texte microscopique, pas de dates historiques. Juste un symbole puissant sur un fond uni.
 
 Phoenix est aujourd'hui la 5e plus grande ville des États-Unis, capitale d'un État désertique devenu centre technologique et urbain. Le phénix blanc continue de s'élever, symbole d'une métropole qui défie le climat, la géographie, les probabilités – et qui renaît encore et encore.`,
+        adoptionYear: 1990,
     },
 {
         stateCode: '04',
@@ -142,6 +148,7 @@ Ce design a été créé par Mary Crowfoot en 1949 lors d'un concours pour un no
 La Mission San Xavier del Bac, fondée en 1692 et reconstruite entre 1783 et 1797, est l'un des plus beaux exemples d'architecture baroque espagnole en Amérique du Nord. Elle rappelle que Tucson a été tour à tour territoire espagnol, mexicain, puis américain après l'achat Gadsden de 1854. C'est une ville frontalière au sens le plus profond du terme.
 
 Tucson (du mot O'odham "Cuk Ṣon" signifiant "au pied de la montagne noire") est entourée par cinq chaînes de montagnes et traversée par le désert de Sonora. Son drapeau capture cette essence : deux histoires en équilibre, deux cultures en dialogue, une ville qui regarde simultanément vers son passé colonial et son avenir technologique.`,
+        adoptionYear: 1953,
     },
 {
         stateCode: '05',
@@ -162,6 +169,7 @@ Les images ont choqué le monde : Elizabeth Eckford, 15 ans, marchant seule vers
 Little Rock Central High est maintenant un site historique national. Les Little Rock Nine sont des héros des droits civiques. Mais la lutte a laissé des cicatrices : Faubus a fermé toutes les écoles publiques de Little Rock pendant un an plutôt que de les désagréger.
 
 Population actuelle : 204 000 habitants. Little Rock est la capitale de l'Arkansas et son centre économique. Le drapeau blanc avec pont cache l'histoire turbulente – mais Central High se dresse toujours, témoin d'un courage extraordinaire.`,
+        adoptionYear: 1957,
     },
 {
         stateCode: '06',
@@ -178,6 +186,7 @@ Le design créé en 1931 est audacieux : trois bandes en zigzag évoquent les mo
 Chaque élément raconte une strate de l'histoire : l'héritage espagnol et mexicain, les missions franciscaines, l'agriculture qui a prospéré avant Hollywood, la ruée vers l'or californienne. Le vert représente les oliviers, le jaune l'or et le soleil, le rouge... peut-être le sang, peut-être les couchers de soleil légendaires de la côte Pacifique.
 
 C'est un drapeau excentrique, presque psychédélique, qui reflète parfaitement une ville faite de contradictions : plages et déserts, richesse et pauvreté, rêves et désillusions. Los Angeles ne fait rien à moitié, pas même son drapeau.`,
+        adoptionYear: 1931,
     },
 {
         stateCode: '06',
@@ -194,6 +203,7 @@ Les deux bleus représentent les deux rivières qui définissent Sacramento : le
 Le vert symbolise l'héritage agricole de la vallée centrale de Californie – Sacramento est entourée de terres parmi les plus fertiles du monde. Le jaune évoque les chercheurs d'or qui ont envahi la région en 1849 après la découverte d'or à Sutter's Mill, à 50 km au nord-est.
 
 Sacramento est la capitale de la Californie depuis 1854, mais elle reste dans l'ombre de San Francisco, Los Angeles, San Diego. C'est une capitale paradoxalement discrète pour l'État le plus peuplé et économiquement puissant des États-Unis. Le drapeau capture cette identité humble : pas de sceaux grandioses, pas de symbolisme agressif. Juste des rivières, des champs, de l'or. Sacramento travaille pendant que les autres villes brillent.`,
+        adoptionYear: 1962,
     },
 {
         stateCode: '08',
@@ -210,6 +220,7 @@ Les couleurs racontent le Colorado : le jaune symbolise l'or trouvé dans les co
 En 2004, l'Association nord-américaine de vexillologie a classé ce drapeau à la troisième place des meilleurs drapeaux de villes américaines, juste derrière Washington D.C. et Chicago. Sa force ? Une géométrie audacieuse, des couleurs vives, une symbolique claire. Pas de sceau illisible, pas de texte superflu.
 
 Denver porte son drapeau avec fierté : sur les bâtiments publics, les tatouages, les t-shirts. C'est l'identité visuelle d'une ville qui se voit comme la porte d'entrée des montagnes, un carrefour entre l'Ouest sauvage et la modernité urbaine.`,
+        adoptionYear: 1926,
     },
 {
         stateCode: '09',
@@ -226,6 +237,7 @@ Denver porte son drapeau avec fierté : sur les bâtiments publics, les tatouage
         Hartford est la capitale du Connecticut et, plus surprenant, la "Capitale mondiale de l'assurance". Aetna, Travelers, The Hartford, Hartford Steam Boiler – les géants de l'assurance américaine sont nés ici. Cette concentration d'entreprises d'assurance remonte au XIXe siècle, quand les compagnies d'assurance maritime se sont diversifiées vers l'assurance incendie et vie.
 
         Hartford était aussi un centre de fabrication d'armes : Colt's Manufacturing Company, fondée en 1855, produisait les revolvers Colt légendaires. Samuel Colt a transformé Hartford en arsenal américain. Aujourd'hui, les tours d'assurance dominent la skyline, et le drapeau bleu et blanc simple flotte au-dessus d'une capitale qui assure l'Amérique.`,
+        adoptionYear: 1964,
     },
 {
         stateCode: '09',
@@ -242,6 +254,7 @@ Le drapeau de Bridgeport reflète cette histoire : un blason chargé, des symbol
 Aujourd’hui, Bridgeport essaie de se réinventer. Les friches industrielles laissent place à des espaces culturels, les quais se transforment, et la ville s’appuie sur sa situation en bord d’océan pour attirer de nouveaux habitants. Le drapeau, lui, reste le témoin d’une époque où la ville bourdonnait d’usines et de navires — une mémoire textile qui flotte encore au-dessus des rues et des bâtiments.
 
 C’est un drapeau qui ne ment pas : il raconte une ville qui a traversé un âge industriel entier et qui, comme beaucoup de villes de la côte Est, avance maintenant entre héritage et renouveau.`,
+        adoptionYear: 1995,
     },
 {
         stateCode: '10',
@@ -264,6 +277,7 @@ C’est un drapeau qui ne ment pas : il raconte une ville qui a traversé un âg
         Aujourd'hui, Wilmington lutte avec le déclin post-industriel : criminalité élevée, pauvreté, quartiers abandonnés – contrastant violemment avec les tours corporatives du centre-ville.
 
         Le drapeau bleu avec navire évoque l'histoire coloniale – mais cache la réalité moderne d'une ville où les entreprises prospèrent tandis que les résidents luttent.`,
+        adoptionYear: 1989,
     },
 {
         stateCode: '10',
@@ -278,6 +292,7 @@ C’est un drapeau qui ne ment pas : il raconte une ville qui a traversé un âg
 Mais autour des bâtiments officiels, la ville reste profondément rurale. À quelques minutes du centre, les routes traversent des champs, des fermes, des stations-service où le temps semble glisser plus lentement. Le drapeau de Dover raconte ce lien entre l’administration et la campagne, entre le Capitole local et les granges à l’horizon.
 
 Accroché devant les écoles, les tribunaux ou les bureaux d’État, il ne fait pas le spectacle. Il rappelle simplement qu’ici, quelque part entre Philadelphie et l’océan, on continue à écrire le quotidien d’un État que beaucoup traversent sans jamais s’arrêter.`,
+        adoptionYear: 1972,
     },
 {
         stateCode: '11',
@@ -300,6 +315,7 @@ D.C. est défini par le gouvernement : 27% des emplois sont gouvernementaux. Le 
 Mais D.C. a aussi une identité culturelle distincte : Chocolate City (surnom historique pour la majorité afro-américaine), go-go music (genre musical né ici), quartiers ethniques (U Street, Shaw, Adams Morgan), gentrification rapide transformant des quartiers historiquement noirs.
 
 Le drapeau avec étoiles de Washington capture l'héritage fondateur – mais ne montre rien du paradoxe moderne : capitale de la démocratie, privée de démocratie.`,
+        adoptionYear: 1938,
     },
 {
         stateCode: '12',
@@ -318,6 +334,7 @@ Le drapeau avec étoiles de Washington capture l'héritage fondateur – mais ne
         Jacksonville est un port militaire majeur : la Naval Station Mayport et Naval Air Station Jacksonville emploient des dizaines de milliers. C'est aussi un hub bancaire et logistique. Le fleuve St. Johns traverse la ville du sud au nord (l'un des rares fleuves américains à couler vers le nord).
 
         La devise "Bold New City of the South" date des années 1960, quand Jacksonville tentait de se réinventer après des scandales de corruption et des tensions raciales. Le drapeau marron et or, avec sa fontaine centrale, projette une image d'harmonie civique que l'histoire plus complexe de Jacksonville contredit.`,
+        adoptionYear: 1965,
     },
 {
         stateCode: '12',
@@ -334,6 +351,7 @@ Le drapeau de Tallahassee reflète cette identité institutionnelle : un graphis
 Pourtant, Tallahassee a une âme universitaire et culturelle très vivante : stades remplis, cafés étudiants, quartiers anciens où les maisons en bois dorent sous la chaleur, soirées d’été qui semblent s’étirer à l’infini. On y sent une énergie différente, plus locale, plus authentique.
 
 Le drapeau flotte sur une ville qui n’a pas besoin de palmiers pour exister. Tallahassee gouverne la Floride depuis ses collines, avec un mélange surprenant de calme, de tradition et de ferveur étudiante. Une capitale qui ne ressemble à aucune autre dans le Sud-Est.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '13',
@@ -365,6 +383,8 @@ Honolulu signifie "baie abritée" en hawaïen. La ville a été la capitale du R
 Aujourd'hui, Honolulu est une métropole de près d'un million d'habitants, concentrée sur l'île d'Oahu. C'est un hub militaire stratégique (Pearl Harbor), un centre touristique international (Waikiki Beach), et un pont culturel entre l'Amérique et l'Asie-Pacifique. La population est majoritairement asiatique-américaine – japonaise, philippine, chinoise, coréenne.
 
 Le drapeau jaune simple cache une histoire complexe : annexation impériale, perte de souveraineté, militarisation, tourisme de masse, montée du mouvement de souveraineté hawaïenne. Honolulu porte le poids d'être à la fois paradis tropical carte postale et capitale d'un État dont l'incorporation dans l'Union reste contestée par certains Hawaïens natifs. Le sceau sur le drapeau ne dit rien – et c'est peut-être intentionnel.`,
+        adoptionYear: 1959,
+        adoptionYear: 2004,
     },
 {
         stateCode: '16',
@@ -381,6 +401,7 @@ Le drapeau municipal, adopté en 1989, présente un fond bleu avec une bande bla
 Mais le drapeau dit une vérité importante : Boise est la capitale de l'Idaho, et c'est une ville verte dans un État de montagnes, de déserts, de lacs volcaniques. La rivière Boise serpente à travers la ville, bordée de peupliers et de saules, créant un corridor verdoyant qui contraste avec le paysage aride environnant.
 
 En 2025, Boise a fait un geste politique audacieux : le conseil municipal a voté 5-1 pour désigner trois drapeaux comme drapeaux officiels de la ville – le drapeau municipal classique, le drapeau Pride, et le drapeau blanc des donneurs d'organes. Dans un État conservateur, c'était une déclaration d'inclusion. Boise n'a peut-être pas le meilleur drapeau d'Amérique, mais elle montre que la signification d'un drapeau peut évoluer.`,
+        adoptionYear: 1965,
     },
 {
         stateCode: '17',
@@ -395,6 +416,7 @@ En 2025, Boise a fait un geste politique audacieux : le conseil municipal a vot�
 Dans les rues calmes, on croise des bâtiments publics, des diners, des quartiers résidentiels. Pas de vertige vertical, pas de skyline : Springfield avance à son propre rythme. Le drapeau flotte devant les institutions, rappelant que l’Illinois ne se résume pas à son monstre urbain au bord du lac Michigan.
 
 C’est un drapeau de continuité, pas de spectacle. Une bannière qui marque les lieux où s’écrit, loin du bruit de Chicago, la politique quotidienne d’un des États les plus influents du pays.`,
+        adoptionYear: 1970,
     },
 {
         stateCode: '17',
@@ -411,6 +433,7 @@ C’est un drapeau de continuité, pas de spectacle. Une bannière qui marque le
         Les deux bandes bleues représentent les bras d'eau qui encadrent la ville : le lac Michigan à l'est et la rivière Chicago qui traverse son cœur. Entre elles, trois bandes blanches symbolisent les trois sections de la ville : Nord, Ouest et Sud.
 
         Ce drapeau, adopté en 1917, est devenu l'un des plus reconnaissables d'Amérique. On le voit tatoué sur des épaules, imprimé sur des t-shirts, brandit lors des manifestations sportives. C'est un symbole de fierté pour une ville qui ne cesse de se réinventer.`,
+        adoptionYear: 1917,
     },
 {
         stateCode: '18',
@@ -425,6 +448,7 @@ C’est un drapeau de continuité, pas de spectacle. Une bannière qui marque le
 Capitale de l’Indiana, la ville est réputée pour ses sports — les fameux 500 miles — mais aussi pour sa scène culturelle, ses quartiers vivants et son mélange de modernité et de tradition du Midwest.
 
 Le drapeau flotte partout : stades, bâtiments publics, boutiques de design. Il est devenu un symbole identitaire puissant, une fierté locale. À Indianapolis, tout pointe vers le centre — et le drapeau le rappelle à chaque regard.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '19',
@@ -441,6 +465,7 @@ Les ponts ne sont pas des détails architecturaux aléatoires. Ils symbolisent l
 Des Moines est la capitale et la plus grande ville de l'Iowa. C'est aussi le cœur de l'industrie américaine de l'assurance – Principal Financial Group, Nationwide, Allied Insurance ont tous des opérations majeures ici. Des Moines est discrètement devenue un centre financier majeur du Midwest.
 
 Politiquement, Des Moines est célèbre pour les caucus de l'Iowa – le premier vote du cycle présidentiel américain. Tous les quatre ans, le monde entier regarde Des Moines pour les premiers signes de qui deviendra président. Le drapeau ne montre pas cette importance politique, juste trois ponts simples. Mais ces ponts portent le poids symbolique d'une ville carrefour.`,
+        adoptionYear: 1974,
     },
 {
         stateCode: '20',
@@ -455,6 +480,7 @@ Politiquement, Des Moines est célèbre pour les caucus de l'Iowa – le premier
 Son drapeau, comme beaucoup de capitales administratives, joue sur les emblèmes et les couleurs classiques : bleu, or, sceaux, références à l’histoire fondatrice. On y lit des dates, des devises, des symboles qui renvoient autant à l’État qu’à la ville.
 
 Dans le vent du Midwest, le drapeau de Topeka n’apparaît pas dans les films ni sur les t-shirts de touristes. Il signale simplement un niveau de décision : ici, au milieu des champs et des silos, on construit la politique d’un État que beaucoup traversent sans le regarder vraiment.`,
+        adoptionYear: 1969,
     },
 {
         stateCode: '20',
@@ -475,6 +501,7 @@ Dans le vent du Midwest, le drapeau de Topeka n’apparaît pas dans les films n
         Population : 397 000 habitants, la plus grande ville du Kansas. Wichita était aussi une ville de cow-boys au XIXe siècle – terminus de la Chisholm Trail où des millions de têtes de bétail arrivaient du Texas. Wyatt Earp était marshal adjoint ici avant Tombstone.
 
         Le drapeau blanc avec soleil stylisé capture l'optimisme des Grandes Plaines – mais les rayons ressemblent aussi à des hélices tournant vers un avenir incertain.`,
+        adoptionYear: 1937,
     },
 {
         stateCode: '21',
@@ -489,6 +516,7 @@ Dans le vent du Midwest, le drapeau de Topeka n’apparaît pas dans les films n
 Le drapeau de Frankfort capture cette ambiance : une mise en scène du Capitole, de la rivière, parfois d’un pont. On y reconnaît le décor qu’on voit en vrai en levant les yeux : façades de pierre, coupoles, eau qui coule doucement. La politique y paraît moins abstraite que dans les grandes capitales d’État.
 
 Ce drapeau flotte lors des cérémonies officielles, mais aussi au quotidien, sur des mâts modestes devant des bâtiments qui n’ont rien de monumental. Il raconte une capitale qui ressemble davantage à une petite ville de province qu’à un centre de pouvoir lointain – et c’est exactement ce qui fait sa singularité.`,
+        adoptionYear: 1986,
     },
 {
         stateCode: '21',
@@ -509,6 +537,7 @@ Ce drapeau flotte lors des cérémonies officielles, mais aussi au quotidien, su
         Population : 633 000 habitants, la plus grande ville du Kentucky. Louisville est aussi un hub logistique majeur : UPS Worldport, le plus grand hub de tri automatisé au monde, traite 2 millions de colis par jour ici.
 
         Le drapeau bleu et blanc avec fleur de lys française capture l'élégance et la tradition – Derby, bourbon, grâce du Sud.`,
+        adoptionYear: 2003,
     },
 {
         stateCode: '22',
@@ -524,6 +553,7 @@ Le drapeau de Baton Rouge reflète cette complexité : couronne royale, fleurs d
 Baton Rouge est une capitale, mais aussi une ville universitaire, ouvrière, culturelle. On y trouve des quartiers anciens, des rues plus rudes, des bâtiments officiels, des bars où la musique déborde sur les trottoirs, des marchés grouillants et la présence omniprésente du fleuve.
 
 Flottant au-dessus d’un Capitole élégant qui domine l’horizon, le drapeau symbolise cette ville multiple — coloniale, américaine, louisianaise — qui a appris à faire cohabiter l'histoire, la chaleur et l’énergie d’un peuple qui vit avec intensité.`,
+        adoptionYear: 1968,
     },
 {
         stateCode: '22',
@@ -542,6 +572,7 @@ Flottant au-dessus d’un Capitole élégant qui domine l’horizon, le drapeau 
         Mardi Gras, Katrina, la corruption, la musique, la cuisine créole, les cimetières au-dessus du sol, Bourbon Street, les beignets, le vaudou – la Nouvelle-Orléans est unique en Amérique. Aucune autre ville ne lui ressemble. Population : 383 000 (en baisse de 100 000 depuis l'ouragan Katrina en 2005).
 
         Le drapeau blanc simple avec trois fleurs de lys dorées capture tout : élégance française, histoire multicouche, identité qui refuse d'être purement américaine. C'est un chef-d'œuvre de design vexillologique.`,
+        adoptionYear: 1918,
     },
 {
         stateCode: '23',
@@ -556,6 +587,7 @@ Flottant au-dessus d’un Capitole élégant qui domine l’horizon, le drapeau 
 Le drapeau reprend surtout les symboles de l’État du Maine : pins, pêcheurs, paysages maritimes. Augusta se veut représentante d’un territoire immense, sauvage et authentique.
 
 Dans cette capitale discrète, le drapeau flotte comme un rappel de ce lien permanent entre institutions et nature. Une ville calme, un État immense.`,
+        adoptionYear: 1987,
     },
 {
         stateCode: '23',
@@ -570,6 +602,7 @@ Dans cette capitale discrète, le drapeau flotte comme un rappel de ce lien perm
 Le drapeau reste pourtant simple : sceau classique, symboles maritimes, sobriété des villes du Nord-Est. Rien de spectaculaire, car l’essentiel est ailleurs : dans la lumière, la mer, le vent.
 
 Marcher dans Portland, c’est traverser une carte postale vivante. Le drapeau ne cherche pas à rivaliser : il accompagne juste cette identité océanique.`,
+        adoptionYear: 1969,
     },
 {
         stateCode: '24',
@@ -586,6 +619,7 @@ Le drapeau d’Annapolis reprend cette identité : un motif inspiré des armoiri
 Annapolis est aussi la maison de la Naval Academy, ce qui ajoute une présence visible d’uniformes, de cérémonies, de rigueur maritime. Sur les quais, on entend les cordages des bateaux, le bruit de l’eau, le passage des étudiants, des touristes, des habitants qui vivent entre mer et histoire.
 
 Le drapeau flotte dans une ville lumineuse, élégante, presque européenne dans ses proportions. Il raconte un Maryland qui regarde autant vers la baie que vers l’histoire, un territoire qui a gardé ses couleurs fortes et son caractère maritime intact.`,
+        adoptionYear: 1965,
     },
 {
         stateCode: '24',
@@ -606,6 +640,7 @@ Le drapeau flotte dans une ville lumineuse, élégante, presque européenne dans
         Mais Baltimore se bat pour renaître : Inner Harbor transformé en attraction touristique (National Aquarium, USS Constellation, Science Center), Johns Hopkins University et Hospital (recherche médicale de classe mondiale), quartiers hipster comme Fells Point.
 
         Le drapeau Calvert-Crossland capture l'histoire coloniale – mais ne montre rien des luttes urbaines modernes ou de la résilience de Baltimore.`,
+        adoptionYear: 1950,
     },
 {
         stateCode: '25',
@@ -620,6 +655,7 @@ Le drapeau flotte dans une ville lumineuse, élégante, presque européenne dans
 Le drapeau, bleu clair avec un sceau doré, met en avant cette histoire fondatrice : monuments, architecture, formules latines, solennité. Il ne cherche pas la modernité — il affirme l’ancienneté.
 
 Boston mêle innovation et tradition, étudiants du monde entier, science, littérature, sports, culture irlandaise et Old Money américain. Le drapeau flotte au-dessus d’une ville qui regarde loin en avant mais qui n’oublie jamais ce qu’elle a été.`,
+        adoptionYear: 1917,
     },
 {
         stateCode: '26',
@@ -633,6 +669,7 @@ Boston mêle innovation et tradition, étudiants du monde entier, science, litt�
 Le drapeau joue la carte institutionnelle : sceaux, couleurs classiques, références politiques. Il reflète une ville calme, sérieuse, structurée.
 
 Autour du Capitole au dôme blanc, on trouve des quartiers résidentiels, des écoles, des familles, une vie quotidienne tranquille. Lansing est une capitale stable, discrète, mais essentielle.`,
+        adoptionYear: 1964,
     },
 {
         stateCode: '26',
@@ -647,6 +684,7 @@ Autour du Capitole au dôme blanc, on trouve des quartiers résidentiels, des é
 Le drapeau de Detroit est un collage d’héritages : français, britanniques, américains. Il raconte les changements de souveraineté, les guerres, les révolutions industrielles et l’immigration qui a construit la ville.
 
 Aujourd’hui, Detroit se transforme : quartiers qui renaissent, artistes qui s’installent, entrepreneurs, musiciens, cafés et galeries qui redonnent de la couleur. Le drapeau flotte comme un rappel du passé, mais aussi de la résilience unique de cette ville légendaire.`,
+        adoptionYear: 1948,
     },
 {
         stateCode: '27',
@@ -663,6 +701,7 @@ Ces symboles capturent l'identité de Minneapolis. La ville abrite 18 lacs dans 
 Minneapolis est la plus grande ville du Minnesota, formant avec Saint Paul les "Twin Cities" – deux villes jumelles séparées par le Mississippi mais fusionnées en une seule métropole. Minneapolis est plus grande, plus moderne, plus commerciale. Saint Paul est plus ancienne, plus petite, plus gouvernementale.
 
 Le meurtre de George Floyd par la police de Minneapolis en mai 2020 a déclenché des manifestations mondiales et transformé la ville en symbole de la justice raciale. Le drapeau de 1955, avec ses symboles ordonnés de progrès et d'industrie, semble aujourd'hui anachronique. Minneapolis est en pleine réinvention identitaire.`,
+        adoptionYear: 1955,
     },
 {
         stateCode: '27',
@@ -679,6 +718,7 @@ Le bouclier contient une étoile bleue à cinq branches représentant l'étoile 
 Saint Paul est la capitale du Minnesota et la plus ancienne des villes jumelles. Contrairement à Minneapolis la flashy, Saint Paul est plus calme, plus conservatrice, plus orientée vers le gouvernement. Le Capitole de l'État domine la skyline avec son dôme néoclassique blanc.
 
 La ville a été nommée d'après une chapelle catholique dédiée à Saint Paul l'Apôtre, construite en 1841. Cette origine religieuse contraste avec Minneapolis, nommée d'après le mot Dakota pour "eau" (mni) combiné avec le grec "polis" (ville). Saint Paul européen, Minneapolis amérindien-grec. Les jumeaux ne se ressemblent pas.`,
+        adoptionYear: 1955,
     },
 {
         stateCode: '28',
@@ -701,6 +741,7 @@ Jackson a aussi une histoire musicale : Mississippi Blues Trail passe par Jackso
 Mais le déclin est brutal. La population a chuté de 25% depuis 1980. La fuite blanche a vidé la base fiscale. L'infrastructure s'effondre. Jackson lutte pour survivre.
 
 Le drapeau blanc simple avec sceau ne montre rien de ces luttes – juste une façade officielle pour une capitale en crise.`,
+        adoptionYear: 1965,
     },
 {
         stateCode: '29',
@@ -717,6 +758,7 @@ Le drapeau de la ville rassemble ces influences : des éléments classiques, des
 Jefferson City vit au rythme de ses institutions, de ses écoles, de ses quartiers résidentiels, de la rivière qui passe lentement en bas des falaises. C’est une capitale tranquille, qui ne cherche pas à rivaliser avec Kansas City ou St. Louis. Elle occupe une autre place : celle du centre politique, du point d’équilibre.
 
 Le drapeau flotte au-dessus de cette ville ancrée, un rappel que le Missouri se raconte autant dans son histoire politique que dans ses paysages de collines et de fleuve.`,
+        adoptionYear: 1967,
     },
 {
         stateCode: '29',
@@ -737,6 +779,7 @@ Le drapeau flotte au-dessus de cette ville ancrée, un rappel que le Missouri se
         Kansas City est aussi un hub de transport majeur : chemins de fer, autoroutes, rivières (Missouri et Kansas se rejoignent ici). Hallmark Cards a son siège ici. Population : 495 000 (2,2 millions dans la zone métropolitaine).
 
         Le drapeau avec son cœur rouge capture l'identité de Kansas City : passionnée, centrale, battant au rythme du jazz et du barbecue.`,
+        adoptionYear: 1913,
     },
 {
         stateCode: '30',
@@ -753,6 +796,7 @@ Le drapeau flotte au-dessus de cette ville ancrée, un rappel que le Missouri se
         Last Chance Gulch est aujourd'hui la rue principale piétonne d'Helena, bordée de bâtiments victoriens restaurés. La ville est nichée dans les Rocheuses, près de la Continental Divide – la ligne de partage des eaux qui sépare les bassins versants du Pacifique et de l'Atlantique. C'est une position géographique symbolique pour une capitale.
 
         Helena a également joué un rôle dans l'histoire des droits civiques : en 1954, c'était la première ville du Montana à désagréger volontairement ses écoles publiques, avant même l'arrêt Brown v. Board of Education. Le drapeau ne raconte pas cette histoire, mais la ville la porte. Helena n'est pas qu'une relique de la ruée vers l'or – c'est une capitale qui continue d'évoluer.`,
+        adoptionYear: 1965,
     },
 {
         stateCode: '30',
@@ -784,6 +828,8 @@ Le drapeau de Lincoln reflète cette identité : des couleurs simples, un design
 Le bâtiment le plus emblématique, le Nebraska State Capitol, domine Lincoln avec sa tour Art déco unique aux États-Unis. Au pied de cette architecture imposante, la ville vit au rythme des étudiants, des matchs de football universitaire et des rues qui respirent le calme d’une capitale à taille humaine.
 
 Le drapeau flotte au-dessus d’une ville qui incarne le Midwest dans ce qu’il a de plus authentique : une terre de travail, de stabilité, de communautés soudées. Lincoln n’a pas besoin de tapage pour exister — elle avance dans la continuité, avec la ligne droite des plaines comme horizon.`,
+        adoptionYear: 1932,
+        adoptionYear: 1985,
     },
 {
         stateCode: '31',
@@ -806,6 +852,7 @@ Le drapeau flotte au-dessus d’une ville qui incarne le Midwest dans ce qu’il
         Omaha a produit des talents culturels surprenants : Malcolm X est né ici. Gerald Ford a grandi ici. Les musiciens indie folk Bright Eyes, Conor Oberst sont d'Omaha.
 
         Le drapeau blanc avec sceau ne montre rien de cette diversité – juste bureaucratie municipale.`,
+        adoptionYear: 1938,
     },
 {
         stateCode: '32',
@@ -819,6 +866,7 @@ Le drapeau flotte au-dessus d’une ville qui incarne le Midwest dans ce qu’il
 Le drapeau de Carson City reflète ce décor : silhouettes de pics, couleurs franches, références à l’industrie minière et à la géographie qui entoure la ville. On y retrouve l’ambiance des hauts plateaux, du vent froid en hiver et de la chaleur écrasante en été.
 
 Carson City est une capitale discrète : administrative, modeste, presque domestique. Mais son drapeau rappelle constamment d’où elle vient : un territoire minéral, ouvert, où l’on a longtemps cherché la fortune sous la roche. Une ville qui n’a pas besoin d’être immense pour porter le poids politique d’un État entier.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '32',
@@ -835,6 +883,7 @@ Carson City est une capitale discrète : administrative, modeste, presque domest
         Le jet n'est pas anecdotique. Las Vegas doit une partie de son expansion à l'armée américaine : la base aérienne de Nellis, établie en 1941, et le site d'essais nucléaires du Nevada (1951-1992) ont attiré des milliers de travailleurs. Dans les années 1950, les casinos organisaient des "atomic viewing parties" pour observer les champignons atomiques depuis les toits-terrasses.
 
         Le drapeau, dessiné par Richard Thompson, capture cette identité contradictoire : ville du péché et base militaire, oasis désertique et métropole néon, ciel bleu pur et technologie de pointe. Las Vegas est la ville des illusions, mais son drapeau dit la vérité : c'est un mirage qui a réussi à devenir réel.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '33',
@@ -850,6 +899,7 @@ Le drapeau de Concord suit cette logique : un sceau classique, des symboles hist
 Depuis les marches du Capitole avec sa coupole dorée, on voit les collines, les arbres, la lumière froide de l’hiver qui s’installe tôt. Le drapeau flotte là, discret mais stable, rappelant que même une petite ville peut porter la responsabilité d’un État entier.
 
 Concord n’est pas une capitale de spectacle : c’est une capitale d’équilibre, de calme, de constance. Et son drapeau raconte exactement cela.`,
+        adoptionYear: 1972,
     },
 {
         stateCode: '33',
@@ -866,6 +916,7 @@ Concord n’est pas une capitale de spectacle : c’est une capitale d’équili
         Cette devise n'est pas exagérée. Manchester était autrefois la capitale textile mondiale. L'Amoskeag Manufacturing Company, fondée en 1831, est devenue le plus grand complexe textile du monde : 30 bâtiments en brique, 15 000 employés, 700 000 broches produisant 50 miles de tissu par heure. Les usines bordaient la rivière Merrimack sur des kilomètres.
 
         L'effondrement est venu en 1936 quand Amoskeag a fermé, jetant la ville dans le chaos économique. Mais Manchester a survécu, se diversifiant vers la technologie, les services financiers, la santé. Population actuelle : 115 000 habitants, la plus grande ville du New Hampshire. Le marteau du sceau continue de frapper.`,
+        adoptionYear: 1952,
     },
 {
         stateCode: '34',
@@ -882,6 +933,7 @@ Son drapeau raconte cette identité multiple : héritage industriel, sceaux hist
 Newark est une ville vivante, inégale, parfois rude, mais profondément authentique. Elle est traversée par des voies ferrées, des autoroutes, des couloirs de métro et l’un des aéroports les plus fréquentés du pays. Ce n’est pas une ville musée : c’est une ville qui bouge, qui change, qui respire.
 
 Le drapeau flotte au-dessus d’une ville qui a tout connu — prospérité, crises, renaissance — et qui continue de tracer son propre chemin, entre mémoire industrielle et futur urbain.`,
+        adoptionYear: 1913,
     },
 {
         stateCode: '34',
@@ -898,6 +950,7 @@ Le drapeau flotte au-dessus d’une ville qui a tout connu — prospérité, cri
         Trenton est la capitale du New Jersey et un site crucial de l'histoire révolutionnaire américaine. La bataille de Trenton (26 décembre 1776) a été un tournant : Washington a traversé le fleuve Delaware gelé et attaqué les Hessiens à l'aube, remportant une victoire critique qui a ravivé la cause patriote.
 
         Mais l'identité de Trenton est industrielle. Le pont qui traverse le Delaware porte le slogan légendaire : "TRENTON MAKES, THE WORLD TAKES" (Trenton fabrique, le monde prend). Céramique, fil de fer, caoutchouc, câbles – Trenton produisait tout. L'industrie a décliné, mais le slogan demeure, et le drapeau bicolore simple proclame l'histoire révolutionnaire et industrielle de la capitale.`,
+        adoptionYear: 1964,
     },
 {
         stateCode: '35',
@@ -912,6 +965,7 @@ Le drapeau flotte au-dessus d’une ville qui a tout connu — prospérité, cri
 Le drapeau de Santa Fe est à son image : un soleil zia, symbole emblématique du Nouveau-Mexique, posé sur des couleurs qui évoquent le désert, la spiritualité et les paysages sacrés du Sud-Ouest. Chaque ligne renvoie à un cycle, chaque rayon à une relation entre l’humain, la terre et le temps.
 
 Santa Fe est la plus haute capitale du pays, perchée dans une lumière sèche et dorée. Son drapeau capture cette atmosphère : une ville où l’histoire n’est pas derrière soi mais autour, dans les murs d’adobe, dans les cérémonies, dans l’art. Une capitale qui semble avancer au rythme du soleil, plutôt qu’à celui des horloges.`,
+        adoptionYear: 1958,
     },
 {
         stateCode: '35',
@@ -934,6 +988,7 @@ Albuquerque accueille l'Albuquerque International Balloon Fiesta – le plus gra
 La ville se situe le long du Rio Grande, coincée entre les montagnes Sandia à l'est (3 200 mètres) et mesas volcaniques à l'ouest. Route 66 traverse Albuquerque – nostalgie américaine incarnée.
 
 Le drapeau jaune avec soleil Zia capture l'héritage autochtone – mais ne montre rien du mélange culturel moderne, des laboratoires nucléaires, ou de Walter White.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '36',
@@ -950,6 +1005,7 @@ Tout y est : le commerce, l'industrie, les origines hollandaises. Le moulin rapp
 Au-dessus du sceau, une aigle. En dessous, la date : 1625, année de fondation de la ville. Le drapeau adopté en 1915 est discret comparé à l'exubérance urbaine qu'il représente, mais c'est justement son élégance sobre qui fascine.
 
 New York n'a pas besoin d'un drapeau flamboyant. Son skyline, ses rues, ses habitants parlent pour elle. Le drapeau est une carte d'identité historique, un rappel que cette ville de tous les possibles a commencé comme un comptoir commercial au bord de l'Hudson.`,
+        adoptionYear: 1915,
     },
 {
         stateCode: '36',
@@ -966,6 +1022,7 @@ Les couleurs sont celles du Prince's Flag (Prinsenvlag) utilisé par la Compagni
 Albany est la capitale de l'État de New York depuis 1797, bien qu'elle soit éclipsée en taille et en influence par New York City. C'est une capitale politique inhabituelle : petite (100 000 habitants), ancienne, coincée entre les montagnes et le fleuve Hudson. Le Capitole de l'État, achevé en 1899 après 32 ans de construction, est l'un des plus chers jamais construits.
 
 Dans l'enquête NAVA de 2004, le drapeau d'Albany a reçu une note de 5,2/10, se classant 34e parmi 150 drapeaux municipaux américains. C'est un bon design – historiquement significatif, symboliquement clair, visuellement distinctif. Albany honore ses racines néerlandaises tout en servant comme cœur politique de l'État le plus puissant d'Amérique.`,
+        adoptionYear: 1969,
     },
 {
         stateCode: '37',
@@ -984,6 +1041,7 @@ Charlotte est la 15e ville la plus grande des États-Unis avec 911 000 habitants
 Cette transformation de ville textile du Sud en géant financier s'est produite rapidement. Dans les années 1980, Charlotte était encore dominée par les usines textiles. La déréglementation bancaire a tout changé. Les banques locales ont fusionné, grandi, attiré des talents, construit des gratte-ciels.
 
 Le drapeau simple – couronne d'or sur bleu – capture cette dualité : reine par nom, capitaliste par nature.`,
+        adoptionYear: 1929,
     },
 {
         stateCode: '37',
@@ -1002,6 +1060,7 @@ Le Research Triangle – formé par Raleigh, Durham et Chapel Hill – est l'un 
 Raleigh elle-même a une population de 474 000 habitants, mais la zone métropolitaine atteint 1,4 million. La croissance est explosive : la population a triplé depuis 1980. L'économie du savoir attire des jeunes éduqués, créant une ville progressiste dans un État traditionnel.
 
 Raleigh est nommée d'après Sir Walter Raleigh, qui a parrainé les premières tentatives de colonisation anglaise en Caroline du Nord (la "Lost Colony" de Roanoke). Le drapeau rouge et blanc avec son chêne solide projette stabilité et croissance – une capitale qui regarde vers l'avenir.`,
+        adoptionYear: 1960,
     },
 {
         stateCode: '38',
@@ -1016,6 +1075,7 @@ Raleigh est nommée d'après Sir Walter Raleigh, qui a parrainé les premières 
         Bismarck est perchée sur la rive est du Missouri. C'est la capitale politique du Dakota du Nord mais aussi la porte d'entrée vers les champs pétroliers de Bakken. Depuis 2010, la ruée vers le pétrole a fait exploser l'économie : hôtels complets, salaires doublés, embouteillages de pick-ups sur l'Interstate 94. Les bureaux du Capitole – un gratte-ciel Art déco de 21 étages – regardent cette transformation.
 
         Le tipi rouge du drapeau rappelle que cette richesse est extraite d'une terre habitée depuis des millénaires. L'État a été nommé en 1889, mais le nom de la ville, Bismarck, était un coup marketing : les financiers allemands de New York l'ont choisi pour flatter l'empire allemand et attirer des capitaux. Un siècle et demi plus tard, la croix dorée s'étend sur un horizon toujours aussi vaste.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '38',
@@ -1046,6 +1106,8 @@ Sous un ciel immense, parfois limpide, parfois complètement blanc, le drapeau f
 Le drapeau de Columbus combine couleurs vives et motifs historiques : aigle, étoile, références européennes et américaines. Il reflète cette identité hybride, entre héritage et modernité.
 
 Dans les rues, on trouve des marchés, des cafés, des musées, des stades, une ambiance jeune et créative. Columbus n’a rien d’une capitale ennuyeuse : elle avance, elle bouge, elle surprend.`,
+        adoptionYear: 1929,
+        adoptionYear: 1968,
     },
 {
         stateCode: '40',
@@ -1064,6 +1126,7 @@ Mais OKC est marquée par une tragédie moderne : l'attentat du 19 avril 1995. T
 Le Oklahoma City National Memorial, avec ses 168 chaises vides en bronze, est devenu un lieu de pèlerinage. La ville s'est reconstruite autour de ce traumatisme, transformant son centre-ville délabré en district moderne avec le Bricktown Entertainment District.
 
 Oklahoma City est la capitale de l'Oklahoma et sa plus grande ville (population 687 000). L'économie dépend du pétrole, du gaz naturel, de l'aviation (Tinker Air Force Base), et de l'élevage. Le drapeau bleu simple avec chariot pionnier rappelle que tout a commencé par une course folle vers la terre.`,
+        adoptionYear: 1969,
     },
 {
         stateCode: '41',
@@ -1080,6 +1143,7 @@ Le vert représente "les forêts et notre ville verte" – Portland est entouré
 Portland a une réputation unique en Amérique : ville hipster, paradis des cyclistes, capitale du café artisanal et des food trucks. C'est la ville où "les jeunes vont pour prendre leur retraite" (selon l'émission satirique Portlandia). Mais c'est aussi une ville portuaire industrielle, un hub technologique, et un laboratoire d'urbanisme progressiste.
 
 Le drapeau, classé 6e meilleur drapeau municipal américain dans l'enquête NAVA de 2004, reflète cette identité : géométrie audacieuse, couleurs symboliques claires, pas de sceau bureaucratique. Portland fait les choses différemment, et son drapeau le proclame. "Keep Portland Weird" n'est pas juste un slogan – c'est une philosophie visuelle.`,
+        adoptionYear: 1969,
     },
 {
         stateCode: '41',
@@ -1096,6 +1160,7 @@ La fleur de cerisier n'est pas un cliché touristique. Salem abrite l'Universit�
 Salem est la capitale de l'Oregon depuis 1859, mais comme Sacramento en Californie, elle vit dans l'ombre de sa grande sœur Portland. C'est une ville de fonctionnaires, d'étudiants, de fermes environnantes. La vallée de Willamette autour de Salem produit du houblon, du vin, des fruits – c'est l'arrière-pays agricole fertile qui nourrit Portland.
 
 Le nouveau drapeau, adopté le 11 juillet 2022, reflète une tentative de modernisation identitaire. Salem veut être plus qu'une capitale administrative. Elle veut être reconnue pour sa beauté, sa culture japonaise, son héritage horticole. Le drapeau est une déclaration : Salem existe, Salem compte, Salem fleurit.`,
+        adoptionYear: 1962,
     },
 {
         stateCode: '42',
@@ -1112,6 +1177,7 @@ Le nouveau drapeau, adopté le 11 juillet 2022, reflète une tentative de modern
         Harrisburg est resté des années sans drapeau jusqu'à son invitation à l'Exposition du tricentenaire de Jamestown en 1907. Le maire Edward Z. Gross a proposé un concours de design. Le drapeau actuel a été légèrement mis à jour en 1991 mais maintient le design original.
 
         Harrisburg est une petite capitale (50 000 habitants) dominée par le gouvernement d'État. Le Capitole de Pennsylvanie, achevé en 1906, est un chef-d'œuvre Beaux-Arts avec un dôme inspiré de Saint-Pierre de Rome. Teddy Roosevelt l'a appelé "le plus beau bâtiment de capitole que j'ai jamais vu". Le drapeau capture cette fierté architecturale et politique.`,
+        adoptionYear: 1973,
     },
 {
         stateCode: '42',
@@ -1128,6 +1194,7 @@ Le drapeau de la ville reprend ce mélange entre tradition et vitalité : un ble
 Philadelphia est brute, vivante, parfois rugueuse, toujours fière. C’est un carrefour où cohabitent culture afro-américaine, institutions historiques, scènes artistiques, cuisine de rue et mémoires révolutionnaires. Le drapeau flotte sur cet ensemble comme un fil conducteur, un rappel que la ville n’a jamais cessé d’évoluer tout en gardant son identité.
 
 En passant devant l’Hôtel de Ville ou sur les marches du musée rendues célèbres par Rocky, on comprend que Philadelphia n’est pas simplement “la ville d’avant” : c’est une ville qui avance, qui lutte, qui invente. Et son drapeau porte cette détermination-là.`,
+        adoptionYear: 1874,
     },
 {
         stateCode: '44',
@@ -1144,6 +1211,7 @@ Roger Williams n'est pas une figure historique mineure. Banni de la colonie de M
 Providence signifie "la providence de Dieu" – Williams croyait que Dieu l'avait guidé vers ce lieu sûr. La ville est devenue le berceau du Rhode Island, le plus petit État américain mais aussi l'un des plus importants pour la liberté religieuse.
 
 Aujourd'hui, Providence est la capitale du Rhode Island et un hub d'éducation (Brown University, Rhode Island School of Design) et de culture. Le centre-ville historique préserve des bâtiments coloniaux côtoyant des tours modernes. Le sceau de Roger Williams sur le drapeau rappelle que Providence a été fondée sur un principe radical : la liberté de croyance.`,
+        adoptionYear: 1967,
     },
 {
         stateCode: '45',
@@ -1158,6 +1226,7 @@ Aujourd'hui, Providence est la capitale du Rhode Island et un hub d'éducation (
 Le drapeau reflète cette histoire : emblèmes classiques, symboles institutionnels, palette solennelle. Il met en avant le rôle politique de la ville dans un État où tradition et modernité cohabitent difficilement parfois.
 
 Columbia, c’est la lumière intense, les fontaines devant le Capitole, les étudiants partout, les musées, les bâtiments publics. Une ville qui porte le Sud, avec tout ce que cela implique.`,
+        adoptionYear: 1967,
     },
 {
         stateCode: '45',
@@ -1172,6 +1241,7 @@ Columbia, c’est la lumière intense, les fontaines devant le Capitole, les ét
 Le drapeau de Charleston, d’un bleu profond orné d’un palmier et d’un croissant, est devenu un symbole mythique de la ville. Il incarne sa relation à la mer, au climat, à l’identité sudiste.
 
 Charleston est un mélange de beauté, de nostalgie et de tension historique. Le drapeau flotte comme un rappel doux-amer : une ville magnifique qui n’oublie rien de son passé.`,
+        adoptionYear: 1947,
     },
 {
         stateCode: '46',
@@ -1188,6 +1258,7 @@ Le drapeau de Pierre renvoie à cet environnement vaste : silhouettes de paysage
 C’est une capitale sans verticalité, sans agitation, où les bâtiments d’État s’intègrent dans un décor presque rural. Les habitants vivent à deux pas de la nature, des sentiers, de la rivière, des grands espaces qui dominent tout.
 
 Le drapeau flotte là, comme un repère discret dans un État où le ciel, la terre et le vent racontent autant l’histoire que les archives officielles. Pierre n’a pas besoin d’être grande pour représenter le South Dakota : elle en capture l’essence, le calme et la profondeur.`,
+        adoptionYear: 1967,
     },
 {
         stateCode: '46',
@@ -1204,6 +1275,7 @@ Le drapeau flotte là, comme un repère discret dans un État où le ciel, la te
         Aujourd'hui Sioux Falls (213 000 habitants) est la capitale economique du Dakota du Sud. Sanford Health, Avera Health et Monument Health y emploient des dizaines de milliers de soignants. Citibank et toute une constellation de banques ont installe leurs centres de cartes de credit ici dans les annees 1980, profitant d'un Etat sans impot sur le revenu ni plafonnement des taux. Les tours de verre du centre-ville se dressent litteralement grace a ces lois financieres.
 
         La croissance est explosive : l'aeroport double de taille, les brasseries artisanales bordent Phillips Avenue, et les nouveaux arrivants remplissent des lotissements jusque dans la prairie. Pourtant le drapeau rappelle la geographie premiere - une cascade turquoise qui tranche le vert. Meme en pleine boomtown, tout commence par l'eau sur le quartzite rose.`,
+        adoptionYear: 1989,
     },
 {
         stateCode: '47',
@@ -1222,6 +1294,7 @@ Mais l'identité culturelle de Memphis est musicale. Beale Street, le cœur du d
 Elvis domine Memphis comme une présence fantomatique. Graceland, son manoir devenu musée, attire 600 000 visiteurs par an. C'est le deuxième domicile privé le plus visité d'Amérique après la Maison Blanche. Elvis est mort ici en 1977, mais il n'est jamais vraiment parti.
 
 Memphis est aussi capitale mondiale du barbecue (style Memphis : ribs sèches avec rub d'épices) et siège de FedEx, qui emploie 30 000 personnes localement. Population : 633 000. Le drapeau bleu et blanc avec bateau à vapeur rappelle que tout commence avec le fleuve.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '47',
@@ -1240,6 +1313,7 @@ Mais Nashville est définie par un seul mot : musique. "Music City USA" est le c
 Broadway à Nashville est bordé de "honky tonks" – bars où la musique live joue de 10h du matin à 3h du matin, sept jours par semaine. Des dizaines de milliers de musiciens vivent à Nashville, espérant percer. L'industrie musicale génère 10 milliards de dollars annuellement.
 
 Nashville est aussi la capitale du Tennessee avec 715 000 habitants (2 millions dans la zone métropolitaine). Un Parthénon grandeur nature dans Centennial Park rappelle que Nashville s'appelle "Athens of the South". Le drapeau bleu et blanc avec fleur de lys cache son cœur musical.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '48',
@@ -1258,6 +1332,7 @@ Nashville est aussi la capitale du Tennessee avec 715 000 habitants (2 millions 
         Austin s'est transformée en "Silicon Hills" – hub technologique rivalisant avec la Silicon Valley. Apple, Google, Tesla, Oracle ont des campus massifs. La croissance est explosive : la population a doublé depuis 1990. Les loyers ont explosé. L'embourgeoisement menace le caractère "weird".
 
         Le drapeau bleu simple avec étoile texane ne montre rien de cette étrangeté. C'est peut-être intentionnel : Austin cache sa vraie nature derrière le conformisme texan.`,
+        adoptionYear: 1915,
     },
 {
         stateCode: '48',
@@ -1274,6 +1349,7 @@ Le drapeau de Houston reprend cette identité symbolique : une étoile — évid
 Houston est tournée vers l’avenir : le Johnson Space Center, les laboratoires, les campus ultramodernes, les gratte-ciel qui s’élèvent dans une lumière étouffante. Mais elle reste aussi ancrée dans ses racines : musique du Sud, quartiers historiques, marchés latino, barbecues, vie quotidienne qui bat fort sous le soleil.
 
 Le drapeau flotte au-dessus d’une ville où se croisent ingénieurs, artistes, migrants, étudiants, médecins, pilotes, familles. Une ville qui incarne la démesure américaine, mais aussi son incroyable capacité à se réinventer. Houston ne se regarde pas : elle se projette — toujours plus loin, toujours plus haut.`,
+        adoptionYear: 1915,
     },
 {
         stateCode: '49',
@@ -1290,6 +1366,7 @@ Le lys sego (Calochortus nuttallii) occupe une place spéciale dans l'histoire d
 Les couleurs du drapeau évoquent le Grand Lac Salé (le bleu) et les sommets enneigés des Wasatch Mountains (le blanc). C'est un design épuré, moderne, loin du sceau municipal complexe qui ornait l'ancien drapeau depuis 1969.
 
 Salt Lake City, capitale de l'Utah et siège mondial de l'Église de Jésus-Christ des saints des derniers jours, a choisi un drapeau qui parle d'héritage pionnier mais regarde vers l'avenir. En 2025, la ville a même ajouté des variantes officielles – le "Belonging Flag" et le "Celebration Flag" – montrant qu'un drapeau peut être vivant, évolutif, inclusif.`,
+        adoptionYear: 2006,
     },
 {
         stateCode: '50',
@@ -1306,6 +1383,7 @@ Son drapeau reflète cette douceur : un graphisme traditionnel, des couleurs sob
 La vie y est lente, presque européenne : marchés fermiers, boutiques indépendantes, bâtiments publics où tout le monde finit par connaître tout le monde. Loin du chaos des grandes métropoles, Montpelier semble avancer dans une bulle de calme, au rythme des saisons du Nord-Est.
 
 Le drapeau flotte comme une carte postale tranquille : il rappelle que le pouvoir politique peut aussi habiter une ville petite, chaleureuse, où les collines et les forêts comptent autant que les lois.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '50',
@@ -1322,6 +1400,7 @@ Le drapeau flotte comme une carte postale tranquille : il rappelle que le pouvoi
         Burlington est la ville la plus grande du Vermont avec seulement 44 000 habitants – c'est le plus petit État en population après le Wyoming. Située sur les rives du lac Champlain avec vue sur les Adirondacks de New York, Burlington est une ville universitaire progressiste (Université du Vermont), célèbre pour sa scène musicale (Phish est né ici) et sa politique de gauche.
 
         Bernie Sanders a été maire de Burlington de 1981 à 1989 avant de devenir sénateur et candidat présidentiel. La ville a une identité socialiste assumée, rare en Amérique. Le nouveau drapeau de 2017, conçu par des enfants, capture l'esprit démocratique et accessible de Burlington.`,
+        adoptionYear: 2017,
     },
 {
         stateCode: '51',
@@ -1342,6 +1421,7 @@ Virginia Beach est la ville la plus peuplée de Virginie avec 459 000 habitants 
 L'histoire commence ici : Cape Henry, à Virginia Beach, est le site du premier débarquement anglais en Amérique en 1607, avant qu'ils ne remontent la James River pour fonder Jamestown. Le First Landing Cross marque le spot.
 
 Le drapeau bleu et blanc avec trident capture cette identité balnéaire – mais cache les jets militaires rugissant au-dessus.`,
+        adoptionYear: 1961,
     },
 {
         stateCode: '51',
@@ -1364,6 +1444,7 @@ Puis 2020. Manifestations Black Lives Matter. Les statues sont devenues des cham
 Richmond aujourd'hui (population 226 000, capitale de Virginie) lutte avec son identité : honorer l'histoire tout en affrontant les héritages de l'esclavage et de la ségrégation. Le American Civil War Museum tente de raconter toutes les perspectives.
 
 Le drapeau blanc simple cache ces batailles – passées et présentes.`,
+        adoptionYear: 1952,
     },
 {
         stateCode: '53',
@@ -1380,6 +1461,7 @@ Son drapeau rappelle cette double identité : institutionnelle d’un côté, pr
 Olympia est une capitale à taille humaine : cafés tranquilles, rues silencieuses, marché local, étudiants, employés du gouvernement qui traversent les jardins du Capitole sous un ciel laiteux. Le drapeau flotte au-dessus d’une ville qui ne cherche pas à impressionner, mais à représenter un État immense où la nature dicte souvent le rythme.
 
 C’est un drapeau qui parle doucement, mais qui dit juste : “Ici, la politique avance au milieu des arbres, de la pluie et du vent du Pacifique.”`,
+        adoptionYear: 1969,
     },
 {
         stateCode: '53',
@@ -1396,6 +1478,7 @@ C’est un drapeau qui parle doucement, mais qui dit juste : “Ici, la politiqu
         Le Chef Seattle (Sealth) était le leader de la tribu Duwamish et Suquamish qui a accueilli les colons blancs dans les années 1850. La ville porte son nom – un hommage rare dans l'histoire coloniale américaine où les noms autochtones ont souvent été effacés. Mais c'est aussi un hommage compliqué : la tribu Duwamish n'a jamais reçu de reconnaissance fédérale.
 
         Seattle est aujourd'hui le siège de Boeing, Microsoft, Amazon, Starbucks. C'est la ville du grunge (Nirvana, Pearl Jam), du café omniprésent, de la pluie constante. Le drapeau, dessiné par l'architecte David Wright, capture cette identité brumeuse, nordique, technologique. Seattle regarde vers le Pacifique, vers l'Alaska, vers l'Asie – pas vers le reste de l'Amérique.`,
+        adoptionYear: 1990,
     },
 {
         stateCode: '54',
@@ -1418,6 +1501,7 @@ Mais le déclin a été brutal. Les mines de charbon ferment. Les usines chimiqu
 Population actuelle : 48 000 habitants – petite pour une capitale d'État. La ville lutte pour se réinventer autour du tourisme, de la santé, de l'éducation.
 
 Le drapeau blanc simple ne montre rien de ces luttes – juste un sceau officiel pour une capitale née dans la division.`,
+        adoptionYear: 1963,
     },
 {
         stateCode: '55',
@@ -1434,6 +1518,7 @@ L'engrenage n'est pas métaphorique. Milwaukee a été construite sur la fabrica
 Mais Milwaukee a aussi un autre drapeau : le "People's Flag of Milwaukee", adopté en 2016 comme symbole non officiel. Ce drapeau moderne montre un soleil levant au-dessus du lac Michigan, avec des barres représentant les trois rivières de la ville. C'est un exemple rare de drapeau civique participatif, créé par les citoyens pour les citoyens.
 
 Milwaukee est une ville de contradictions : fortement ségrégée mais politiquement progressiste, industrielle mais culturellement riche. Le Milwaukee Art Museum de Calatrava domine le front de lac comme un oiseau blanc aux ailes déployées. L'engrenage du drapeau officiel capture cette dualité : Milwaukee travaille, Milwaukee construit, Milwaukee produit. C'est la capitale du "Beer Belt" américain.`,
+        adoptionYear: 1954,
     },
 {
         stateCode: '55',
@@ -1450,6 +1535,7 @@ Cette géographie lacustre définit Madison. La ville est littéralement constru
 L'Université du Wisconsin-Madison domine la ville – 45 000 étudiants dans une ville de 260 000 habitants. C'est une université publique de recherche de classe mondiale, berceau historique du "Wisconsin Idea" : l'idée que l'université devrait améliorer la vie de tous les citoyens de l'État, pas seulement de ses étudiants.
 
 Le drapeau de 2018 a remplacé un design précédent qui utilisait le symbole solaire Zia, jugé inapproprié car sacré pour le peuple Zia du Nouveau-Mexique. Le nouveau drapeau conserve la même géométrie abstraite mais remplace le symbole par un simple disque doré. Madison est une ville qui écoute, qui ajuste, qui respecte. Le drapeau reflète cette sensibilité.`,
+        adoptionYear: 1962,
     },
 {
         stateCode: '56',
@@ -1466,6 +1552,7 @@ Cheyenne a été fondée en 1867 lors de la construction du premier chemin de fe
 Le drapeau, adopté vers 1985, a été dessiné par Fernando Méndez, un immigrant philippin qui travaillait comme directeur artistique pour une agence de publicité locale. Méndez a remporté deux concours municipaux, battant 66 propositions concurrentes. C'est une histoire d'immigration et de contribution culturelle – un artiste venu d'Asie définissant l'identité visuelle d'une ville de l'Ouest américain.
 
 Cheyenne est la capitale du Wyoming, l'État le moins peuplé des États-Unis (environ 580 000 habitants pour tout l'État). C'est aussi la ville du Cheyenne Frontier Days, le plus grand rodéo outdoor du monde, organisé depuis 1897. Le drapeau capture cette dualité : élégance formelle (c'est une capitale d'État) et héritage cowboy (c'est le Wyoming, après tout).`,
+        adoptionYear: 1967,
     }
 ];
 
