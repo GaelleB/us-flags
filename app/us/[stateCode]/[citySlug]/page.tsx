@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { cityFlags } from '@/data/flags';
 import CulturalReferences from '@/app/components/CulturalReferences';
-import FadeIn from '@/app/components/FadeIn';
 import ParallaxImage from '@/app/components/ParallaxImage';
 
 type PageProps = {
@@ -54,15 +53,15 @@ export default async function CityFlagPage({ params }: PageProps) {
       <main className="min-h-screen bg-stone-50">
         {/* Hero Image */}
         {cityFlag.heroImage && (
-          <div className="w-full h-[50vh] md:h-[60vh] relative overflow-hidden">
-            <Image
+          <div className="relative">
+            <ParallaxImage
               src={cityFlag.heroImage}
               alt={`${cityFlag.cityName} skyline`}
-              fill
-              className="object-cover"
+              speed={0.35}
+              className="h-[50vh] md:h-[60vh]"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60"></div>
+            <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/60"></div>
           </div>
         )}
 
@@ -89,7 +88,7 @@ export default async function CityFlagPage({ params }: PageProps) {
         </section>
 
         {/* Flag Image Section */}
-        <section className="bg-gradient-to-b from-stone-100 to-white py-12">
+        <section className="bg-linear-to-b from-stone-100 to-white py-12">
           <div className="max-w-3xl mx-auto px-6">
             <figure>
               <div className="w-full rounded-lg overflow-hidden shadow-xl bg-white">
@@ -99,6 +98,7 @@ export default async function CityFlagPage({ params }: PageProps) {
                   width={1200}
                   height={800}
                   className="w-full h-auto object-contain"
+                  unoptimized
                 />
               </div>
               <figcaption className="text-xs text-slate-500 text-center mt-3 font-sans">
@@ -203,7 +203,7 @@ export default async function CityFlagPage({ params }: PageProps) {
               Explorez toutes les histoires
             </h2>
             <p className="font-serif text-lg text-stone-300 mb-8">
-              33 villes américaines, 33 drapeaux, 33 récits
+              87 villes américaines, 87 drapeaux, 87 récits
             </p>
             <Link
               href="/explore"
