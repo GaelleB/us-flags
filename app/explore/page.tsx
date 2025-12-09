@@ -5,7 +5,7 @@ import MapUS, { StateInfo } from '../components/MapUS';
 import StateSidebar from '../components/StateSidebar';
 import { cityFlags } from '../../data/flags';
 
-export default function HomePage() {
+export default function ExplorePage() {
   const [selectedState, setSelectedState] = useState<StateInfo | null>(null);
 
   return (

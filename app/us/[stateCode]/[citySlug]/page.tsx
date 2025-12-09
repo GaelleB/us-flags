@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { cityFlags } from '@/data/flags';
 import CulturalReferences from '@/app/components/CulturalReferences';
 import ParallaxImage from '@/app/components/ParallaxImage';
+import type { Metadata } from 'next';
 
 type PageProps = {
   params: Promise<{
@@ -11,6 +12,45 @@ type PageProps = {
     citySlug: string;
   }>;
 };
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { stateCode, citySlug } = await params;
+
+  const cityFlag = cityFlags.find(
+    (city) => city.stateCode === stateCode && city.citySlug === citySlug
+  );
+
+  if (!cityFlag) {
+    return {
+      title: 'Ville non trouvée - Stars, Stripes & Stories',
+    };
+  }
+
+  return {
+    title: `${cityFlag.cityName} - Stars, Stripes & Stories`,
+    description: cityFlag.shortSummary,
+    openGraph: {
+      title: `${cityFlag.cityName} - Stars, Stripes & Stories`,
+      description: cityFlag.shortSummary,
+      images: [
+        {
+          url: cityFlag.heroImage || cityFlag.flagImage,
+          width: 1200,
+          height: 630,
+          alt: `Drapeau de ${cityFlag.cityName}`,
+        },
+      ],
+      type: 'article',
+      locale: 'fr_FR',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${cityFlag.cityName} - Stars, Stripes & Stories`,
+      description: cityFlag.shortSummary,
+      images: [cityFlag.heroImage || cityFlag.flagImage],
+    },
+  };
+}
 
 export default async function CityFlagPage({ params }: PageProps) {
   const { stateCode, citySlug } = await params;

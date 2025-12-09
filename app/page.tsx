@@ -1,6 +1,17 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { cityFlags } from '../data/flags';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Stars, Stripes & Stories - Histoires des drapeaux des villes américaines',
+  description: "L'histoire cachée des villes américaines racontée à travers leurs drapeaux. Découvrez Chicago, New Orleans, Detroit et 84 autres villes.",
+  openGraph: {
+    title: 'Stars, Stripes & Stories',
+    description: "L'histoire cachée des villes américaines racontée à travers leurs drapeaux",
+    type: 'website',
+  },
+};
 
 export default function HomePage() {
   // Featured cities pour la homepage
