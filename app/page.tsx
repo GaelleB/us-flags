@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-stone-50">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-b from-slate-900 to-slate-800 text-white">
+      <section className="relative h-screen flex items-center justify-center bg-linear-to-b from-slate-900 to-slate-800 text-white">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=1920')] bg-cover bg-center opacity-20"></div>
 
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
@@ -22,7 +22,7 @@ export default function HomePage() {
           </h1>
 
           <p className="font-serif text-xl md:text-2xl text-stone-200 mb-8 max-w-3xl mx-auto leading-relaxed">
-            L'histoire cachée des villes américaines racontée à travers leurs drapeaux
+            L&rsquo;histoire cachée des villes américaines racontée à travers leurs drapeaux
           </p>
 
           <div className="flex gap-4 justify-center">
@@ -73,6 +73,7 @@ export default function HomePage() {
                     width={400}
                     height={256}
                     className="w-full h-full object-contain p-4"
+                    unoptimized
                   />
                 </div>
 
@@ -86,7 +87,7 @@ export default function HomePage() {
                   </p>
 
                   <div className="mt-4 flex items-center text-sm font-sans font-semibold text-blue-600 group-hover:text-blue-800">
-                    Lire l'histoire
+                    Lire l&rsquo;histoire
                     <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
@@ -131,7 +132,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Final - Large and impactful */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 py-32 overflow-hidden">
+      <section className="relative bg-linear-to-br from-slate-900 via-slate-800 to-blue-900 py-32 overflow-hidden">
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
@@ -145,7 +146,7 @@ export default function HomePage() {
             Explorez la carte<br/>interactive
           </h2>
           <p className="font-serif text-xl md:text-2xl text-stone-200 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Découvrez comment chaque drapeau raconte l'identité unique d'une ville américaine
+            Découvrez comment chaque drapeau raconte l&rsquo;identité unique d&rsquo;une ville américaine
           </p>
           <Link
             href="/explore"
@@ -165,7 +166,7 @@ export default function HomePage() {
           <p className="font-sans text-sm">
             Un projet éditorial par{' '}
             <a href="https://github.com/GaelleB" className="text-white hover:underline">
-              Gaëlle
+              Gaëlle B
             </a>
           </p>
           <p className="font-sans text-xs mt-2">
